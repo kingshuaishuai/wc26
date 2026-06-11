@@ -69,7 +69,7 @@ def head(title, desc, rel="", canon="", ld=""):
 </head><body>
 <header class="nav"><div class="wrap">
 <a class="brand" href="{rel}index.html"><span class="mark"><span>XI</span></span> OracleXI</a>
-<nav><a href="{rel}index.html">Home</a><a href="{rel}index.html#fixtures">Fixtures</a><a href="{rel}index.html#groups">Groups</a><a href="{rel}index.html#upcoming">Predictions</a></nav>
+<nav><a href="{rel}index.html">Home</a><a href="{rel}index.html#groups">Groups</a><a href="{rel}index.html#upcoming">Predictions</a><a href="{rel}data.html">Free Data</a></nav>
 </div></header>"""
 
 def foot(rel=""):
@@ -232,6 +232,31 @@ def build_team(team):
 """ + foot("../")
     open(os.path.join(DIST, "team", f"{tslug(name)}.html"), "w", encoding="utf-8").write(out)
 
+def build_data_page():
+    title="Free 2026 World Cup Dataset — Fixtures, Teams & AI Predictions (CSV + JSON)"
+    desc="Download the complete 2026 FIFA World Cup dataset for free: all 48 teams and 72 group fixtures with AI score predictions, probabilities and analysis. CSV + JSON."
+    out=head(title,desc,canon="data.html") + f"""
+<div class="wrap"><div class="crumb"><a href="index.html">Home</a> / Free Dataset</div></div>
+<section class="detail-hero"><div class="wrap">
+<div class="grp">Free Download · CSV + JSON</div>
+<h1 class="disp" style="font-size:clamp(34px,7vw,64px);margin-top:8px">2026 World Cup<br>Dataset <em style="color:var(--lime);font-style:normal">+ AI Predictions</em></h1>
+<p class="sub">Every 2026 FIFA World Cup group fixture and all 48 teams — cleaned and ready to use, with AI score predictions, win probabilities, key players and analysis. Free for personal & commercial projects.</p>
+<a class="opener" href="worldcup2026-dataset.zip" download style="grid-template-columns:1fr;text-align:center;text-decoration:none">
+<div><div class="vs" style="color:var(--lime)">⬇ DOWNLOAD</div><div class="meta" style="margin-top:6px">worldcup2026-dataset.zip · CSV + JSON + docs · 27 KB</div></div>
+</a>
+</div></section>
+<div class="wrap">{ad()}
+<div class="analysis-box"><div class="lbl">What's inside</div>
+<b>fixtures_predictions.csv</b> — 72 group matches: date, venue, teams, predicted score, win/draw/loss probabilities, key player, analysis.<br>
+<b>teams.csv</b> — all 48 teams with group, seeding and an AI squad outlook.<br>
+<b>worldcup2026_full.json</b> — everything as clean nested JSON for apps & scripts.<br>
+<b>README</b> — full data dictionary.</div>
+<p style="color:var(--mute);font-size:14px">License: free for personal & commercial use in your own content/apps. Please don't resell the raw files. Predictions are AI-generated for information & entertainment only — not betting advice. Prefer the live data? Browse <a href="index.html" style="color:var(--lime)">all match predictions</a>.</p>
+{ad()}
+</div>
+""" + foot()
+    open(os.path.join(DIST,"data.html"),"w",encoding="utf-8").write(out)
+
 def build_match(m):
     p=P(m); w,d,l=probs(m)
     title=f"{m['home']} vs {m['away']} Prediction: {p.get('score','-')} | 2026 World Cup Group {m['group']}"
@@ -279,14 +304,17 @@ def main():
     if os.path.exists(keyf):
         k = open(keyf).read().strip()
         open(os.path.join(DIST, f"{k}.txt"), "w").write(k)
+    zipsrc=os.path.join(ROOT,"static","worldcup2026-dataset.zip")
+    if os.path.exists(zipsrc): shutil.copy(zipsrc, os.path.join(DIST,"worldcup2026-dataset.zip"))
     build_index()
+    build_data_page()
     build_static("about", "About OracleXI", ABOUT_HTML)
     build_static("privacy", "Privacy Policy", PRIVACY_HTML)
     for L in "ABCDEFGHIJKL": build_group(L)
     for m in ALL: build_match(m)
     ALL_TEAMS=[t for L in "ABCDEFGHIJKL" for t in DATA[L]["teams"]]
     for t in ALL_TEAMS: build_team(t)
-    urls=(["index.html","about.html","privacy.html"]+[f"group/{L}.html" for L in "ABCDEFGHIJKL"]
+    urls=(["index.html","data.html","about.html","privacy.html"]+[f"group/{L}.html" for L in "ABCDEFGHIJKL"]
           +[turl(t["en"]) for t in ALL_TEAMS]+[murl(m) for m in ALL])
     sm='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm+="".join(f"<url><loc>{BASE}/{u}</loc></url>\n" for u in urls)+"</urlset>"

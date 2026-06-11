@@ -1,0 +1,1418 @@
+{
+  "A": {
+    "teams": [
+      {
+        "name": "Mexico",
+        "outlook": "Mexico have a realistic chance of advancing, often a group stage staple. Their key strength is depth and experience in tournament play. A notable weakness is occasional inconsistency in big matches. Star player Hirving Lozano provides pace and creativity."
+      },
+      {
+        "name": "South Africa",
+        "outlook": "South Africa face an uphill battle to advance, but their athleticism and counter-attacking style could cause upsets. Lack of top-tier talent is a key weakness. Star player Percy Tau offers flair and goal threat."
+      },
+      {
+        "name": "South Korea",
+        "outlook": "South Korea are competitive and have a solid chance to advance, relying on team cohesion and tactical discipline. Defensive lapses remain a weakness. Star player Son Heung-min is a world-class attacker capable of decisive moments."
+      },
+      {
+        "name": "Czech Republic",
+        "outlook": "Czech Republic have a moderate chance of advancing, with a strong midfield and set-piece prowess. However, they lack a prolific striker. Star player Patrik Schick provides a physical presence and finishing ability."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 1,
+        "date": "2026-06-11",
+        "time_local": null,
+        "venue": "Estadio Azteca",
+        "home": "Mexico",
+        "away": "South Africa",
+        "prediction": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Raúl Jiménez",
+          "analysis": "Mexico, ranked 12th, is a perennial power with a strong home-continent advantage. South Africa, 60th, relies on athleticism but lacks technical polish. Mexico's fluid attack and pressing style should overwhelm. Expect Jiménez to lead the line. Prediction: Mexico win comfortably."
+        }
+      },
+      {
+        "match_no": 2,
+        "date": "2026-06-11",
+        "time_local": null,
+        "venue": "Estadio Akron",
+        "home": "South Korea",
+        "away": "Czech Republic",
+        "prediction": {
+          "win": 0.4,
+          "draw": 0.35,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "Son Heung-min",
+          "analysis": "South Korea (25th) boasts dynamic attackers like Son, while Czech Republic (35th) relies on disciplined defense and set pieces. Both sides prefer counter-attacking football. This could be tight, but Korea's speed on the break gives them a slight edge. Expect goals. Prediction: South Korea narrow win."
+        }
+      },
+      {
+        "match_no": 25,
+        "date": "2026-06-18",
+        "time_local": null,
+        "venue": "Mercedes-Benz Stadium",
+        "home": "Czech Republic",
+        "away": "South Africa",
+        "prediction": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Patrik Schick",
+          "analysis": "Czech Republic (35th) has a balanced squad with Schick's clinical finishing. South Africa (60th) struggles against organized defenses. The Czechs' physical style and set-piece prowess should prevail. However, South Africa's pace could cause problems. Prediction: Czech Republic win."
+        }
+      },
+      {
+        "match_no": 28,
+        "date": "2026-06-18",
+        "time_local": null,
+        "venue": "Estadio Akron",
+        "home": "Mexico",
+        "away": "South Korea",
+        "prediction": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Hirving Lozano",
+          "analysis": "Mexico (12th) has superior technical quality and depth compared to South Korea (25th). Mexico's possession-based style can control the midfield. However, Korea's counter-attacks with Son are dangerous. Lozano's dribbling and directness should create chances. Prediction: Mexico win."
+        }
+      },
+      {
+        "match_no": 53,
+        "date": "2026-06-24",
+        "time_local": null,
+        "venue": "Estadio Azteca",
+        "home": "Czech Republic",
+        "away": "Mexico",
+        "prediction": {
+          "win": 0.6,
+          "draw": 0.2,
+          "lose": 0.2,
+          "score": "2-0",
+          "star": "Edson Álvarez",
+          "analysis": "Mexico (12th) is a class above Czech Republic (35th). Mexico's midfield, anchored by Álvarez, should dominate possession and dictate tempo. The Czechs will rely on set pieces and counter-attacks, but Mexico's defensive organization can handle it. Prediction: Mexico win with clean sheet."
+        }
+      },
+      {
+        "match_no": 54,
+        "date": "2026-06-24",
+        "time_local": null,
+        "venue": "Estadio BBVA",
+        "home": "South Africa",
+        "away": "South Korea",
+        "prediction": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "1-0",
+          "star": "Son Heung-min",
+          "analysis": "South Korea (25th) is significantly higher ranked than South Africa (60th). Korea's technical superiority and tactical discipline should control the game. South Africa's best hope is defensive solidity and pace on break. Expect a low-scoring affair. Prediction: South Korea win."
+        }
+      }
+    ]
+  },
+  "B": {
+    "teams": [
+      {
+        "name": "Canada",
+        "outlook": "Realistic chance to advance as second behind Switzerland. Key strength is explosive pace on the counter, led by Alphonso Davies and Jonathan David. Key weakness is defensive inexperience at this level. Star player: Alphonso Davies."
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "outlook": "Outside chance to advance if they click. Key strength is creative attacking talent, especially Edin Džeko and Miralem Pjanić. Key weakness is defensive fragility and lack of depth. Star player: Edin Džeko."
+      },
+      {
+        "name": "Qatar",
+        "outlook": "Unlikely to advance despite Asian Cup pedigree. Key strength is team cohesion and set-piece threat. Key weakness is facing higher-quality opponents consistently. Star player: Akram Afif."
+      },
+      {
+        "name": "Switzerland",
+        "outlook": "Strong favorites to win the group. Key strength is tactical discipline and a solid defensive structure. Key weakness is a lack of a world-class goalscorer. Star player: Breel Embolo."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 3,
+        "date": "2026-06-12",
+        "time_local": null,
+        "venue": "BMO Field",
+        "home": "Canada",
+        "away": "Bosnia and Herzegovina",
+        "prediction": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "Alphonso Davies",
+          "analysis": "Canada (FIFA 47) faces Bosnia (74). Canada's dynamic attack, led by Davies' pace, contrasts with Bosnia's experienced but slower backline. Expect Canada to press high and exploit flanks, but Bosnia's set pieces could trouble. Opinion: Canada's energy and home-like support (tournament in North America) give them an edge, but Bosnia's grit may keep it close. Canada wins a tight one."
+        }
+      },
+      {
+        "match_no": 8,
+        "date": "2026-06-13",
+        "time_local": null,
+        "venue": "Levi's Stadium",
+        "home": "Qatar",
+        "away": "Switzerland",
+        "prediction": {
+          "win": 0.15,
+          "draw": 0.25,
+          "lose": 0.6,
+          "score": "1-2",
+          "star": "Granit Xhaka",
+          "analysis": "Qatar (FIFA 58) meets Switzerland (15). Swiss efficiency and tactical discipline overwhelm Qatar's possession-based style. Xhaka's midfield control dictates tempo. Qatar may surprise with counterattacks, but Swiss defense stays compact. Opinion: Switzerland's experience in big tournaments proves decisive, securing a comfortable victory."
+        }
+      },
+      {
+        "match_no": 26,
+        "date": "2026-06-18",
+        "time_local": null,
+        "venue": "SoFi Stadium",
+        "home": "Switzerland",
+        "away": "Bosnia and Herzegovina",
+        "prediction": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-0",
+          "star": "Breel Embolo",
+          "analysis": "Switzerland (15) vs Bosnia (74). Swiss shape and pressing stifle Bosnia's creative outlets. Embolo's pace unsettles Bosnia's aging center-backs. Without Džeko's magic, Bosnia struggle to create. Opinion: Switzerland's system too coherent; they control possession and score early, cruising to a clean sheet win."
+        }
+      },
+      {
+        "match_no": 27,
+        "date": "2026-06-18",
+        "time_local": null,
+        "venue": null,
+        "home": "Canada",
+        "away": "Qatar",
+        "prediction": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "Jonathan David",
+          "analysis": "Canada (47) faces Qatar (58). Canada's physicality and verticality test Qatar's disciplined backline. David's clinical finishing could decide a tight affair. Qatar rely on Afif's dribbling, but Canada's recovery runs limit threats. Opinion: Canada's athleticism prevails in a tense, low-scoring battle as they edge the hosts."
+        }
+      },
+      {
+        "match_no": 51,
+        "date": "2026-06-24",
+        "time_local": null,
+        "venue": null,
+        "home": "Switzerland",
+        "away": "Canada",
+        "prediction": {
+          "win": 0.4,
+          "draw": 0.3,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Alphonso Davies",
+          "analysis": "Switzerland (15) vs Canada (47). Canada's rise meets Swiss consistency. Canada's fast transitions challenge Swiss organization, but Xhaka's midfield control counters. Both sides create chances; Davies vs Swiss fullbacks a key duel. Opinion: A balanced encounter where Canada's ambition earns a hard-fought draw against the tactical Swiss."
+        }
+      },
+      {
+        "match_no": 52,
+        "date": "2026-06-24",
+        "time_local": null,
+        "venue": "Lumen Field",
+        "home": "Bosnia and Herzegovina",
+        "away": "Qatar",
+        "prediction": {
+          "win": 0.35,
+          "draw": 0.35,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Edin Džeko",
+          "analysis": "Bosnia (74) vs Qatar (58). Both seek redemption after tough starts. Bosnia rely on Džeko's aerial threat, while Qatar's possession seeks gaps. Defensive lapses likely; expect an open game. Opinion: Two flawed sides cancel out in a tense draw, leaving group qualification hopes hanging by a thread."
+        }
+      }
+    ]
+  },
+  "C": {
+    "teams": [
+      {
+        "name": "Brazil",
+        "outlook": "Brazil are overwhelming favorites to top the group. Their key strength is unmatched depth in attack, with players like Vinicius Jr. and Neymar. However, occasional defensive lapses and overconfidence could be exploited. Star player: Neymar. Realistic chance of advancing: near-certain."
+      },
+      {
+        "name": "Morocco",
+        "outlook": "Morocco, semifinalists in 2022, have a solid chance of advancing. Their key strength is a well-organized defense led by Achraf Hakimi. Weakness is a lack of consistent goal-scoring. Star player: Achraf Hakimi. Realistic chance: strong, likely second place."
+      },
+      {
+        "name": "Haiti",
+        "outlook": "Haiti are clear underdogs but can surprise with pace and counter-attacks. Key strength is athleticism, but they lack experience at this level. Star player: Duckens Nazon. Realistic chance: very low, likely group exit."
+      },
+      {
+        "name": "Scotland",
+        "outlook": "Scotland have an outside shot at advancing, relying on team spirit and set pieces. Key strength is midfield energy, but they struggle against top technical sides. Star player: Andy Robertson. Realistic chance: moderate, fighting for second."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 7,
+        "date": "2026-06-13",
+        "time_local": null,
+        "venue": "MetLife Stadium",
+        "home": "Brazil",
+        "away": "Morocco",
+        "prediction": {
+          "win": 0.65,
+          "draw": 0.22,
+          "lose": 0.13,
+          "score": "2-1",
+          "star": "Vinicius Jr",
+          "analysis": "Brazil (FIFA #1) face Morocco (#13) in a tricky opener. Morocco's disciplined defense and counter-attacking style, led by Hakimi, can trouble Brazil. However, Brazil's individual brilliance and depth should prevail. Expect a close match with Brazil edging it."
+        }
+      },
+      {
+        "match_no": 5,
+        "date": "2026-06-13",
+        "time_local": null,
+        "venue": "Gillette Stadium",
+        "home": "Haiti",
+        "away": "Scotland",
+        "prediction": {
+          "win": 0.15,
+          "draw": 0.22,
+          "lose": 0.63,
+          "score": "0-2",
+          "star": "John McGinn",
+          "analysis": "Haiti (FIFA #100+) are massive underdogs against Scotland (#34). Scotland's physicality and set-piece prowess give them an edge. Haiti will defend deep, but Scotland's experience and quality, especially McGinn, should secure a comfortable win."
+        }
+      },
+      {
+        "match_no": 30,
+        "date": "2026-06-19",
+        "time_local": null,
+        "venue": "Gillette Stadium",
+        "home": "Scotland",
+        "away": "Morocco",
+        "prediction": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "1-1",
+          "star": "Hakim Ziyech",
+          "analysis": "Scotland (#34) vs Morocco (#13) is a pivotal clash. Morocco's technical superiority and Ziyech's creativity pose a threat, but Scotland's resilience and home-like support could neutralize. A draw is likely with both teams cautious, but Morocco slight favorites."
+        }
+      },
+      {
+        "match_no": 29,
+        "date": "2026-06-19",
+        "time_local": null,
+        "venue": "Lincoln Financial Field",
+        "home": "Brazil",
+        "away": "Haiti",
+        "prediction": {
+          "win": 0.9,
+          "draw": 0.08,
+          "lose": 0.02,
+          "score": "4-0",
+          "star": "Richarlison",
+          "analysis": "Brazil (#1) vs Haiti (#100+). A mismatch on paper. Brazil's attacking depth, including Richarlison, will overwhelm Haiti's defense. Expect a one-sided affair with Brazil cruising to a multi-goal victory. Haiti's only hope is to limit damage."
+        }
+      },
+      {
+        "match_no": 49,
+        "date": "2026-06-24",
+        "time_local": null,
+        "venue": "Hard Rock Stadium",
+        "home": "Scotland",
+        "away": "Brazil",
+        "prediction": {
+          "win": 0.05,
+          "draw": 0.12,
+          "lose": 0.83,
+          "score": "0-2",
+          "star": "Casemiro",
+          "analysis": "Scotland (#34) face Brazil (#1) in a daunting task. Brazil's midfield control, led by Casemiro, and swift attacks will be too much for Scotland. Scotland will defend stubbornly, but Brazil's quality should secure a comfortable win."
+        }
+      },
+      {
+        "match_no": 50,
+        "date": "2026-06-24",
+        "time_local": null,
+        "venue": "Mercedes-Benz Stadium",
+        "home": "Morocco",
+        "away": "Haiti",
+        "prediction": {
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
+          "score": "3-0",
+          "star": "Achraf Hakimi",
+          "analysis": "Morocco (#13) vs Haiti (#100+). Morocco's organized system and individual talent, like Hakimi, ensure dominance. Haiti's limited resources mean they'll struggle to create chances. Expect a straightforward win for Morocco, likely by a three-goal margin."
+        }
+      }
+    ]
+  },
+  "D": {
+    "teams": [
+      {
+        "name": "United States",
+        "outlook": "The United States have a strong chance of advancing, especially with home soil advantage. Their key strength is athleticism and squad depth, but inconsistency in front of goal remains a weakness. Christian Pulisic, their star player, provides creativity and leadership. If they click, topping the group is possible."
+      },
+      {
+        "name": "Paraguay",
+        "outlook": "Paraguay have a moderate chance. Their defensive organization and physicality are key strengths, but they lack consistent goal scoring. Star player Miguel Almirón brings flair. Their solid backline makes them hard to beat, but scoring goals will be a challenge. Advancing from the group is possible if they steal points from favorites."
+      },
+      {
+        "name": "Australia",
+        "outlook": "Australia have a realistic chance to compete, but they are not favorites. Their key strength is team spirit and effectiveness from set pieces. A weakness is lack of creativity in central midfield. Star player Mathew Ryan provides leadership and shot-stopping. They will need to be clinical to progress."
+      },
+      {
+        "name": "Turkey",
+        "outlook": "Turkey have a strong chance as dark horses. Their key strength is attacking talent, with Hakan Çalhanoğlu pulling the strings. Defensive discipline is a concern, often leaving gaps. Star player Çalhanoğlu is a set-piece threat. If they tighten up at the back, they can advance."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 4,
+        "date": "2026-06-12",
+        "time_local": null,
+        "venue": "SoFi Stadium",
+        "home": "United States",
+        "away": "Paraguay",
+        "prediction": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-0",
+          "star": "Christian Pulisic",
+          "analysis": "USA (#12) face Paraguay (#40) in a mismatch. US dynamic pressing and pace should overwhelm Paraguay's organized defense. Paraguay's counter-attacks via Miguel Almirón pose threat. Expect US dominance. Prediction: US win 2-0."
+        }
+      },
+      {
+        "match_no": 6,
+        "date": "2026-06-13",
+        "time_local": null,
+        "venue": null,
+        "home": "Australia",
+        "away": "Turkey",
+        "prediction": {
+          "win": 0.3,
+          "draw": 0.3,
+          "lose": 0.4,
+          "score": "1-2",
+          "star": "Hakan Çalhanoğlu",
+          "analysis": "Australia (#35) host Turkey (#28) in a tense encounter. Turkey's technical midfield, led by Çalhanoğlu, can unlock Australia's physical defense. Australia will rely on set pieces and Aaron Mooy's creativity. Tight match. Prediction: Turkey 2-1."
+        }
+      },
+      {
+        "match_no": 32,
+        "date": "2026-06-19",
+        "time_local": null,
+        "venue": "Lumen Field",
+        "home": "United States",
+        "away": "Australia",
+        "prediction": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "3-1",
+          "star": "Weston McKennie",
+          "analysis": "USA (#12) vs Australia (#35). USA's athletic midfield should dominate, with McKennie's box-to-box runs. Australia's defense may struggle with pace. Expect US to control possession and score. Prediction: USA 3-1."
+        }
+      },
+      {
+        "match_no": 31,
+        "date": "2026-06-19",
+        "time_local": null,
+        "venue": "Levi's Stadium",
+        "home": "Turkey",
+        "away": "Paraguay",
+        "prediction": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "Cengiz Ünder",
+          "analysis": "Turkey (#28) against Paraguay (#40). Turkey's fast attackers like Ünder expose Paraguay's slow defense. Paraguay's grit and counter-attacks from Almirón dangerous. Open game. Prediction: Turkey 2-1."
+        }
+      },
+      {
+        "match_no": 59,
+        "date": "2026-06-25",
+        "time_local": null,
+        "venue": "SoFi Stadium",
+        "home": "Turkey",
+        "away": "United States",
+        "prediction": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "0-2",
+          "star": "Christian Pulisic",
+          "analysis": "Turkey (#28) vs USA (#12). In a crucial match, USA's superior pressing and transition game overwhelm Turkey. Turkey's midfield may be overrun. US's defensive solidity key. Prediction: USA 2-0."
+        }
+      },
+      {
+        "match_no": 60,
+        "date": "2026-06-25",
+        "time_local": null,
+        "venue": "Levi's Stadium",
+        "home": "Paraguay",
+        "away": "Australia",
+        "prediction": {
+          "win": 0.3,
+          "draw": 0.35,
+          "lose": 0.35,
+          "score": "1-1",
+          "star": "Miguel Almirón",
+          "analysis": "Paraguay (#40) vs Australia (#35). Two evenly-matched sides. Paraguay's defensive organization vs Australia's directness. Likely a stalemate with few chances. Set pieces decisive. Prediction: draw 1-1."
+        }
+      }
+    ]
+  },
+  "E": {
+    "teams": [
+      {
+        "name": "Germany",
+        "outlook": "Germany enters as group favorites with strong chances of advancing. Their key strength is squad depth and tournament experience. However, recent inconsistency in knockout matches remains a weakness. Star player Jamal Musiala provides creativity and dynamism in midfield, crucial for breaking down defenses."
+      },
+      {
+        "name": "Curaçao",
+        "outlook": "Curaçao faces an uphill battle to advance, considered underdogs. Their key strength is team cohesion and spirited play. However, a lack of top-tier experience and individual quality poses a significant weakness. Star player Leandro Bacuna offers set-piece threat and leadership from midfield."
+      },
+      {
+        "name": "Ivory Coast",
+        "outlook": "Ivory Coast has a realistic chance to advance, likely competing for second place. Their strength lies in physicality and counter-attacking speed. Defensive lapses and inconsistency are weaknesses. Star player Sébastien Haller brings aerial prowess and finishing in the box."
+      },
+      {
+        "name": "Ecuador",
+        "outlook": "Ecuador stands a decent chance to progress, relying on young talent and pace. Their key strength is energetic pressing and quick transitions. Inexperience in high-pressure games is a weakness. Star player Moisés Caicedo anchors midfield with tenacity and passing range."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 10,
+        "date": "2026-06-14",
+        "time_local": null,
+        "venue": "NRG Stadium",
+        "home": "Germany",
+        "away": "Curaçao",
+        "prediction": {
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
+          "score": "4-0",
+          "star": "Jamal Musiala",
+          "analysis": "Germany (FIFA 12) outclass Curaçao (90) completely. Dominant possession, clinical finishing. Curaçao's defensive organization insufficient. Expect Musiala to orchestrate. Clear win for Germany."
+        }
+      },
+      {
+        "match_no": 9,
+        "date": "2026-06-14",
+        "time_local": null,
+        "venue": "Lincoln Financial Field",
+        "home": "Ivory Coast",
+        "away": "Ecuador",
+        "prediction": {
+          "win": 0.35,
+          "draw": 0.35,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Moisés Caicedo",
+          "analysis": "Ivory Coast (45) and Ecuador (35) evenly matched. Ecuador's midfield control vs Ivory Coast's physicality. Both have attacking threats but defenses hold. Likely a tense draw with few goals."
+        }
+      },
+      {
+        "match_no": 33,
+        "date": "2026-06-20",
+        "time_local": null,
+        "venue": "BMO Field",
+        "home": "Germany",
+        "away": "Ivory Coast",
+        "prediction": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "3-1",
+          "star": "Florian Wirtz",
+          "analysis": "Germany (12) too strong for Ivory Coast (45). Technical superiority and deep squad overcome Ivory Coast's pace. Ivory Coast may score on counter but Germany's quality ensures comfortable victory."
+        }
+      },
+      {
+        "match_no": 34,
+        "date": "2026-06-20",
+        "time_local": null,
+        "venue": "Arrowhead Stadium",
+        "home": "Ecuador",
+        "away": "Curaçao",
+        "prediction": {
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "Enner Valencia",
+          "analysis": "Ecuador (35) face weak Curaçao (90). High press and quick transitions overwhelm. Valencia's experience key. Curaçao lacks offensive threat. Ecuador wins easily with multiple goals."
+        }
+      },
+      {
+        "match_no": 55,
+        "date": "2026-06-25",
+        "time_local": null,
+        "venue": "Lincoln Financial Field",
+        "home": "Curaçao",
+        "away": "Ivory Coast",
+        "prediction": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "0-2",
+          "star": "Franck Kessié",
+          "analysis": "Ivory Coast (45) far superior to Curaçao (90). Physical dominance and midfield control. Curaçao defends deep but eventually breaks. Ivory Coast's experience secures a straightforward win."
+        }
+      },
+      {
+        "match_no": 56,
+        "date": "2026-06-25",
+        "time_local": null,
+        "venue": "MetLife Stadium",
+        "home": "Ecuador",
+        "away": "Germany",
+        "prediction": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "1-2",
+          "star": "Jamal Musiala",
+          "analysis": "Germany (12) edge Ecuador (35) in a competitive match. Ecuador's home advantage minimal. Germany's depth and tactical discipline prevail. Musiala's creativity decisive in a narrow victory."
+        }
+      }
+    ]
+  },
+  "F": {
+    "teams": [
+      {
+        "name": "Netherlands",
+        "outlook": "The Netherlands have a strong chance of topping Group F. Their key strength is a deep attacking pool led by Memphis Depay and Cody Gakpo, offering creativity and goals. However, defensive lapses have plagued them in past tournaments. Star defender Virgil van Dijk anchors the backline."
+      },
+      {
+        "name": "Japan",
+        "outlook": "Japan are competitive and could snatch second place with their relentless team spirit. Their disciplined pressing and quick transitions are key strengths. However, a lack of a clinical striker limits their scoring. Star playmaker Takefusa Kubo provides creativity from midfield."
+      },
+      {
+        "name": "Sweden",
+        "outlook": "Sweden are a dark horse capable of causing upsets. Their organized defense and threat from set pieces make them tough to beat. The key weakness is a lack of creative midfielders to unlock tight defenses. Star striker Alexander Isak leads the line with pace and skill."
+      },
+      {
+        "name": "Tunisia",
+        "outlook": "Tunisia face an uphill battle to advance from the group. Their physicality and defensive organization are their main strengths. However, inconsistency in finishing and a reliance on counterattacks limit their threat. Veteran attacker Wahbi Khazri remains their talisman."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 11,
+        "date": "2026-06-14",
+        "time_local": null,
+        "venue": "AT&T Stadium",
+        "home": "Netherlands",
+        "away": "Japan",
+        "prediction": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Memphis Depay",
+          "analysis": "Netherlands (FIFA 6) vs Japan (20). The Dutch dominate possession with creative flair, while Japan relies on disciplined counters. Historically, Netherlands have a strong record. Expect a controlled performance from Netherlands, with Depay's movement and finishing key. Japan will struggle to break through. Likely Dutch victory."
+        }
+      },
+      {
+        "match_no": 12,
+        "date": "2026-06-14",
+        "time_local": null,
+        "venue": "Estadio BBVA",
+        "home": "Sweden",
+        "away": "Tunisia",
+        "prediction": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "Alexander Isak",
+          "analysis": "Sweden (25) vs Tunisia (30). Sweden's physicality and set-piece prowess give them an edge. Tunisia's defensive organization will make it tight, but Sweden's Isak can exploit gaps. Head-to-head limited, but Sweden's aerial strength likely decisive. A narrow win for Sweden."
+        }
+      },
+      {
+        "match_no": 35,
+        "date": "2026-06-20",
+        "time_local": null,
+        "venue": "NRG Stadium",
+        "home": "Netherlands",
+        "away": "Sweden",
+        "prediction": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Frenkie de Jong",
+          "analysis": "Netherlands (6) vs Sweden (25). Netherlands' technical superiority and midfield control through De Jong should prevail. Sweden's robust defense and counterattacks pose a threat, but Dutch quality edges through. Expect an open game with Netherlands securing a win."
+        }
+      },
+      {
+        "match_no": 36,
+        "date": "2026-06-20",
+        "time_local": null,
+        "venue": "Estadio BBVA",
+        "home": "Tunisia",
+        "away": "Japan",
+        "prediction": {
+          "win": 0.3,
+          "draw": 0.35,
+          "lose": 0.35,
+          "score": "1-1",
+          "star": "Takefusa Kubo",
+          "analysis": "Tunisia (30) vs Japan (20). A tightly contested match. Japan's technical passing meets Tunisia's physical resilience. Both sides are disciplined, leading to few chances. Kubo's creativity could unlock Tunisia, but Tunisia's set pieces are dangerous. Likely a draw with both scoring."
+        }
+      },
+      {
+        "match_no": 57,
+        "date": "2026-06-25",
+        "time_local": null,
+        "venue": "AT&T Stadium",
+        "home": "Japan",
+        "away": "Sweden",
+        "prediction": {
+          "win": 0.4,
+          "draw": 0.3,
+          "lose": 0.3,
+          "score": "1-0",
+          "star": "Dejan Kulusevski",
+          "analysis": "Japan (20) vs Sweden (25). Sweden's physicality and aerial strength challenge Japan's technical buildup. Kulusevski's width and dribbling can unsettle Japan's defense. Historically, Sweden has a slight edge in similar matchups. Expect a tight, low-scoring Swedish win."
+        }
+      },
+      {
+        "match_no": 58,
+        "date": "2026-06-25",
+        "time_local": null,
+        "venue": "Arrowhead Stadium",
+        "home": "Tunisia",
+        "away": "Netherlands",
+        "prediction": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "Cody Gakpo",
+          "analysis": "Tunisia (30) vs Netherlands (6). A mismatch on paper. Netherlands' attacking depth, led by Gakpo, overwhelms Tunisia's defense. Tunisia will defend deep but lack pace to counter effectively. Netherlands control the game and win comfortably with multiple goals."
+        }
+      }
+    ]
+  },
+  "G": {
+    "teams": [
+      {
+        "name": "Belgium",
+        "outlook": "Belgium, historically strong, have a realistic chance of topping Group G. Their key strength is a deep pool of experienced, world-class talent, especially in midfield. Their key weakness is an aging defense that can be exposed by pace. Star player: Kevin De Bruyne, whose creativity and vision drive their attack."
+      },
+      {
+        "name": "Egypt",
+        "outlook": "Egypt have a decent chance of advancing as runners-up, relying on defensive solidity. Their key strength is Mohamed Salah's individual brilliance. Their key weakness is a lack of depth beyond Salah, making them predictable in attack. Star player: Mohamed Salah, a lethal finisher who can decide tight matches."
+      },
+      {
+        "name": "Iran",
+        "outlook": "Iran are dark horses with a realistic chance to surprise, especially with strong defensive organization. Their key strength is a disciplined, compact backline and set-piece prowess. Key weakness is a lack of creative midfielders to unlock defenses. Star player: Mehdi Taremi, a clinical striker with hold-up play."
+      },
+      {
+        "name": "New Zealand",
+        "outlook": "New Zealand face an uphill battle to advance, likely finishing bottom. Their key strength is physicality and aerial threat from set pieces. Key weakness is a significant talent gap against top sides and limited top-level experience. Star player: Chris Wood, a powerful target man and proven scorer."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 16,
+        "date": "2026-06-15",
+        "time_local": null,
+        "venue": "Lumen Field",
+        "home": "Belgium",
+        "away": "Egypt",
+        "prediction": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "Kevin De Bruyne",
+          "analysis": "Belgium (FIFA 3) boast world-class talent like De Bruyne and Lukaku, while Egypt (34) rely on Salah's magic. Belgium's high press and possession should overwhelm Egypt's defense. Expect a comfortable win for the Red Devils, though Egypt could snatch a goal on the counter. Belgium's depth key."
+        }
+      },
+      {
+        "match_no": 15,
+        "date": "2026-06-15",
+        "time_local": null,
+        "venue": "SoFi Stadium",
+        "home": "Iran",
+        "away": "New Zealand",
+        "prediction": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Sardar Azmoun",
+          "analysis": "Iran (20) are tactically disciplined and physically strong, while New Zealand (104) lack top-level experience. Iran's organized defense and quick transitions should control the game. New Zealand may hold out for a while but Iran's quality up front, led by Azmoun, will decide. Iran win likely."
+        }
+      },
+      {
+        "match_no": 39,
+        "date": "2026-06-21",
+        "time_local": null,
+        "venue": "SoFi Stadium",
+        "home": "Belgium",
+        "away": "Iran",
+        "prediction": {
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "Romelu Lukaku",
+          "analysis": "Belgium's attack vs Iran's stubborn defense. Iran (20) are well-organized but Belgium (3) have too much creativity. Expect Belgium to dominate possession and break through via set pieces or individual brilliance. Iran may limit damage but cannot contain Belgium's firepower. Clear Belgian victory."
+        }
+      },
+      {
+        "match_no": 40,
+        "date": "2026-06-21",
+        "time_local": null,
+        "venue": null,
+        "home": "New Zealand",
+        "away": "Egypt",
+        "prediction": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "Mohamed Salah",
+          "analysis": "Egypt (34) enter as favorites with Salah's threat. New Zealand (104) are physical but technically inferior. Egypt's passing and movement should create chances. However, NZ can be resilient. A narrow win for Egypt is most probable, but a draw is possible if they fail to finish."
+        }
+      },
+      {
+        "match_no": 63,
+        "date": "2026-06-26",
+        "time_local": null,
+        "venue": "Lumen Field",
+        "home": "Egypt",
+        "away": "Iran",
+        "prediction": {
+          "win": 0.35,
+          "draw": 0.35,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Mohamed Salah",
+          "analysis": "Both teams are defensively solid; Egypt (34) have Salah's brilliance, Iran (20) boast collective discipline. This could be a cautious matchup with few chances. The midfield battle is crucial. Likely a low-scoring draw, though either side could nick a goal. Tactical stalemate."
+        }
+      },
+      {
+        "match_no": 64,
+        "date": "2026-06-26",
+        "time_local": null,
+        "venue": null,
+        "home": "New Zealand",
+        "away": "Belgium",
+        "prediction": {
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
+          "score": "4-0",
+          "star": "Kevin De Bruyne",
+          "analysis": "Belgium (3) overwhelm New Zealand (104) in every aspect. Belgium's fluid attack and pressing will be too much. NZ will defend deep but lack pace to counter. Expect a multi-goal rout for Belgium as they showcase their depth. De Bruyne orchestrates."
+        }
+      }
+    ]
+  },
+  "H": {
+    "teams": [
+      {
+        "name": "Spain",
+        "outlook": "Spain has a realistic chance of advancing as group leaders. Their key strength is possession-based play and technical midfield depth. The key weakness is a lack of clinical finishing in tight matches. Star player is Pedri, who orchestrates the attack with vision and composure."
+      },
+      {
+        "name": "Cape Verde",
+        "outlook": "Cape Verde faces an uphill battle but could surprise. Their key strength is athleticism and collective team spirit. The key weakness is inexperience at the highest level. Star player is Ryan Mendes, whose pace and dribbling provide a threat on the counter."
+      },
+      {
+        "name": "Saudi Arabia",
+        "outlook": "Saudi Arabia has a moderate chance, capitalizing on defensive discipline. Their key weakness is limited attacking creativity. Star player is Salem Al-Dawsari, known for his flair and set-piece ability. They must stay organized to challenge stronger sides."
+      },
+      {
+        "name": "Uruguay",
+        "outlook": "Uruguay has a strong chance to advance, relying on a solid defense and veteran leadership. Their key weakness is an aging squad. Star player is Federico Valverde, whose energy and box-to-box runs drive the midfield. They will compete fiercely for top spot."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 14,
+        "date": "2026-06-15",
+        "time_local": null,
+        "venue": "Mercedes-Benz Stadium",
+        "home": "Spain",
+        "away": "Cape Verde",
+        "prediction": {
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
+          "score": "3-0",
+          "star": "Pedri",
+          "analysis": "Spain (FIFA 8) heavily outclass Cape Verde (FIFA 73). Spain's possession-based style will dominate against Cape Verde's defensive approach. Expect a comfortable win for Spain, with Pedri orchestrating the midfield. Cape Verde may struggle to create chances, leading to a straightforward Spanish victory."
+        }
+      },
+      {
+        "match_no": 13,
+        "date": "2026-06-15",
+        "time_local": null,
+        "venue": "Hard Rock Stadium",
+        "home": "Saudi Arabia",
+        "away": "Uruguay",
+        "prediction": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-1",
+          "star": "Federico Valverde",
+          "analysis": "Uruguay (FIFA 15) favored over Saudi Arabia (FIFA 51). Uruguay's physicality and experience contrast with Saudi's counter-attacking speed. Valverde's midfield engine will be key. Saudi can be dangerous but Uruguay's quality likely secures a narrow win."
+        }
+      },
+      {
+        "match_no": 38,
+        "date": "2026-06-21",
+        "time_local": null,
+        "venue": "Mercedes-Benz Stadium",
+        "home": "Spain",
+        "away": "Saudi Arabia",
+        "prediction": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "Gavi",
+          "analysis": "Spain (FIFA 8) strong against Saudi Arabia (FIFA 51). Spain's tiki-taka style aims to break down Saudi's compact defense. Gavi's creativity in tight spaces will be vital. Saudi's pace on the break could cause moments, but Spain controls the game and wins comfortably."
+        }
+      },
+      {
+        "match_no": 37,
+        "date": "2026-06-21",
+        "time_local": null,
+        "venue": "Hard Rock Stadium",
+        "home": "Uruguay",
+        "away": "Cape Verde",
+        "prediction": {
+          "win": 0.65,
+          "draw": 0.22,
+          "lose": 0.13,
+          "score": "2-0",
+          "star": "Darwin Nunez",
+          "analysis": "Uruguay (FIFA 15) vs Cape Verde (FIFA 73). Uruguay's solid defense and potent attack, led by Nunez, should overcome Cape Verde's resilience. Cape Verde's upset potential exists but Uruguay's tournament experience and tactical discipline give them a clear edge."
+        }
+      },
+      {
+        "match_no": 65,
+        "date": "2026-06-26",
+        "time_local": null,
+        "venue": "NRG Stadium",
+        "home": "Cape Verde",
+        "away": "Saudi Arabia",
+        "prediction": {
+          "win": 0.25,
+          "draw": 0.35,
+          "lose": 0.4,
+          "score": "1-1",
+          "star": "Ryan Mendes",
+          "analysis": "Cape Verde (FIFA 73) and Saudi Arabia (FIFA 51) both seek points. Cape Verde's flair from Mendes vs Saudi's organized approach. Expect a tight contest; Saudi's ranking suggests slight favor, but Cape Verde's unpredictability could force a draw."
+        }
+      },
+      {
+        "match_no": 66,
+        "date": "2026-06-26",
+        "time_local": null,
+        "venue": "Estadio Akron",
+        "home": "Uruguay",
+        "away": "Spain",
+        "prediction": {
+          "win": 0.2,
+          "draw": 0.3,
+          "lose": 0.5,
+          "score": "1-2",
+          "star": "Lamine Yamal",
+          "analysis": "Uruguay (FIFA 15) vs Spain (FIFA 8). Spain's technical superiority, with Yamal's youthful spark, likely overcomes Uruguay's physical defense. Uruguay will battle hard, but Spain's quality in possession and final third should secure a narrow win."
+        }
+      }
+    ]
+  },
+  "I": {
+    "teams": [
+      {
+        "name": "France",
+        "outlook": "France are clear favorites to win Group I, boasting world-class talent across the pitch. Their key strength is an explosive attack orchestrated by Kylian Mbappé, while their key weakness can be defensive lapses against pace. Realistic chance: very high to advance as group winners. Star player: Kylian Mbappé."
+      },
+      {
+        "name": "Senegal",
+        "outlook": "Senegal are strong contenders for second place, leveraging athleticism and counter-attacking speed. Their key strength is a solid defensive unit led by Kalidou Koulibaly, but they can struggle against disciplined possession teams. Star player Sadio Mané provides creativity. Realistic chance: good to advance as runners-up."
+      },
+      {
+        "name": "Iraq",
+        "outlook": "Iraq are underdogs but possess defensive organization and determination. Their key strength is a compact backline making them hard to break down, while their key weakness is a lack of goalscoring threat. Star player Mohanad Ali leads the line. Realistic chance: low, but they could cause an upset."
+      },
+      {
+        "name": "Norway",
+        "outlook": "Norway have a realistic chance to challenge Senegal for second, relying on physicality and set pieces. Their key strength is aerial dominance and Erling Haaland's finishing, but they can be defensively vulnerable. Star player Erling Haaland is a goal machine. Realistic chance: moderate, could advance if they click."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 17,
+        "date": "2026-06-16",
+        "time_local": null,
+        "venue": "MetLife Stadium",
+        "home": "France",
+        "away": "Senegal",
+        "prediction": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "Kylian Mbappé",
+          "analysis": "France (#2) are heavy favorites against Senegal (#20) despite their 2018 World Cup matchup ending 1-0. Senegal's counter-attacking style could trouble France, but Les Bleus's depth and Mbappé's pace should prevail. Expect a controlled win for France."
+        }
+      },
+      {
+        "match_no": 18,
+        "date": "2026-06-16",
+        "time_local": null,
+        "venue": "Gillette Stadium",
+        "home": "Iraq",
+        "away": "Norway",
+        "prediction": {
+          "win": 0.15,
+          "draw": 0.2,
+          "lose": 0.65,
+          "score": "0-2",
+          "star": "Erling Haaland",
+          "analysis": "Iraq (#70) lack the quality to contain Norway (#40). Haaland's clinical finishing and Norway's physical style dominate. Iraq will defend deep, but Norway's set-piece threat and pace on the break secure a comfortable win."
+        }
+      },
+      {
+        "match_no": 42,
+        "date": "2026-06-22",
+        "time_local": null,
+        "venue": "Lincoln Financial Field",
+        "home": "France",
+        "away": "Iraq",
+        "prediction": {
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "Kylian Mbappé",
+          "analysis": "France (#2) overwhelm Iraq (#70) with technical superiority and quick transitions. Iraq's low block may hold for a while, but France's variety in attack, led by Mbappé, will crack it. A routine victory for the favorites."
+        }
+      },
+      {
+        "match_no": 41,
+        "date": "2026-06-22",
+        "time_local": null,
+        "venue": "MetLife Stadium",
+        "home": "Norway",
+        "away": "Senegal",
+        "prediction": {
+          "win": 0.4,
+          "draw": 0.35,
+          "lose": 0.25,
+          "score": "1-1",
+          "star": "Erling Haaland",
+          "analysis": "Norway (#40) face Senegal (#20) in a balanced contest. Senegal's African champions experience and counter-attacking threat (Mané) test Norway's defense. Haaland poses constant danger, but Senegal's organization earns a draw."
+        }
+      },
+      {
+        "match_no": 61,
+        "date": "2026-06-26",
+        "time_local": null,
+        "venue": "Gillette Stadium",
+        "home": "Norway",
+        "away": "France",
+        "prediction": {
+          "win": 0.15,
+          "draw": 0.2,
+          "lose": 0.65,
+          "score": "1-2",
+          "star": "Kylian Mbappé",
+          "analysis": "Norway (#40) struggled historically against top sides. France (#2) control possession and press high. Norway rely on Haaland's moments, but France's midfield dominance and defensive solidity edge a narrow win, though Norway push hard."
+        }
+      },
+      {
+        "match_no": 62,
+        "date": "2026-06-26",
+        "time_local": null,
+        "venue": "BMO Field",
+        "home": "Senegal",
+        "away": "Iraq",
+        "prediction": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Sadio Mané",
+          "analysis": "Senegal (#20) are clear favorites over Iraq (#70). Mané's creativity and Senegal's physical advantage in set pieces and pace on the wings decide the game. Iraq battle but lack precision in final third. Senegal win comfortably."
+        }
+      }
+    ]
+  },
+  "J": {
+    "teams": [
+      {
+        "name": "Argentina",
+        "outlook": "Argentina have a high realistic chance of advancing from Group J as defending champions. Their key strength is Lionel Messi's genius and a deep, experienced squad. However, an aging core could be exposed. Star player: Lionel Messi."
+      },
+      {
+        "name": "Algeria",
+        "outlook": "Algeria have a solid realistic chance of advancing, given their recent African success. Their key strength is pace and lethal counter-attacks. Key weakness is occasional defensive lapses. Star player: Riyad Mahrez."
+      },
+      {
+        "name": "Austria",
+        "outlook": "Austria have a moderate realistic chance of advancing, but face tough opposition. Their key strength is tactical discipline and team organization. Key weakness is a lack of world-class attacking talent. Star player: David Alaba."
+      },
+      {
+        "name": "Jordan",
+        "outlook": "Jordan have a low realistic chance of advancing, as underdogs. Their key strength is team unity and determination. Key weakness is a significant gap in quality and experience. Star player: Musa Al-Taamari."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 19,
+        "date": "2026-06-16",
+        "time_local": null,
+        "venue": "Arrowhead Stadium",
+        "home": "Argentina",
+        "away": "Algeria",
+        "prediction": {
+          "win": 0.75,
+          "draw": 0.15,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "Lionel Messi",
+          "analysis": "Argentina (FIFA 1) dominate Algeria (FIFA 30) with superior technical skill and depth. No recent head-to-head; Argentina's attacking flair versus Algeria's organized defense. Expect Messi to unlock spaces, while Algeria struggle to contain pressure. Clear Argentine victory likely."
+        }
+      },
+      {
+        "match_no": 20,
+        "date": "2026-06-16",
+        "time_local": null,
+        "venue": "Levi's Stadium",
+        "home": "Austria",
+        "away": "Jordan",
+        "prediction": {
+          "win": 0.65,
+          "draw": 0.2,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "David Alaba",
+          "analysis": "Austria (FIFA 25) face Jordan (FIFA 80) with significant ranking gap. Austria's disciplined pressing and Alaba's leadership counter Jordan's counter-attacking style. No prior encounters; Austria's European quality should prevail comfortably."
+        }
+      },
+      {
+        "match_no": 43,
+        "date": "2026-06-22",
+        "time_local": null,
+        "venue": "AT&T Stadium",
+        "home": "Argentina",
+        "away": "Austria",
+        "prediction": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-1",
+          "star": "Lionel Messi",
+          "analysis": "Argentina (1) vs Austria (25) - Argentina's fluid attack vs Austria's compact defense. Messi's creativity decisive; Austria rely on Alaba's set pieces and transitions. Argentina's depth and big-game experience give them the edge, but Austria can frustrate."
+        }
+      },
+      {
+        "match_no": 44,
+        "date": "2026-06-22",
+        "time_local": null,
+        "venue": "Levi's Stadium",
+        "home": "Jordan",
+        "away": "Algeria",
+        "prediction": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "Riyad Mahrez",
+          "analysis": "Jordan (80) vs Algeria (30) - Algeria's African Cup pedigree and Mahrez's flair outclass Jordan. Jordan's physicality and pace on break cause moments of danger. Algeria's technical superiority likely secures narrow win despite Jordan's resilience."
+        }
+      },
+      {
+        "match_no": 69,
+        "date": "2026-06-27",
+        "time_local": null,
+        "venue": "Arrowhead Stadium",
+        "home": "Algeria",
+        "away": "Austria",
+        "prediction": {
+          "win": 0.35,
+          "draw": 0.3,
+          "lose": 0.35,
+          "score": "1-1",
+          "star": "David Alaba",
+          "analysis": "Algeria (30) vs Austria (25) - Even matchup. Algeria's quick transitions and Mahrez's dribbling vs Austria's organized midfield. Alaba's versatility a key. Both teams balanced; high probability of draw with both scoring. Tactical battle likely."
+        }
+      },
+      {
+        "match_no": 70,
+        "date": "2026-06-27",
+        "time_local": null,
+        "venue": "AT&T Stadium",
+        "home": "Jordan",
+        "away": "Argentina",
+        "prediction": {
+          "win": 0.9,
+          "draw": 0.07,
+          "lose": 0.03,
+          "score": "4-0",
+          "star": "Lionel Messi",
+          "analysis": "Jordan (80) vs Argentina (1) - Massive gap. Argentina's relentless pressure and Messi's magic overwhelm Jordan. Jordan's defense faces constant threat; no historical matches. Argentina cruise to dominant win, highlighting class difference."
+        }
+      }
+    ]
+  },
+  "K": {
+    "teams": [
+      {
+        "name": "Portugal",
+        "outlook": "Portugal have a strong chance to top the group with their experienced squad led by Cristiano Ronaldo. Key strength is depth in attack and midfield creativity. Key weakness is defensive lapses against fast transitions. Star player: Cristiano Ronaldo."
+      },
+      {
+        "name": "DR Congo",
+        "outlook": "DR Congo are underdogs but can fight for second place. Key strength is physicality and pace on the counter. Key weakness is lack of big tournament experience. Star player: Cédric Bakambu."
+      },
+      {
+        "name": "Uzbekistan",
+        "outlook": "Uzbekistan face an uphill battle to advance. Key strength is a disciplined midfield and set pieces. Key weakness is lack of depth and experience against top sides. Star player: Eldor Shomurodov."
+      },
+      {
+        "name": "Colombia",
+        "outlook": "Colombia are strong contenders to advance, likely battling Portugal for top spot. Key strength is creative midfield with James Rodríguez and pace on wings. Key weakness is inconsistent finishing. Star player: Luis Díaz."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 23,
+        "date": "2026-06-17",
+        "time_local": null,
+        "venue": "NRG Stadium",
+        "home": "Portugal",
+        "away": "DR Congo",
+        "prediction": {
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
+          "score": "2-0",
+          "star": "Cristiano Ronaldo",
+          "analysis": "Portugal (#9 FIFA) heavily favored against DR Congo (#64). Portuguese technical superiority and depth should overwhelm DR Congo's physical but disorganized defense. Expect controlled possession and clinical finishing. Ronaldo's leadership will be key. Clear win for Portugal."
+        }
+      },
+      {
+        "match_no": 24,
+        "date": "2026-06-17",
+        "time_local": null,
+        "venue": "Estadio Azteca",
+        "home": "Uzbekistan",
+        "away": "Colombia",
+        "prediction": {
+          "win": 0.13,
+          "draw": 0.22,
+          "lose": 0.65,
+          "score": "1-2",
+          "star": "James Rodriguez",
+          "analysis": "Uzbekistan (#74) face Colombia (#17). Colombia's individual quality and tactical discipline should overcome Uzbekistan's compact setup. James Rodriguez orchestrates attacks, while Uzbekistan may struggle to create chances. Colombia wins a competitive match."
+        }
+      },
+      {
+        "match_no": 47,
+        "date": "2026-06-23",
+        "time_local": null,
+        "venue": "NRG Stadium",
+        "home": "Portugal",
+        "away": "Uzbekistan",
+        "prediction": {
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "Bruno Fernandes",
+          "analysis": "Portugal (#9) vs Uzbekistan (#74). Heavy mismatch. Portugal's high press and creative midfield, led by Fernandes, will dismantle Uzbekistan's defense. Uzbekistan lacks pace to counter. Comfortable win for Portugal."
+        }
+      },
+      {
+        "match_no": 48,
+        "date": "2026-06-23",
+        "time_local": null,
+        "venue": "Estadio Akron",
+        "home": "Colombia",
+        "away": "DR Congo",
+        "prediction": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-1",
+          "star": "Luis Diaz",
+          "analysis": "Colombia (#17) take on DR Congo (#64). Colombia's flair and pace on the wings, with Luis Diaz, pose major threats. DR Congo's physicality may trouble but not enough. Colombia's quality should secure a victory."
+        }
+      },
+      {
+        "match_no": 71,
+        "date": "2026-06-27",
+        "time_local": null,
+        "venue": "Hard Rock Stadium",
+        "home": "Colombia",
+        "away": "Portugal",
+        "prediction": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "1-2",
+          "star": "Rafael Leao",
+          "analysis": "Colombia (#17) vs Portugal (#9). Top-of-group clash. Portugal's possession and technical edge face Colombia's energetic counter-attacks. Neutral venue; Portugal's experience in big games gives slight advantage. Leao's pace could decide. Close match, Portugal edges it."
+        }
+      },
+      {
+        "match_no": 72,
+        "date": "2026-06-27",
+        "time_local": null,
+        "venue": "Mercedes-Benz Stadium",
+        "home": "DR Congo",
+        "away": "Uzbekistan",
+        "prediction": {
+          "win": 0.35,
+          "draw": 0.35,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Cédric Bakambu",
+          "analysis": "DR Congo (#64) vs Uzbekistan (#74). Two lower-ranked sides with contrasting styles: DR Congo's physicality vs Uzbekistan's organization. Both lack firepower. A low-scoring draw seems likely, with set pieces pivotal. Bakambu's aerial threat could make the difference."
+        }
+      }
+    ]
+  },
+  "L": {
+    "teams": [
+      {
+        "name": "England",
+        "outlook": "England are strong favorites to top the group, with a realistic chance of reaching the semifinals. Their key strength is depth in attacking talent like Harry Kane. Weakness is defensive lapses under pressure. Star player: Harry Kane, a proven goalscorer."
+      },
+      {
+        "name": "Croatia",
+        "outlook": "Croatia have a solid chance of advancing as runners-up, relying on midfield control. Key strength is veteran experience and Luka Modrić's creativity. Weakness is an aging squad and lack of pace. Star player: Luka Modrić, the midfield maestro."
+      },
+      {
+        "name": "Ghana",
+        "outlook": "Ghana are outsiders but could surprise with their pace and physicality. Realistic chance is slim due to defensive fragility. Key strength is counter-attacking speed. Weakness is inconsistency and inexperience. Star player: Mohammed Kudus, an dynamic attacker."
+      },
+      {
+        "name": "Panama",
+        "outlook": "Panama are underdogs, likely finishing last. Realistic chance of advancing is very low. Key strength is set-piece threat and fighting spirit. Weakness is technical ability and depth. Star player: Aníbal Godoy, a tenacious defensive midfielder."
+      }
+    ],
+    "matches": [
+      {
+        "match_no": 22,
+        "date": "2026-06-17",
+        "time_local": null,
+        "venue": "AT&T Stadium",
+        "home": "England",
+        "away": "Croatia",
+        "prediction": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Harry Kane",
+          "analysis": "England (FIFA 4) vs Croatia (FIFA 7). England's pace and pressing against Croatia's midfield control. Croatia's experience could trouble England, but home advantage favors England. Expect a close match; England edges it with Kane's finishing."
+        }
+      },
+      {
+        "match_no": 21,
+        "date": "2026-06-17",
+        "time_local": null,
+        "venue": "BMO Field",
+        "home": "Ghana",
+        "away": "Panama",
+        "prediction": {
+          "win": 0.4,
+          "draw": 0.35,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "Mohammed Kudus",
+          "analysis": "Ghana (FIFA 60) vs Panama (FIFA 45). Ghana's technical flair vs Panama's defensive organization. Both teams seek points. Ghana's attack led by Kudus may break through, but Panama is resilient. Slight edge to Ghana."
+        }
+      },
+      {
+        "match_no": 45,
+        "date": "2026-06-23",
+        "time_local": null,
+        "venue": "Gillette Stadium",
+        "home": "England",
+        "away": "Ghana",
+        "prediction": {
+          "win": 0.75,
+          "draw": 0.15,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "Harry Kane",
+          "analysis": "England (FIFA 4) vs Ghana (FIFA 60). England's superior quality and depth should dominate. Ghana's defense will be tested by England's pressing and set pieces. Comfortable win for England."
+        }
+      },
+      {
+        "match_no": 46,
+        "date": "2026-06-23",
+        "time_local": null,
+        "venue": "BMO Field",
+        "home": "Panama",
+        "away": "Croatia",
+        "prediction": {
+          "win": 0.15,
+          "draw": 0.25,
+          "lose": 0.6,
+          "score": "0-2",
+          "star": "Luka Modric",
+          "analysis": "Panama (FIFA 45) vs Croatia (FIFA 7). Croatia's midfield mastery and experience outclass Panama. Panama will defend deep, but Croatia's technical ability creates chances. Croatia wins comfortably."
+        }
+      },
+      {
+        "match_no": 67,
+        "date": "2026-06-27",
+        "time_local": null,
+        "venue": "MetLife Stadium",
+        "home": "Panama",
+        "away": "England",
+        "prediction": {
+          "win": 0.05,
+          "draw": 0.1,
+          "lose": 0.85,
+          "score": "0-4",
+          "star": "Harry Kane",
+          "analysis": "Panama (FIFA 45) vs England (FIFA 4). Mismatch on paper. England's attacking firepower and defensive solidity overwhelm Panama. Panama struggles to possess ball. England cruises."
+        }
+      },
+      {
+        "match_no": 68,
+        "date": "2026-06-27",
+        "time_local": null,
+        "venue": "Lincoln Financial Field",
+        "home": "Croatia",
+        "away": "Ghana",
+        "prediction": {
+          "win": 0.55,
+          "draw": 0.3,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Luka Modric",
+          "analysis": "Croatia (FIFA 7) vs Ghana (FIFA 60). Croatia controls midfield with Modric and Brozovic. Ghana's athleticism may cause moments, but Croatia's tactical discipline prevails. Likely Croatia win."
+        }
+      }
+    ]
+  }
+}
