@@ -28,6 +28,8 @@ jobs:
       - name: Update results (best-effort)
         run: python update_results.py || echo "update skipped"
       - name: Build site
+        env:
+          ADSENSE_PUB: ${{ secrets.ADSENSE_PUB }}
         run: python build.py
       - name: Deploy to Cloudflare Pages
         env:
