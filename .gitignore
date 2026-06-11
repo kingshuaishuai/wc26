@@ -1,0 +1,6 @@
+dist/
+assets/*.jpg
+__pycache__/
+*.pyc
+.DS_Store
+.playwright-mcp/

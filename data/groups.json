@@ -1,0 +1,2762 @@
+{
+  "A": {
+    "teams": [
+      {
+        "en": "Mexico",
+        "zh": "墨西哥"
+      },
+      {
+        "en": "South Africa",
+        "zh": "南非"
+      },
+      {
+        "en": "South Korea",
+        "zh": "韩国"
+      },
+      {
+        "en": "Czech Republic",
+        "zh": "捷克"
+      }
+    ],
+    "matches": [
+      {
+        "group": "A",
+        "match_no": 1,
+        "date": "2026-06-11",
+        "time_local": null,
+        "home": "Mexico",
+        "away": "South Africa",
+        "venue": "Estadio Azteca",
+        "home_zh": "墨西哥",
+        "away_zh": "南非",
+        "pred": {
+          "win": 0.65,
+          "draw": 0.2,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "H.洛萨诺",
+          "analysis": "墨西哥世界排名约15，南非约70，实力差距明显。墨西哥控球进攻，南非防守反击，墨西哥掌控节奏轻松取胜。"
+        },
+        "pred_en": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Raúl Jiménez",
+          "analysis": "Mexico, ranked 12th, is a perennial power with a strong home-continent advantage. South Africa, 60th, relies on athleticism but lacks technical polish. Mexico's fluid attack and pressing style should overwhelm. Expect Jiménez to lead the line. Prediction: Mexico win comfortably."
+        }
+      },
+      {
+        "group": "A",
+        "match_no": 2,
+        "date": "2026-06-11",
+        "time_local": null,
+        "home": "South Korea",
+        "away": "Czech Republic",
+        "venue": "Estadio Akron",
+        "home_zh": "韩国",
+        "away_zh": "捷克",
+        "pred": {
+          "win": 0.4,
+          "draw": 0.35,
+          "lose": 0.25,
+          "score": "1-1",
+          "star": "孙兴慜",
+          "analysis": "韩国排名约30，捷克约45，双方实力接近。韩国依靠孙兴慜反击，捷克防守强硬，平局可能性大。"
+        },
+        "pred_en": {
+          "win": 0.4,
+          "draw": 0.35,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "Son Heung-min",
+          "analysis": "South Korea (25th) boasts dynamic attackers like Son, while Czech Republic (35th) relies on disciplined defense and set pieces. Both sides prefer counter-attacking football. This could be tight, but Korea's speed on the break gives them a slight edge. Expect goals. Prediction: South Korea narrow win."
+        }
+      },
+      {
+        "group": "A",
+        "match_no": 25,
+        "date": "2026-06-18",
+        "time_local": null,
+        "home": "Czech Republic",
+        "away": "South Africa",
+        "venue": "Mercedes-Benz Stadium",
+        "home_zh": "捷克",
+        "away_zh": "南非",
+        "pred": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "P.希克",
+          "analysis": "捷克排名高于南非，南非约70。捷克擅长身体对抗，南非技术稍逊，捷克主场优势明显。"
+        },
+        "pred_en": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Patrik Schick",
+          "analysis": "Czech Republic (35th) has a balanced squad with Schick's clinical finishing. South Africa (60th) struggles against organized defenses. The Czechs' physical style and set-piece prowess should prevail. However, South Africa's pace could cause problems. Prediction: Czech Republic win."
+        }
+      },
+      {
+        "group": "A",
+        "match_no": 28,
+        "date": "2026-06-18",
+        "time_local": null,
+        "home": "Mexico",
+        "away": "South Korea",
+        "venue": "Estadio Akron",
+        "home_zh": "墨西哥",
+        "away_zh": "韩国",
+        "pred": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "H.洛萨诺",
+          "analysis": "墨西哥实力稍强于韩国，韩国韧性足。墨西哥控球传导，韩国反击犀利，墨西哥小胜可期。"
+        },
+        "pred_en": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Hirving Lozano",
+          "analysis": "Mexico (12th) has superior technical quality and depth compared to South Korea (25th). Mexico's possession-based style can control the midfield. However, Korea's counter-attacks with Son are dangerous. Lozano's dribbling and directness should create chances. Prediction: Mexico win."
+        }
+      },
+      {
+        "group": "A",
+        "match_no": 53,
+        "date": "2026-06-24",
+        "time_local": null,
+        "home": "Czech Republic",
+        "away": "Mexico",
+        "venue": "Estadio Azteca",
+        "home_zh": "捷克",
+        "away_zh": "墨西哥",
+        "pred": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "0-2",
+          "star": "H.洛萨诺",
+          "analysis": "捷克排名低于墨西哥，墨西哥约15。捷克防守不稳，墨西哥进攻高效，客胜概率大。"
+        },
+        "pred_en": {
+          "win": 0.6,
+          "draw": 0.2,
+          "lose": 0.2,
+          "score": "2-0",
+          "star": "Edson Álvarez",
+          "analysis": "Mexico (12th) is a class above Czech Republic (35th). Mexico's midfield, anchored by Álvarez, should dominate possession and dictate tempo. The Czechs will rely on set pieces and counter-attacks, but Mexico's defensive organization can handle it. Prediction: Mexico win with clean sheet."
+        }
+      },
+      {
+        "group": "A",
+        "match_no": 54,
+        "date": "2026-06-24",
+        "time_local": null,
+        "home": "South Africa",
+        "away": "South Korea",
+        "venue": "Estadio BBVA",
+        "home_zh": "南非",
+        "away_zh": "韩国",
+        "pred": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "0-2",
+          "star": "孙兴慜",
+          "analysis": "南非排名约70，韩国约30。韩国整体实力占优，孙兴慜领衔锋线，南非难有作为。"
+        },
+        "pred_en": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "1-0",
+          "star": "Son Heung-min",
+          "analysis": "South Korea (25th) is significantly higher ranked than South Africa (60th). Korea's technical superiority and tactical discipline should control the game. South Africa's best hope is defensive solidity and pace on break. Expect a low-scoring affair. Prediction: South Korea win."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "Mexico",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "South Africa",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "South Korea",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Czech Republic",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "B": {
+    "teams": [
+      {
+        "en": "Canada",
+        "zh": "加拿大"
+      },
+      {
+        "en": "Bosnia and Herzegovina",
+        "zh": "波黑"
+      },
+      {
+        "en": "Qatar",
+        "zh": "卡塔尔"
+      },
+      {
+        "en": "Switzerland",
+        "zh": "瑞士"
+      }
+    ],
+    "matches": [
+      {
+        "group": "B",
+        "match_no": 3,
+        "date": "2026-06-12",
+        "time_local": null,
+        "home": "Canada",
+        "away": "Bosnia and Herzegovina",
+        "venue": "BMO Field",
+        "home_zh": "加拿大",
+        "away_zh": "波黑",
+        "pred": {
+          "win": 0.4,
+          "draw": 0.3,
+          "lose": 0.3,
+          "score": "2-1",
+          "star": "阿方索·戴维斯（加拿大）、哲科（波黑）",
+          "analysis": "加拿大世界排名第40，波黑第60，加拿大边路速度快，波黑防守硬朗。无直接交锋记录，预计加拿大小胜。"
+        },
+        "pred_en": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "Alphonso Davies",
+          "analysis": "Canada (FIFA 47) faces Bosnia (74). Canada's dynamic attack, led by Davies' pace, contrasts with Bosnia's experienced but slower backline. Expect Canada to press high and exploit flanks, but Bosnia's set pieces could trouble. Opinion: Canada's energy and home-like support (tournament in North America) give them an edge, but Bosnia's grit may keep it close. Canada wins a tight one."
+        }
+      },
+      {
+        "group": "B",
+        "match_no": 8,
+        "date": "2026-06-13",
+        "time_local": null,
+        "home": "Qatar",
+        "away": "Switzerland",
+        "venue": "Levi's Stadium",
+        "home_zh": "卡塔尔",
+        "away_zh": "瑞士",
+        "pred": {
+          "win": 0.1,
+          "draw": 0.2,
+          "lose": 0.7,
+          "score": "0-2",
+          "star": "阿菲夫（卡塔尔）、扎卡（瑞士）",
+          "analysis": "瑞士世界排名第15，卡塔尔第50，瑞士整体实力碾压，卡塔尔控球打法难破瑞士防线。瑞士轻松获胜。"
+        },
+        "pred_en": {
+          "win": 0.15,
+          "draw": 0.25,
+          "lose": 0.6,
+          "score": "1-2",
+          "star": "Granit Xhaka",
+          "analysis": "Qatar (FIFA 58) meets Switzerland (15). Swiss efficiency and tactical discipline overwhelm Qatar's possession-based style. Xhaka's midfield control dictates tempo. Qatar may surprise with counterattacks, but Swiss defense stays compact. Opinion: Switzerland's experience in big tournaments proves decisive, securing a comfortable victory."
+        }
+      },
+      {
+        "group": "B",
+        "match_no": 26,
+        "date": "2026-06-18",
+        "time_local": null,
+        "home": "Switzerland",
+        "away": "Bosnia and Herzegovina",
+        "venue": "SoFi Stadium",
+        "home_zh": "瑞士",
+        "away_zh": "波黑",
+        "pred": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "恩博洛（瑞士）、皮亚尼奇（波黑）",
+          "analysis": "瑞士排名远高于波黑，波黑防守老化，瑞士中场控制力强。历史交锋瑞士占优，稳胜。"
+        },
+        "pred_en": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-0",
+          "star": "Breel Embolo",
+          "analysis": "Switzerland (15) vs Bosnia (74). Swiss shape and pressing stifle Bosnia's creative outlets. Embolo's pace unsettles Bosnia's aging center-backs. Without Džeko's magic, Bosnia struggle to create. Opinion: Switzerland's system too coherent; they control possession and score early, cruising to a clean sheet win."
+        }
+      },
+      {
+        "group": "B",
+        "match_no": 27,
+        "date": "2026-06-18",
+        "time_local": null,
+        "home": "Canada",
+        "away": "Qatar",
+        "venue": null,
+        "home_zh": "加拿大",
+        "away_zh": "卡塔尔",
+        "pred": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "戴维（加拿大）、海多斯（卡塔尔）",
+          "analysis": "加拿大排名40，卡塔尔50，加拿大打法快节奏，卡塔尔技术细腻。无交锋，加拿大稍占上风。"
+        },
+        "pred_en": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "Jonathan David",
+          "analysis": "Canada (47) faces Qatar (58). Canada's physicality and verticality test Qatar's disciplined backline. David's clinical finishing could decide a tight affair. Qatar rely on Afif's dribbling, but Canada's recovery runs limit threats. Opinion: Canada's athleticism prevails in a tense, low-scoring battle as they edge the hosts."
+        }
+      },
+      {
+        "group": "B",
+        "match_no": 51,
+        "date": "2026-06-24",
+        "time_local": null,
+        "home": "Switzerland",
+        "away": "Canada",
+        "venue": null,
+        "home_zh": "瑞士",
+        "away_zh": "加拿大",
+        "pred": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-1",
+          "star": "扎卡（瑞士）、戴维斯（加拿大）",
+          "analysis": "瑞士世界排名15，加拿大40，瑞士整体攻防均衡，加拿大反击犀利。瑞士凭经验取胜。"
+        },
+        "pred_en": {
+          "win": 0.4,
+          "draw": 0.3,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Alphonso Davies",
+          "analysis": "Switzerland (15) vs Canada (47). Canada's rise meets Swiss consistency. Canada's fast transitions challenge Swiss organization, but Xhaka's midfield control counters. Both sides create chances; Davies vs Swiss fullbacks a key duel. Opinion: A balanced encounter where Canada's ambition earns a hard-fought draw against the tactical Swiss."
+        }
+      },
+      {
+        "group": "B",
+        "match_no": 52,
+        "date": "2026-06-24",
+        "time_local": null,
+        "home": "Bosnia and Herzegovina",
+        "away": "Qatar",
+        "venue": "Lumen Field",
+        "home_zh": "波黑",
+        "away_zh": "卡塔尔",
+        "pred": {
+          "win": 0.35,
+          "draw": 0.35,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "哲科（波黑）、阿菲夫（卡塔尔）",
+          "analysis": "波黑排名60，卡塔尔50，波黑高空球优势，卡塔尔传控灵活。实力接近，平局概率大。"
+        },
+        "pred_en": {
+          "win": 0.35,
+          "draw": 0.35,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Edin Džeko",
+          "analysis": "Bosnia (74) vs Qatar (58). Both seek redemption after tough starts. Bosnia rely on Džeko's aerial threat, while Qatar's possession seeks gaps. Defensive lapses likely; expect an open game. Opinion: Two flawed sides cancel out in a tense draw, leaving group qualification hopes hanging by a thread."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "Canada",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Bosnia and Herzegovina",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Qatar",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Switzerland",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "C": {
+    "teams": [
+      {
+        "en": "Brazil",
+        "zh": "巴西"
+      },
+      {
+        "en": "Morocco",
+        "zh": "摩洛哥"
+      },
+      {
+        "en": "Haiti",
+        "zh": "海地"
+      },
+      {
+        "en": "Scotland",
+        "zh": "苏格兰"
+      }
+    ],
+    "matches": [
+      {
+        "group": "C",
+        "match_no": 7,
+        "date": "2026-06-13",
+        "time_local": null,
+        "home": "Brazil",
+        "away": "Morocco",
+        "venue": "MetLife Stadium",
+        "home_zh": "巴西",
+        "away_zh": "摩洛哥",
+        "pred": {
+          "win": 0.6,
+          "draw": 0.22,
+          "lose": 0.18,
+          "score": "2-1",
+          "star": "维尼修斯",
+          "analysis": "巴西排名第1，摩洛哥第13，整体实力占优。巴西前场犀利，摩洛哥防守稳健，但巴西主场优势下有望小胜。"
+        },
+        "pred_en": {
+          "win": 0.65,
+          "draw": 0.22,
+          "lose": 0.13,
+          "score": "2-1",
+          "star": "Vinicius Jr",
+          "analysis": "Brazil (FIFA #1) face Morocco (#13) in a tricky opener. Morocco's disciplined defense and counter-attacking style, led by Hakimi, can trouble Brazil. However, Brazil's individual brilliance and depth should prevail. Expect a close match with Brazil edging it."
+        }
+      },
+      {
+        "group": "C",
+        "match_no": 5,
+        "date": "2026-06-13",
+        "time_local": null,
+        "home": "Haiti",
+        "away": "Scotland",
+        "venue": "Gillette Stadium",
+        "home_zh": "海地",
+        "away_zh": "苏格兰",
+        "pred": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "0-2",
+          "star": "罗伯逊",
+          "analysis": "海地排名低，苏格兰第40，实力差距明显。苏格兰打法硬朗，中场控制力强，客场取胜概率大。"
+        },
+        "pred_en": {
+          "win": 0.15,
+          "draw": 0.22,
+          "lose": 0.63,
+          "score": "0-2",
+          "star": "John McGinn",
+          "analysis": "Haiti (FIFA #100+) are massive underdogs against Scotland (#34). Scotland's physicality and set-piece prowess give them an edge. Haiti will defend deep, but Scotland's experience and quality, especially McGinn, should secure a comfortable win."
+        }
+      },
+      {
+        "group": "C",
+        "match_no": 30,
+        "date": "2026-06-19",
+        "time_local": null,
+        "home": "Scotland",
+        "away": "Morocco",
+        "venue": "Gillette Stadium",
+        "home_zh": "苏格兰",
+        "away_zh": "摩洛哥",
+        "pred": {
+          "win": 0.3,
+          "draw": 0.28,
+          "lose": 0.42,
+          "score": "1-2",
+          "star": "齐耶赫",
+          "analysis": "摩洛哥第13，苏格兰第40，摩洛哥技术更细腻。苏格兰主场顽强，但摩洛哥经验丰富，客胜可期。"
+        },
+        "pred_en": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "1-1",
+          "star": "Hakim Ziyech",
+          "analysis": "Scotland (#34) vs Morocco (#13) is a pivotal clash. Morocco's technical superiority and Ziyech's creativity pose a threat, but Scotland's resilience and home-like support could neutralize. A draw is likely with both teams cautious, but Morocco slight favorites."
+        }
+      },
+      {
+        "group": "C",
+        "match_no": 29,
+        "date": "2026-06-19",
+        "time_local": null,
+        "home": "Brazil",
+        "away": "Haiti",
+        "venue": "Lincoln Financial Field",
+        "home_zh": "巴西",
+        "away_zh": "海地",
+        "pred": {
+          "win": 0.75,
+          "draw": 0.15,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "内马尔",
+          "analysis": "巴西实力碾压海地（排名100+）。巴西进攻多点开花，海地难以抵挡，巴西轻松大胜。"
+        },
+        "pred_en": {
+          "win": 0.9,
+          "draw": 0.08,
+          "lose": 0.02,
+          "score": "4-0",
+          "star": "Richarlison",
+          "analysis": "Brazil (#1) vs Haiti (#100+). A mismatch on paper. Brazil's attacking depth, including Richarlison, will overwhelm Haiti's defense. Expect a one-sided affair with Brazil cruising to a multi-goal victory. Haiti's only hope is to limit damage."
+        }
+      },
+      {
+        "group": "C",
+        "match_no": 49,
+        "date": "2026-06-24",
+        "time_local": null,
+        "home": "Scotland",
+        "away": "Brazil",
+        "venue": "Hard Rock Stadium",
+        "home_zh": "苏格兰",
+        "away_zh": "巴西",
+        "pred": {
+          "win": 0.15,
+          "draw": 0.2,
+          "lose": 0.65,
+          "score": "0-2",
+          "star": "维尼修斯",
+          "analysis": "苏格兰主场对阵巴西，虽拼劲足但实力悬殊。巴西整体配合和球星能力更胜一筹，客胜稳。"
+        },
+        "pred_en": {
+          "win": 0.05,
+          "draw": 0.12,
+          "lose": 0.83,
+          "score": "0-2",
+          "star": "Casemiro",
+          "analysis": "Scotland (#34) face Brazil (#1) in a daunting task. Brazil's midfield control, led by Casemiro, and swift attacks will be too much for Scotland. Scotland will defend stubbornly, but Brazil's quality should secure a comfortable win."
+        }
+      },
+      {
+        "group": "C",
+        "match_no": 50,
+        "date": "2026-06-24",
+        "time_local": null,
+        "home": "Morocco",
+        "away": "Haiti",
+        "venue": "Mercedes-Benz Stadium",
+        "home_zh": "摩洛哥",
+        "away_zh": "海地",
+        "pred": {
+          "win": 0.7,
+          "draw": 0.18,
+          "lose": 0.12,
+          "score": "2-0",
+          "star": "恩内斯里",
+          "analysis": "摩洛哥排名13，海地弱旅。摩洛哥攻防均衡，海地缺乏爆冷能力，主胜概率极高。"
+        },
+        "pred_en": {
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
+          "score": "3-0",
+          "star": "Achraf Hakimi",
+          "analysis": "Morocco (#13) vs Haiti (#100+). Morocco's organized system and individual talent, like Hakimi, ensure dominance. Haiti's limited resources mean they'll struggle to create chances. Expect a straightforward win for Morocco, likely by a three-goal margin."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "Brazil",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Morocco",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Haiti",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Scotland",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "D": {
+    "teams": [
+      {
+        "en": "United States",
+        "zh": "美国"
+      },
+      {
+        "en": "Paraguay",
+        "zh": "巴拉圭"
+      },
+      {
+        "en": "Australia",
+        "zh": "澳大利亚"
+      },
+      {
+        "en": "Turkey",
+        "zh": "土耳其"
+      }
+    ],
+    "matches": [
+      {
+        "group": "D",
+        "match_no": 4,
+        "date": "2026-06-12",
+        "time_local": null,
+        "home": "United States",
+        "away": "Paraguay",
+        "venue": "SoFi Stadium",
+        "home_zh": "美国",
+        "away_zh": "巴拉圭",
+        "pred": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "普利西奇",
+          "analysis": "美国世界排名第11，实力占优；巴拉圭防守硬朗但进攻乏力。美国主场作战，控球优势明显，预计小胜。"
+        },
+        "pred_en": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-0",
+          "star": "Christian Pulisic",
+          "analysis": "USA (#12) face Paraguay (#40) in a mismatch. US dynamic pressing and pace should overwhelm Paraguay's organized defense. Paraguay's counter-attacks via Miguel Almirón pose threat. Expect US dominance. Prediction: US win 2-0."
+        }
+      },
+      {
+        "group": "D",
+        "match_no": 6,
+        "date": "2026-06-13",
+        "time_local": null,
+        "home": "Australia",
+        "away": "Turkey",
+        "venue": null,
+        "home_zh": "澳大利亚",
+        "away_zh": "土耳其",
+        "pred": {
+          "win": 0.3,
+          "draw": 0.3,
+          "lose": 0.4,
+          "score": "1-2",
+          "star": "伊尔马兹",
+          "analysis": "澳大利亚排名30，土耳其40，两队风格相近。土耳其进攻更为犀利，防守不稳，看好土耳其胜。"
+        },
+        "pred_en": {
+          "win": 0.3,
+          "draw": 0.3,
+          "lose": 0.4,
+          "score": "1-2",
+          "star": "Hakan Çalhanoğlu",
+          "analysis": "Australia (#35) host Turkey (#28) in a tense encounter. Turkey's technical midfield, led by Çalhanoğlu, can unlock Australia's physical defense. Australia will rely on set pieces and Aaron Mooy's creativity. Tight match. Prediction: Turkey 2-1."
+        }
+      },
+      {
+        "group": "D",
+        "match_no": 32,
+        "date": "2026-06-19",
+        "time_local": null,
+        "home": "United States",
+        "away": "Australia",
+        "venue": "Lumen Field",
+        "home_zh": "美国",
+        "away_zh": "澳大利亚",
+        "pred": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "麦肯尼",
+          "analysis": "美国实力明显强于澳大利亚，中场控制力强。澳大利亚防反击，但难挡美国整体攻势，美国胜。"
+        },
+        "pred_en": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "3-1",
+          "star": "Weston McKennie",
+          "analysis": "USA (#12) vs Australia (#35). USA's athletic midfield should dominate, with McKennie's box-to-box runs. Australia's defense may struggle with pace. Expect US to control possession and score. Prediction: USA 3-1."
+        }
+      },
+      {
+        "group": "D",
+        "match_no": 31,
+        "date": "2026-06-19",
+        "time_local": null,
+        "home": "Turkey",
+        "away": "Paraguay",
+        "venue": "Levi's Stadium",
+        "home_zh": "土耳其",
+        "away_zh": "巴拉圭",
+        "pred": {
+          "win": 0.4,
+          "draw": 0.3,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "阿尔米隆",
+          "analysis": "土耳其和巴拉圭实力接近，巴拉圭防守稳固，土耳其进攻有威胁。平局可能性大。"
+        },
+        "pred_en": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "Cengiz Ünder",
+          "analysis": "Turkey (#28) against Paraguay (#40). Turkey's fast attackers like Ünder expose Paraguay's slow defense. Paraguay's grit and counter-attacks from Almirón dangerous. Open game. Prediction: Turkey 2-1."
+        }
+      },
+      {
+        "group": "D",
+        "match_no": 59,
+        "date": "2026-06-25",
+        "time_local": null,
+        "home": "Turkey",
+        "away": "United States",
+        "venue": "SoFi Stadium",
+        "home_zh": "土耳其",
+        "away_zh": "美国",
+        "pred": {
+          "win": 0.35,
+          "draw": 0.25,
+          "lose": 0.4,
+          "score": "1-2",
+          "star": "德斯特",
+          "analysis": "土耳其主场对阵美国，美国实力更强但客场作战。土耳其进攻强悍，有望爆冷胜。"
+        },
+        "pred_en": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "0-2",
+          "star": "Christian Pulisic",
+          "analysis": "Turkey (#28) vs USA (#12). In a crucial match, USA's superior pressing and transition game overwhelm Turkey. Turkey's midfield may be overrun. US's defensive solidity key. Prediction: USA 2-0."
+        }
+      },
+      {
+        "group": "D",
+        "match_no": 60,
+        "date": "2026-06-25",
+        "time_local": null,
+        "home": "Paraguay",
+        "away": "Australia",
+        "venue": "Levi's Stadium",
+        "home_zh": "巴拉圭",
+        "away_zh": "澳大利亚",
+        "pred": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "罗哈斯",
+          "analysis": "巴拉圭主场对澳大利亚，巴拉圭防守反击效率高，澳大利亚经验丰富。巴拉圭稍占优。"
+        },
+        "pred_en": {
+          "win": 0.3,
+          "draw": 0.35,
+          "lose": 0.35,
+          "score": "1-1",
+          "star": "Miguel Almirón",
+          "analysis": "Paraguay (#40) vs Australia (#35). Two evenly-matched sides. Paraguay's defensive organization vs Australia's directness. Likely a stalemate with few chances. Set pieces decisive. Prediction: draw 1-1."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "United States",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Paraguay",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Australia",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Turkey",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "E": {
+    "teams": [
+      {
+        "en": "Germany",
+        "zh": "德国"
+      },
+      {
+        "en": "Curaçao",
+        "zh": "库拉索"
+      },
+      {
+        "en": "Ivory Coast",
+        "zh": "科特迪瓦"
+      },
+      {
+        "en": "Ecuador",
+        "zh": "厄瓜多尔"
+      }
+    ],
+    "matches": [
+      {
+        "group": "E",
+        "match_no": 10,
+        "date": "2026-06-14",
+        "time_local": null,
+        "home": "Germany",
+        "away": "Curaçao",
+        "venue": "NRG Stadium",
+        "home_zh": "德国",
+        "away_zh": "库拉索",
+        "pred": {
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
+          "score": "4-0",
+          "star": "穆西亚拉",
+          "analysis": "德国世界排名第16，库拉索未进前100。德国全攻全守，技术碾压，库拉索实力悬殊，预计大胜。"
+        },
+        "pred_en": {
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
+          "score": "4-0",
+          "star": "Jamal Musiala",
+          "analysis": "Germany (FIFA 12) outclass Curaçao (90) completely. Dominant possession, clinical finishing. Curaçao's defensive organization insufficient. Expect Musiala to orchestrate. Clear win for Germany."
+        }
+      },
+      {
+        "group": "E",
+        "match_no": 9,
+        "date": "2026-06-14",
+        "time_local": null,
+        "home": "Ivory Coast",
+        "away": "Ecuador",
+        "venue": "Lincoln Financial Field",
+        "home_zh": "科特迪瓦",
+        "away_zh": "厄瓜多尔",
+        "pred": {
+          "win": 0.4,
+          "draw": 0.3,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "凯西",
+          "analysis": "科特迪瓦排名第50，厄瓜多尔排名第36，两队实力接近。科特迪瓦身体对抗强，厄瓜多尔技术细腻，或平局。"
+        },
+        "pred_en": {
+          "win": 0.35,
+          "draw": 0.35,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Moisés Caicedo",
+          "analysis": "Ivory Coast (45) and Ecuador (35) evenly matched. Ecuador's midfield control vs Ivory Coast's physicality. Both have attacking threats but defenses hold. Likely a tense draw with few goals."
+        }
+      },
+      {
+        "group": "E",
+        "match_no": 33,
+        "date": "2026-06-20",
+        "time_local": null,
+        "home": "Germany",
+        "away": "Ivory Coast",
+        "venue": "BMO Field",
+        "home_zh": "德国",
+        "away_zh": "科特迪瓦",
+        "pred": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-1",
+          "star": "哈弗茨",
+          "analysis": "德国实力占优，但科特迪瓦防守硬朗。德国控制中场，科特迪瓦反击威胁，德国小胜。"
+        },
+        "pred_en": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "3-1",
+          "star": "Florian Wirtz",
+          "analysis": "Germany (12) too strong for Ivory Coast (45). Technical superiority and deep squad overcome Ivory Coast's pace. Ivory Coast may score on counter but Germany's quality ensures comfortable victory."
+        }
+      },
+      {
+        "group": "E",
+        "match_no": 34,
+        "date": "2026-06-20",
+        "time_local": null,
+        "home": "Ecuador",
+        "away": "Curaçao",
+        "venue": "Arrowhead Stadium",
+        "home_zh": "厄瓜多尔",
+        "away_zh": "库拉索",
+        "pred": {
+          "win": 0.75,
+          "draw": 0.15,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "瓦伦西亚",
+          "analysis": "厄瓜多尔排名远高于库拉索，高原主场优势。库拉索实力不足，厄瓜多尔轻松取胜。"
+        },
+        "pred_en": {
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "Enner Valencia",
+          "analysis": "Ecuador (35) face weak Curaçao (90). High press and quick transitions overwhelm. Valencia's experience key. Curaçao lacks offensive threat. Ecuador wins easily with multiple goals."
+        }
+      },
+      {
+        "group": "E",
+        "match_no": 55,
+        "date": "2026-06-25",
+        "time_local": null,
+        "home": "Curaçao",
+        "away": "Ivory Coast",
+        "venue": "Lincoln Financial Field",
+        "home_zh": "库拉索",
+        "away_zh": "科特迪瓦",
+        "pred": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "扎哈",
+          "analysis": "科特迪瓦个人能力突出，库拉索防守松散。科特迪瓦稍占上风，但库拉索可能制造麻烦。"
+        },
+        "pred_en": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "0-2",
+          "star": "Franck Kessié",
+          "analysis": "Ivory Coast (45) far superior to Curaçao (90). Physical dominance and midfield control. Curaçao defends deep but eventually breaks. Ivory Coast's experience secures a straightforward win."
+        }
+      },
+      {
+        "group": "E",
+        "match_no": 56,
+        "date": "2026-06-25",
+        "time_local": null,
+        "home": "Ecuador",
+        "away": "Germany",
+        "venue": "MetLife Stadium",
+        "home_zh": "厄瓜多尔",
+        "away_zh": "德国",
+        "pred": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "1-2",
+          "star": "萨内",
+          "analysis": "厄瓜多尔主场有优势，德国整体实力强但客场作战。德国经验丰富，有望反客为主。"
+        },
+        "pred_en": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "1-2",
+          "star": "Jamal Musiala",
+          "analysis": "Germany (12) edge Ecuador (35) in a competitive match. Ecuador's home advantage minimal. Germany's depth and tactical discipline prevail. Musiala's creativity decisive in a narrow victory."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "Germany",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Curaçao",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Ivory Coast",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Ecuador",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "F": {
+    "teams": [
+      {
+        "en": "Netherlands",
+        "zh": "荷兰"
+      },
+      {
+        "en": "Japan",
+        "zh": "日本"
+      },
+      {
+        "en": "Sweden",
+        "zh": "瑞典"
+      },
+      {
+        "en": "Tunisia",
+        "zh": "突尼斯"
+      }
+    ],
+    "matches": [
+      {
+        "group": "F",
+        "match_no": 11,
+        "date": "2026-06-14",
+        "time_local": null,
+        "home": "Netherlands",
+        "away": "Japan",
+        "venue": "AT&T Stadium",
+        "home_zh": "荷兰",
+        "away_zh": "日本",
+        "pred": {
+          "win": 0.65,
+          "draw": 0.22,
+          "lose": 0.13,
+          "score": "2-0",
+          "star": "德佩（荷兰）",
+          "analysis": "荷兰世界第6，日本第20，橙衣军攻防均衡，日本反击犀利但整体差距明显，看好荷兰轻松取胜。"
+        },
+        "pred_en": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Memphis Depay",
+          "analysis": "Netherlands (FIFA 6) vs Japan (20). The Dutch dominate possession with creative flair, while Japan relies on disciplined counters. Historically, Netherlands have a strong record. Expect a controlled performance from Netherlands, with Depay's movement and finishing key. Japan will struggle to break through. Likely Dutch victory."
+        }
+      },
+      {
+        "group": "F",
+        "match_no": 12,
+        "date": "2026-06-14",
+        "time_local": null,
+        "home": "Sweden",
+        "away": "Tunisia",
+        "venue": "Estadio BBVA",
+        "home_zh": "瑞典",
+        "away_zh": "突尼斯",
+        "pred": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "伊萨克（瑞典）",
+          "analysis": "瑞典世界第25，突尼斯第30，北欧球队身体优势，突尼斯防守顽强，预计瑞典小胜。"
+        },
+        "pred_en": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "Alexander Isak",
+          "analysis": "Sweden (25) vs Tunisia (30). Sweden's physicality and set-piece prowess give them an edge. Tunisia's defensive organization will make it tight, but Sweden's Isak can exploit gaps. Head-to-head limited, but Sweden's aerial strength likely decisive. A narrow win for Sweden."
+        }
+      },
+      {
+        "group": "F",
+        "match_no": 35,
+        "date": "2026-06-20",
+        "time_local": null,
+        "home": "Netherlands",
+        "away": "Sweden",
+        "venue": "NRG Stadium",
+        "home_zh": "荷兰",
+        "away_zh": "瑞典",
+        "pred": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "范迪克（荷兰）",
+          "analysis": "荷兰世界第6，瑞典第25，历史交锋荷兰占优，但瑞典有爆冷能力，荷兰险胜。"
+        },
+        "pred_en": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Frenkie de Jong",
+          "analysis": "Netherlands (6) vs Sweden (25). Netherlands' technical superiority and midfield control through De Jong should prevail. Sweden's robust defense and counterattacks pose a threat, but Dutch quality edges through. Expect an open game with Netherlands securing a win."
+        }
+      },
+      {
+        "group": "F",
+        "match_no": 36,
+        "date": "2026-06-20",
+        "time_local": null,
+        "home": "Tunisia",
+        "away": "Japan",
+        "venue": "Estadio BBVA",
+        "home_zh": "突尼斯",
+        "away_zh": "日本",
+        "pred": {
+          "win": 0.25,
+          "draw": 0.35,
+          "lose": 0.4,
+          "score": "1-1",
+          "star": "久保建英（日本）",
+          "analysis": "突尼斯第30，日本第20，日本控球传递更佳，突尼斯身体对抗强，平局可能大。"
+        },
+        "pred_en": {
+          "win": 0.3,
+          "draw": 0.35,
+          "lose": 0.35,
+          "score": "1-1",
+          "star": "Takefusa Kubo",
+          "analysis": "Tunisia (30) vs Japan (20). A tightly contested match. Japan's technical passing meets Tunisia's physical resilience. Both sides are disciplined, leading to few chances. Kubo's creativity could unlock Tunisia, but Tunisia's set pieces are dangerous. Likely a draw with both scoring."
+        }
+      },
+      {
+        "group": "F",
+        "match_no": 57,
+        "date": "2026-06-25",
+        "time_local": null,
+        "home": "Japan",
+        "away": "Sweden",
+        "venue": "AT&T Stadium",
+        "home_zh": "日本",
+        "away_zh": "瑞典",
+        "pred": {
+          "win": 0.2,
+          "draw": 0.3,
+          "lose": 0.5,
+          "score": "0-1",
+          "star": "福斯贝里（瑞典）",
+          "analysis": "日本第20，瑞典第25，实际瑞典实力稍强，北欧冲击力克制日本，瑞典小胜。"
+        },
+        "pred_en": {
+          "win": 0.4,
+          "draw": 0.3,
+          "lose": 0.3,
+          "score": "1-0",
+          "star": "Dejan Kulusevski",
+          "analysis": "Japan (20) vs Sweden (25). Sweden's physicality and aerial strength challenge Japan's technical buildup. Kulusevski's width and dribbling can unsettle Japan's defense. Historically, Sweden has a slight edge in similar matchups. Expect a tight, low-scoring Swedish win."
+        }
+      },
+      {
+        "group": "F",
+        "match_no": 58,
+        "date": "2026-06-25",
+        "time_local": null,
+        "home": "Tunisia",
+        "away": "Netherlands",
+        "venue": "Arrowhead Stadium",
+        "home_zh": "突尼斯",
+        "away_zh": "荷兰",
+        "pred": {
+          "win": 0.1,
+          "draw": 0.2,
+          "lose": 0.7,
+          "score": "0-3",
+          "star": "加克波（荷兰）",
+          "analysis": "突尼斯第30，荷兰第6，实力悬殊，荷兰攻击线强大，大胜可期。"
+        },
+        "pred_en": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "Cody Gakpo",
+          "analysis": "Tunisia (30) vs Netherlands (6). A mismatch on paper. Netherlands' attacking depth, led by Gakpo, overwhelms Tunisia's defense. Tunisia will defend deep but lack pace to counter effectively. Netherlands control the game and win comfortably with multiple goals."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "Netherlands",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Japan",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Sweden",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Tunisia",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "G": {
+    "teams": [
+      {
+        "en": "Belgium",
+        "zh": "比利时"
+      },
+      {
+        "en": "Egypt",
+        "zh": "埃及"
+      },
+      {
+        "en": "Iran",
+        "zh": "伊朗"
+      },
+      {
+        "en": "New Zealand",
+        "zh": "新西兰"
+      }
+    ],
+    "matches": [
+      {
+        "group": "G",
+        "match_no": 16,
+        "date": "2026-06-15",
+        "time_local": null,
+        "home": "Belgium",
+        "away": "Egypt",
+        "venue": "Lumen Field",
+        "home_zh": "比利时",
+        "away_zh": "埃及",
+        "pred": {
+          "win": 0.65,
+          "draw": 0.2,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "德布劳内",
+          "analysis": "比利时世界排名第3，整体实力远超埃及（第30）。德布劳内领衔的中场控制力强，埃及依赖萨拉赫但整体配合不足。预计比利时轻松取胜。"
+        },
+        "pred_en": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "Kevin De Bruyne",
+          "analysis": "Belgium (FIFA 3) boast world-class talent like De Bruyne and Lukaku, while Egypt (34) rely on Salah's magic. Belgium's high press and possession should overwhelm Egypt's defense. Expect a comfortable win for the Red Devils, though Egypt could snatch a goal on the counter. Belgium's depth key."
+        }
+      },
+      {
+        "group": "G",
+        "match_no": 15,
+        "date": "2026-06-15",
+        "time_local": null,
+        "home": "Iran",
+        "away": "New Zealand",
+        "venue": "SoFi Stadium",
+        "home_zh": "伊朗",
+        "away_zh": "新西兰",
+        "pred": {
+          "win": 0.45,
+          "draw": 0.3,
+          "lose": 0.25,
+          "score": "1-1",
+          "star": "塔雷米",
+          "analysis": "伊朗（第20）与新西兰（第100）实力差距不大。伊朗防守顽强，新西兰身体对抗强但技术粗糙。平局可能性较大，伊朗稍占优势。"
+        },
+        "pred_en": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Sardar Azmoun",
+          "analysis": "Iran (20) are tactically disciplined and physically strong, while New Zealand (104) lack top-level experience. Iran's organized defense and quick transitions should control the game. New Zealand may hold out for a while but Iran's quality up front, led by Azmoun, will decide. Iran win likely."
+        }
+      },
+      {
+        "group": "G",
+        "match_no": 39,
+        "date": "2026-06-21",
+        "time_local": null,
+        "home": "Belgium",
+        "away": "Iran",
+        "venue": "SoFi Stadium",
+        "home_zh": "比利时",
+        "away_zh": "伊朗",
+        "pred": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "卢卡库",
+          "analysis": "比利时（第3）对阵伊朗（第20）。比利时攻击线犀利，伊朗防守虽硬但难以抵挡。卢卡库的支点作用关键。比利时胜面大。"
+        },
+        "pred_en": {
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "Romelu Lukaku",
+          "analysis": "Belgium's attack vs Iran's stubborn defense. Iran (20) are well-organized but Belgium (3) have too much creativity. Expect Belgium to dominate possession and break through via set pieces or individual brilliance. Iran may limit damage but cannot contain Belgium's firepower. Clear Belgian victory."
+        }
+      },
+      {
+        "group": "G",
+        "match_no": 40,
+        "date": "2026-06-21",
+        "time_local": null,
+        "home": "New Zealand",
+        "away": "Egypt",
+        "venue": null,
+        "home_zh": "新西兰",
+        "away_zh": "埃及",
+        "pred": {
+          "win": 0.25,
+          "draw": 0.3,
+          "lose": 0.45,
+          "score": "0-1",
+          "star": "萨拉赫",
+          "analysis": "新西兰（100）vs埃及（30）。埃及技术更优，萨拉赫的速度和射门是威胁。新西兰虽拼抢积极但整体能力不足。埃及有望小胜。"
+        },
+        "pred_en": {
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "Mohamed Salah",
+          "analysis": "Egypt (34) enter as favorites with Salah's threat. New Zealand (104) are physical but technically inferior. Egypt's passing and movement should create chances. However, NZ can be resilient. A narrow win for Egypt is most probable, but a draw is possible if they fail to finish."
+        }
+      },
+      {
+        "group": "G",
+        "match_no": 63,
+        "date": "2026-06-26",
+        "time_local": null,
+        "home": "Egypt",
+        "away": "Iran",
+        "venue": "Lumen Field",
+        "home_zh": "埃及",
+        "away_zh": "伊朗",
+        "pred": {
+          "win": 0.4,
+          "draw": 0.35,
+          "lose": 0.25,
+          "score": "1-1",
+          "star": "阿兹蒙",
+          "analysis": "埃及（30）与伊朗（20）风格相似，均以防守反击为主。埃及攻击点单一，伊朗整体更均衡。预计平局，伊朗略占上风。"
+        },
+        "pred_en": {
+          "win": 0.35,
+          "draw": 0.35,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Mohamed Salah",
+          "analysis": "Both teams are defensively solid; Egypt (34) have Salah's brilliance, Iran (20) boast collective discipline. This could be a cautious matchup with few chances. The midfield battle is crucial. Likely a low-scoring draw, though either side could nick a goal. Tactical stalemate."
+        }
+      },
+      {
+        "group": "G",
+        "match_no": 64,
+        "date": "2026-06-26",
+        "time_local": null,
+        "home": "New Zealand",
+        "away": "Belgium",
+        "venue": null,
+        "home_zh": "新西兰",
+        "away_zh": "比利时",
+        "pred": {
+          "win": 0.1,
+          "draw": 0.15,
+          "lose": 0.75,
+          "score": "0-3",
+          "star": "德布劳内",
+          "analysis": "新西兰（100）vs比利时（3）。实力悬殊，比利时控场能力强，多特蒙德防线稳固。新西兰难有还手之力。比利时大胜。"
+        },
+        "pred_en": {
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
+          "score": "4-0",
+          "star": "Kevin De Bruyne",
+          "analysis": "Belgium (3) overwhelm New Zealand (104) in every aspect. Belgium's fluid attack and pressing will be too much. NZ will defend deep but lack pace to counter. Expect a multi-goal rout for Belgium as they showcase their depth. De Bruyne orchestrates."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "Belgium",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Egypt",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Iran",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "New Zealand",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "H": {
+    "teams": [
+      {
+        "en": "Spain",
+        "zh": "西班牙"
+      },
+      {
+        "en": "Cape Verde",
+        "zh": "佛得角"
+      },
+      {
+        "en": "Saudi Arabia",
+        "zh": "沙特阿拉伯"
+      },
+      {
+        "en": "Uruguay",
+        "zh": "乌拉圭"
+      }
+    ],
+    "matches": [
+      {
+        "group": "H",
+        "match_no": 14,
+        "date": "2026-06-15",
+        "time_local": null,
+        "home": "Spain",
+        "away": "Cape Verde",
+        "venue": "Mercedes-Benz Stadium",
+        "home_zh": "西班牙",
+        "away_zh": "佛得角",
+        "pred": {
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "莫拉塔",
+          "analysis": "西班牙世界第8，佛得角第75，实力悬殊。西班牙控球打法压制，佛得角难有反击机会。预测西班牙大胜。"
+        },
+        "pred_en": {
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
+          "score": "3-0",
+          "star": "Pedri",
+          "analysis": "Spain (FIFA 8) heavily outclass Cape Verde (FIFA 73). Spain's possession-based style will dominate against Cape Verde's defensive approach. Expect a comfortable win for Spain, with Pedri orchestrating the midfield. Cape Verde may struggle to create chances, leading to a straightforward Spanish victory."
+        }
+      },
+      {
+        "group": "H",
+        "match_no": 13,
+        "date": "2026-06-15",
+        "time_local": null,
+        "home": "Saudi Arabia",
+        "away": "Uruguay",
+        "venue": "Hard Rock Stadium",
+        "home_zh": "沙特阿拉伯",
+        "away_zh": "乌拉圭",
+        "pred": {
+          "win": 0.25,
+          "draw": 0.3,
+          "lose": 0.45,
+          "score": "1-2",
+          "star": "努涅斯",
+          "analysis": "乌拉圭世界第16，沙特第56，乌拉圭整体实力占优。沙特防守顽强但乌拉圭进攻更强，看好乌拉圭取胜。"
+        },
+        "pred_en": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-1",
+          "star": "Federico Valverde",
+          "analysis": "Uruguay (FIFA 15) favored over Saudi Arabia (FIFA 51). Uruguay's physicality and experience contrast with Saudi's counter-attacking speed. Valverde's midfield engine will be key. Saudi can be dangerous but Uruguay's quality likely secures a narrow win."
+        }
+      },
+      {
+        "group": "H",
+        "match_no": 38,
+        "date": "2026-06-21",
+        "time_local": null,
+        "home": "Spain",
+        "away": "Saudi Arabia",
+        "venue": "Mercedes-Benz Stadium",
+        "home_zh": "西班牙",
+        "away_zh": "沙特阿拉伯",
+        "pred": {
+          "win": 0.78,
+          "draw": 0.17,
+          "lose": 0.05,
+          "score": "2-0",
+          "star": "佩德里",
+          "analysis": "西班牙实力远超沙特，控球传切配合优势明显。沙特防守反击难有威胁，西班牙轻松取胜。"
+        },
+        "pred_en": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "Gavi",
+          "analysis": "Spain (FIFA 8) strong against Saudi Arabia (FIFA 51). Spain's tiki-taka style aims to break down Saudi's compact defense. Gavi's creativity in tight spaces will be vital. Saudi's pace on the break could cause moments, but Spain controls the game and wins comfortably."
+        }
+      },
+      {
+        "group": "H",
+        "match_no": 37,
+        "date": "2026-06-21",
+        "time_local": null,
+        "home": "Uruguay",
+        "away": "Cape Verde",
+        "venue": "Hard Rock Stadium",
+        "home_zh": "乌拉圭",
+        "away_zh": "佛得角",
+        "pred": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "巴尔韦德",
+          "analysis": "乌拉圭世界排名和实力强于佛得角，攻防均衡。佛得角缺乏爆冷能力，乌拉圭稳赢。"
+        },
+        "pred_en": {
+          "win": 0.65,
+          "draw": 0.22,
+          "lose": 0.13,
+          "score": "2-0",
+          "star": "Darwin Nunez",
+          "analysis": "Uruguay (FIFA 15) vs Cape Verde (FIFA 73). Uruguay's solid defense and potent attack, led by Nunez, should overcome Cape Verde's resilience. Cape Verde's upset potential exists but Uruguay's tournament experience and tactical discipline give them a clear edge."
+        }
+      },
+      {
+        "group": "H",
+        "match_no": 65,
+        "date": "2026-06-26",
+        "time_local": null,
+        "home": "Cape Verde",
+        "away": "Saudi Arabia",
+        "venue": "NRG Stadium",
+        "home_zh": "佛得角",
+        "away_zh": "沙特阿拉伯",
+        "pred": {
+          "win": 0.4,
+          "draw": 0.3,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "达赫兰",
+          "analysis": "佛得角与沙特实力接近，世界排名相近。沙特稍占优但佛得角有冲击力，平局可能。"
+        },
+        "pred_en": {
+          "win": 0.25,
+          "draw": 0.35,
+          "lose": 0.4,
+          "score": "1-1",
+          "star": "Ryan Mendes",
+          "analysis": "Cape Verde (FIFA 73) and Saudi Arabia (FIFA 51) both seek points. Cape Verde's flair from Mendes vs Saudi's organized approach. Expect a tight contest; Saudi's ranking suggests slight favor, but Cape Verde's unpredictability could force a draw."
+        }
+      },
+      {
+        "group": "H",
+        "match_no": 66,
+        "date": "2026-06-26",
+        "time_local": null,
+        "home": "Uruguay",
+        "away": "Spain",
+        "venue": "Estadio Akron",
+        "home_zh": "乌拉圭",
+        "away_zh": "西班牙",
+        "pred": {
+          "win": 0.35,
+          "draw": 0.3,
+          "lose": 0.35,
+          "score": "1-1",
+          "star": "罗德里",
+          "analysis": "乌拉圭与西班牙实力接近，西班牙控球略优但乌拉圭防守硬朗。历史交锋西班牙稍占上风，或平局。"
+        },
+        "pred_en": {
+          "win": 0.2,
+          "draw": 0.3,
+          "lose": 0.5,
+          "score": "1-2",
+          "star": "Lamine Yamal",
+          "analysis": "Uruguay (FIFA 15) vs Spain (FIFA 8). Spain's technical superiority, with Yamal's youthful spark, likely overcomes Uruguay's physical defense. Uruguay will battle hard, but Spain's quality in possession and final third should secure a narrow win."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "Spain",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Cape Verde",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Saudi Arabia",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Uruguay",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "I": {
+    "teams": [
+      {
+        "en": "France",
+        "zh": "法国"
+      },
+      {
+        "en": "Senegal",
+        "zh": "塞内加尔"
+      },
+      {
+        "en": "Iraq",
+        "zh": "伊拉克"
+      },
+      {
+        "en": "Norway",
+        "zh": "挪威"
+      }
+    ],
+    "matches": [
+      {
+        "group": "I",
+        "match_no": 17,
+        "date": "2026-06-16",
+        "time_local": null,
+        "home": "France",
+        "away": "Senegal",
+        "venue": "MetLife Stadium",
+        "home_zh": "法国",
+        "away_zh": "塞内加尔",
+        "pred": {
+          "win": 0.65,
+          "draw": 0.2,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "姆巴佩",
+          "analysis": "法国世界第2，塞内加尔第18，实力差距明显。法国控球压迫，塞内加尔防反但难阻失利。"
+        },
+        "pred_en": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "Kylian Mbappé",
+          "analysis": "France (#2) are heavy favorites against Senegal (#20) despite their 2018 World Cup matchup ending 1-0. Senegal's counter-attacking style could trouble France, but Les Bleus's depth and Mbappé's pace should prevail. Expect a controlled win for France."
+        }
+      },
+      {
+        "group": "I",
+        "match_no": 18,
+        "date": "2026-06-16",
+        "time_local": null,
+        "home": "Iraq",
+        "away": "Norway",
+        "venue": "Gillette Stadium",
+        "home_zh": "伊拉克",
+        "away_zh": "挪威",
+        "pred": {
+          "win": 0.4,
+          "draw": 0.3,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "厄德高",
+          "analysis": "伊拉克第68，挪威第44，实力接近。挪威技术稍优，但伊拉克顽强，平局可能大。"
+        },
+        "pred_en": {
+          "win": 0.15,
+          "draw": 0.2,
+          "lose": 0.65,
+          "score": "0-2",
+          "star": "Erling Haaland",
+          "analysis": "Iraq (#70) lack the quality to contain Norway (#40). Haaland's clinical finishing and Norway's physical style dominate. Iraq will defend deep, but Norway's set-piece threat and pace on the break secure a comfortable win."
+        }
+      },
+      {
+        "group": "I",
+        "match_no": 42,
+        "date": "2026-06-22",
+        "time_local": null,
+        "home": "France",
+        "away": "Iraq",
+        "venue": "Lincoln Financial Field",
+        "home_zh": "法国",
+        "away_zh": "伊拉克",
+        "pred": {
+          "win": 0.75,
+          "draw": 0.15,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "格列兹曼",
+          "analysis": "法国实力碾压伊拉克（第68），全场控制局面，伊拉克难有还手之力。"
+        },
+        "pred_en": {
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "Kylian Mbappé",
+          "analysis": "France (#2) overwhelm Iraq (#70) with technical superiority and quick transitions. Iraq's low block may hold for a while, but France's variety in attack, led by Mbappé, will crack it. A routine victory for the favorites."
+        }
+      },
+      {
+        "group": "I",
+        "match_no": 41,
+        "date": "2026-06-22",
+        "time_local": null,
+        "home": "Norway",
+        "away": "Senegal",
+        "venue": "MetLife Stadium",
+        "home_zh": "挪威",
+        "away_zh": "塞内加尔",
+        "pred": {
+          "win": 0.35,
+          "draw": 0.3,
+          "lose": 0.35,
+          "score": "1-2",
+          "star": "哈兰德",
+          "analysis": "挪威第44，塞内加尔第18，非洲劲旅略优。挪威进攻强，但防守不稳，塞内加尔反击犀利。"
+        },
+        "pred_en": {
+          "win": 0.4,
+          "draw": 0.35,
+          "lose": 0.25,
+          "score": "1-1",
+          "star": "Erling Haaland",
+          "analysis": "Norway (#40) face Senegal (#20) in a balanced contest. Senegal's African champions experience and counter-attacking threat (Mané) test Norway's defense. Haaland poses constant danger, but Senegal's organization earns a draw."
+        }
+      },
+      {
+        "group": "I",
+        "match_no": 61,
+        "date": "2026-06-26",
+        "time_local": null,
+        "home": "Norway",
+        "away": "France",
+        "venue": "Gillette Stadium",
+        "home_zh": "挪威",
+        "away_zh": "法国",
+        "pred": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "0-2",
+          "star": "哈兰德",
+          "analysis": "挪威挑战世界第2法国，实力悬殊。法国中场强大，限制厄德高，哈兰德孤立无援。"
+        },
+        "pred_en": {
+          "win": 0.15,
+          "draw": 0.2,
+          "lose": 0.65,
+          "score": "1-2",
+          "star": "Kylian Mbappé",
+          "analysis": "Norway (#40) struggled historically against top sides. France (#2) control possession and press high. Norway rely on Haaland's moments, but France's midfield dominance and defensive solidity edge a narrow win, though Norway push hard."
+        }
+      },
+      {
+        "group": "I",
+        "match_no": 62,
+        "date": "2026-06-26",
+        "time_local": null,
+        "home": "Senegal",
+        "away": "Iraq",
+        "venue": "BMO Field",
+        "home_zh": "塞内加尔",
+        "away_zh": "伊拉克",
+        "pred": {
+          "win": 0.5,
+          "draw": 0.25,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "马内",
+          "analysis": "塞内加尔第18，伊拉克第68，非洲冠军占优。塞内加尔身体对抗强，伊拉克难防边路冲击。"
+        },
+        "pred_en": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Sadio Mané",
+          "analysis": "Senegal (#20) are clear favorites over Iraq (#70). Mané's creativity and Senegal's physical advantage in set pieces and pace on the wings decide the game. Iraq battle but lack precision in final third. Senegal win comfortably."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "France",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Senegal",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Iraq",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Norway",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "J": {
+    "teams": [
+      {
+        "en": "Argentina",
+        "zh": "阿根廷"
+      },
+      {
+        "en": "Algeria",
+        "zh": "阿尔及利亚"
+      },
+      {
+        "en": "Austria",
+        "zh": "奥地利"
+      },
+      {
+        "en": "Jordan",
+        "zh": "约旦"
+      }
+    ],
+    "matches": [
+      {
+        "group": "J",
+        "match_no": 19,
+        "date": "2026-06-16",
+        "time_local": null,
+        "home": "Argentina",
+        "away": "Algeria",
+        "venue": "Arrowhead Stadium",
+        "home_zh": "阿根廷",
+        "away_zh": "阿尔及利亚",
+        "pred": {
+          "win": 0.65,
+          "draw": 0.22,
+          "lose": 0.13,
+          "score": "2-0",
+          "star": "梅西",
+          "analysis": "阿根廷世界第1，阿尔及利亚第30，首次交锋。阿根廷控球压制，阿尔及利亚反击有威胁，但整体实力差距明显，看好阿根廷轻松取胜。"
+        },
+        "pred_en": {
+          "win": 0.75,
+          "draw": 0.15,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "Lionel Messi",
+          "analysis": "Argentina (FIFA 1) dominate Algeria (FIFA 30) with superior technical skill and depth. No recent head-to-head; Argentina's attacking flair versus Algeria's organized defense. Expect Messi to unlock spaces, while Algeria struggle to contain pressure. Clear Argentine victory likely."
+        }
+      },
+      {
+        "group": "J",
+        "match_no": 20,
+        "date": "2026-06-16",
+        "time_local": null,
+        "home": "Austria",
+        "away": "Jordan",
+        "venue": "Levi's Stadium",
+        "home_zh": "奥地利",
+        "away_zh": "约旦",
+        "pred": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "阿拉巴",
+          "analysis": "奥地利世界第25，约旦第80，无历史交锋。奥地利整体实力占优，约旦防守顽强但进攻乏力，奥地利有望掌控节奏。"
+        },
+        "pred_en": {
+          "win": 0.65,
+          "draw": 0.2,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "David Alaba",
+          "analysis": "Austria (FIFA 25) face Jordan (FIFA 80) with significant ranking gap. Austria's disciplined pressing and Alaba's leadership counter Jordan's counter-attacking style. No prior encounters; Austria's European quality should prevail comfortably."
+        }
+      },
+      {
+        "group": "J",
+        "match_no": 43,
+        "date": "2026-06-22",
+        "time_local": null,
+        "home": "Argentina",
+        "away": "Austria",
+        "venue": "AT&T Stadium",
+        "home_zh": "阿根廷",
+        "away_zh": "奥地利",
+        "pred": {
+          "win": 0.7,
+          "draw": 0.18,
+          "lose": 0.12,
+          "score": "2-0",
+          "star": "梅西",
+          "analysis": "阿根廷实力远超奥地利（世界第1 vs 第25）。奥地利中场对抗不弱，但阿根廷球星个人能力决定比赛，看好阿根廷连胜。"
+        },
+        "pred_en": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-1",
+          "star": "Lionel Messi",
+          "analysis": "Argentina (1) vs Austria (25) - Argentina's fluid attack vs Austria's compact defense. Messi's creativity decisive; Austria rely on Alaba's set pieces and transitions. Argentina's depth and big-game experience give them the edge, but Austria can frustrate."
+        }
+      },
+      {
+        "group": "J",
+        "match_no": 44,
+        "date": "2026-06-22",
+        "time_local": null,
+        "home": "Jordan",
+        "away": "Algeria",
+        "venue": "Levi's Stadium",
+        "home_zh": "约旦",
+        "away_zh": "阿尔及利亚",
+        "pred": {
+          "win": 0.15,
+          "draw": 0.25,
+          "lose": 0.6,
+          "score": "0-2",
+          "star": "马赫雷斯",
+          "analysis": "阿尔及利亚世界第30，约旦第80，首次碰面。阿尔及利亚技术细腻，约旦身体硬朗但经验不足，阿尔及利亚胜算更大。"
+        },
+        "pred_en": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "Riyad Mahrez",
+          "analysis": "Jordan (80) vs Algeria (30) - Algeria's African Cup pedigree and Mahrez's flair outclass Jordan. Jordan's physicality and pace on break cause moments of danger. Algeria's technical superiority likely secures narrow win despite Jordan's resilience."
+        }
+      },
+      {
+        "group": "J",
+        "match_no": 69,
+        "date": "2026-06-27",
+        "time_local": null,
+        "home": "Algeria",
+        "away": "Austria",
+        "venue": "Arrowhead Stadium",
+        "home_zh": "阿尔及利亚",
+        "away_zh": "奥地利",
+        "pred": {
+          "win": 0.35,
+          "draw": 0.3,
+          "lose": 0.35,
+          "score": "1-1",
+          "star": "阿拉巴",
+          "analysis": "阿尔及利亚与奥地利实力接近（第30 vs 第25），风格迥异。阿尔及利亚技术流，奥地利力量型，平局可能性高。"
+        },
+        "pred_en": {
+          "win": 0.35,
+          "draw": 0.3,
+          "lose": 0.35,
+          "score": "1-1",
+          "star": "David Alaba",
+          "analysis": "Algeria (30) vs Austria (25) - Even matchup. Algeria's quick transitions and Mahrez's dribbling vs Austria's organized midfield. Alaba's versatility a key. Both teams balanced; high probability of draw with both scoring. Tactical battle likely."
+        }
+      },
+      {
+        "group": "J",
+        "match_no": 70,
+        "date": "2026-06-27",
+        "time_local": null,
+        "home": "Jordan",
+        "away": "Argentina",
+        "venue": "AT&T Stadium",
+        "home_zh": "约旦",
+        "away_zh": "阿根廷",
+        "pred": {
+          "win": 0.8,
+          "draw": 0.12,
+          "lose": 0.08,
+          "score": "3-0",
+          "star": "梅西",
+          "analysis": "阿根廷世界第1，约旦仅第80，实力悬殊。阿根廷攻防俱佳，约旦难以抵挡，阿根廷大胜可期。"
+        },
+        "pred_en": {
+          "win": 0.9,
+          "draw": 0.07,
+          "lose": 0.03,
+          "score": "4-0",
+          "star": "Lionel Messi",
+          "analysis": "Jordan (80) vs Argentina (1) - Massive gap. Argentina's relentless pressure and Messi's magic overwhelm Jordan. Jordan's defense faces constant threat; no historical matches. Argentina cruise to dominant win, highlighting class difference."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "Argentina",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Algeria",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Austria",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Jordan",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "K": {
+    "teams": [
+      {
+        "en": "Portugal",
+        "zh": "葡萄牙"
+      },
+      {
+        "en": "DR Congo",
+        "zh": "刚果(金)"
+      },
+      {
+        "en": "Uzbekistan",
+        "zh": "乌兹别克斯坦"
+      },
+      {
+        "en": "Colombia",
+        "zh": "哥伦比亚"
+      }
+    ],
+    "matches": [
+      {
+        "group": "K",
+        "match_no": 23,
+        "date": "2026-06-17",
+        "time_local": null,
+        "home": "Portugal",
+        "away": "DR Congo",
+        "venue": "NRG Stadium",
+        "home_zh": "葡萄牙",
+        "away_zh": "刚果(金)",
+        "pred": {
+          "win": 0.72,
+          "draw": 0.18,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "C罗",
+          "analysis": "葡萄牙世界排名第8，刚果(金)第65，实力悬殊。葡萄牙控球进攻犀利，刚果(金)防守松散，难阻葡萄牙取胜。"
+        },
+        "pred_en": {
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
+          "score": "2-0",
+          "star": "Cristiano Ronaldo",
+          "analysis": "Portugal (#9 FIFA) heavily favored against DR Congo (#64). Portuguese technical superiority and depth should overwhelm DR Congo's physical but disorganized defense. Expect controlled possession and clinical finishing. Ronaldo's leadership will be key. Clear win for Portugal."
+        }
+      },
+      {
+        "group": "K",
+        "match_no": 24,
+        "date": "2026-06-17",
+        "time_local": null,
+        "home": "Uzbekistan",
+        "away": "Colombia",
+        "venue": "Estadio Azteca",
+        "home_zh": "乌兹别克斯坦",
+        "away_zh": "哥伦比亚",
+        "pred": {
+          "win": 0.2,
+          "draw": 0.3,
+          "lose": 0.5,
+          "score": "1-2",
+          "star": "J罗",
+          "analysis": "哥伦比亚第17，乌兹别克斯坦第74，哥伦比亚技术占优。乌兹别克斯坦主场作战顽强，但哥伦比亚反击效率更高。"
+        },
+        "pred_en": {
+          "win": 0.13,
+          "draw": 0.22,
+          "lose": 0.65,
+          "score": "1-2",
+          "star": "James Rodriguez",
+          "analysis": "Uzbekistan (#74) face Colombia (#17). Colombia's individual quality and tactical discipline should overcome Uzbekistan's compact setup. James Rodriguez orchestrates attacks, while Uzbekistan may struggle to create chances. Colombia wins a competitive match."
+        }
+      },
+      {
+        "group": "K",
+        "match_no": 47,
+        "date": "2026-06-23",
+        "time_local": null,
+        "home": "Portugal",
+        "away": "Uzbekistan",
+        "venue": "NRG Stadium",
+        "home_zh": "葡萄牙",
+        "away_zh": "乌兹别克斯坦",
+        "pred": {
+          "win": 0.78,
+          "draw": 0.15,
+          "lose": 0.07,
+          "score": "3-0",
+          "star": "B费",
+          "analysis": "葡萄牙实力碾压，世界排名远高于乌兹别克斯坦。葡萄牙进攻多点开花，乌兹别克斯坦难以抗衡，完胜。"
+        },
+        "pred_en": {
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "Bruno Fernandes",
+          "analysis": "Portugal (#9) vs Uzbekistan (#74). Heavy mismatch. Portugal's high press and creative midfield, led by Fernandes, will dismantle Uzbekistan's defense. Uzbekistan lacks pace to counter. Comfortable win for Portugal."
+        }
+      },
+      {
+        "group": "K",
+        "match_no": 48,
+        "date": "2026-06-23",
+        "time_local": null,
+        "home": "Colombia",
+        "away": "DR Congo",
+        "venue": "Estadio Akron",
+        "home_zh": "哥伦比亚",
+        "away_zh": "刚果(金)",
+        "pred": {
+          "win": 0.58,
+          "draw": 0.25,
+          "lose": 0.17,
+          "score": "2-0",
+          "star": "迪亚斯",
+          "analysis": "哥伦比亚排名第17，刚果(金)第65，技术优势明显。刚果(金)身体对抗强但组织差，哥伦比亚控制比赛。"
+        },
+        "pred_en": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-1",
+          "star": "Luis Diaz",
+          "analysis": "Colombia (#17) take on DR Congo (#64). Colombia's flair and pace on the wings, with Luis Diaz, pose major threats. DR Congo's physicality may trouble but not enough. Colombia's quality should secure a victory."
+        }
+      },
+      {
+        "group": "K",
+        "match_no": 71,
+        "date": "2026-06-27",
+        "time_local": null,
+        "home": "Colombia",
+        "away": "Portugal",
+        "venue": "Hard Rock Stadium",
+        "home_zh": "哥伦比亚",
+        "away_zh": "葡萄牙",
+        "pred": {
+          "win": 0.4,
+          "draw": 0.35,
+          "lose": 0.25,
+          "score": "1-1",
+          "star": "C罗 vs J罗",
+          "analysis": "葡萄牙第8 vs 哥伦比亚第17，技术流对决。葡萄牙控场稍优，哥伦比亚反击犀利，平局概率较大。"
+        },
+        "pred_en": {
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
+          "score": "1-2",
+          "star": "Rafael Leao",
+          "analysis": "Colombia (#17) vs Portugal (#9). Top-of-group clash. Portugal's possession and technical edge face Colombia's energetic counter-attacks. Neutral venue; Portugal's experience in big games gives slight advantage. Leao's pace could decide. Close match, Portugal edges it."
+        }
+      },
+      {
+        "group": "K",
+        "match_no": 72,
+        "date": "2026-06-27",
+        "time_local": null,
+        "home": "DR Congo",
+        "away": "Uzbekistan",
+        "venue": "Mercedes-Benz Stadium",
+        "home_zh": "刚果(金)",
+        "away_zh": "乌兹别克斯坦",
+        "pred": {
+          "win": 0.35,
+          "draw": 0.38,
+          "lose": 0.27,
+          "score": "1-1",
+          "star": "姆本巴",
+          "analysis": "刚果(金)第65，乌兹别克斯坦第74，实力接近。刚果(金)体能好，乌兹别克斯坦技术细，平局合理。"
+        },
+        "pred_en": {
+          "win": 0.35,
+          "draw": 0.35,
+          "lose": 0.3,
+          "score": "1-1",
+          "star": "Cédric Bakambu",
+          "analysis": "DR Congo (#64) vs Uzbekistan (#74). Two lower-ranked sides with contrasting styles: DR Congo's physicality vs Uzbekistan's organization. Both lack firepower. A low-scoring draw seems likely, with set pieces pivotal. Bakambu's aerial threat could make the difference."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "Portugal",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "DR Congo",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Uzbekistan",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Colombia",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  },
+  "L": {
+    "teams": [
+      {
+        "en": "England",
+        "zh": "英格兰"
+      },
+      {
+        "en": "Croatia",
+        "zh": "克罗地亚"
+      },
+      {
+        "en": "Ghana",
+        "zh": "加纳"
+      },
+      {
+        "en": "Panama",
+        "zh": "巴拿马"
+      }
+    ],
+    "matches": [
+      {
+        "group": "L",
+        "match_no": 22,
+        "date": "2026-06-17",
+        "time_local": null,
+        "home": "England",
+        "away": "Croatia",
+        "venue": "AT&T Stadium",
+        "home_zh": "英格兰",
+        "away_zh": "克罗地亚",
+        "pred": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "哈里·凯恩",
+          "analysis": "英格兰世界第5，克罗地亚第12，近两次交锋英格兰1胜1平。三狮阵容年轻冲击力强，克罗地亚中场老化，看好英格兰小胜。"
+        },
+        "pred_en": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Harry Kane",
+          "analysis": "England (FIFA 4) vs Croatia (FIFA 7). England's pace and pressing against Croatia's midfield control. Croatia's experience could trouble England, but home advantage favors England. Expect a close match; England edges it with Kane's finishing."
+        }
+      },
+      {
+        "group": "L",
+        "match_no": 21,
+        "date": "2026-06-17",
+        "time_local": null,
+        "home": "Ghana",
+        "away": "Panama",
+        "venue": "BMO Field",
+        "home_zh": "加纳",
+        "away_zh": "巴拿马",
+        "pred": {
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "穆罕默德·库杜斯",
+          "analysis": "加纳世界第58，巴拿马第78，加纳球员个人能力更强，巴拿马防守松散。预测加纳占据控球优势，轻松取胜。"
+        },
+        "pred_en": {
+          "win": 0.4,
+          "draw": 0.35,
+          "lose": 0.25,
+          "score": "2-1",
+          "star": "Mohammed Kudus",
+          "analysis": "Ghana (FIFA 60) vs Panama (FIFA 45). Ghana's technical flair vs Panama's defensive organization. Both teams seek points. Ghana's attack led by Kudus may break through, but Panama is resilient. Slight edge to Ghana."
+        }
+      },
+      {
+        "group": "L",
+        "match_no": 45,
+        "date": "2026-06-23",
+        "time_local": null,
+        "home": "England",
+        "away": "Ghana",
+        "venue": "Gillette Stadium",
+        "home_zh": "英格兰",
+        "away_zh": "加纳",
+        "pred": {
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "哈里·凯恩",
+          "analysis": "英格兰实力碾压加纳，世界排名差50位以上。英格兰快速边路进攻将撕破加纳防线，凯恩有望梅开二度。"
+        },
+        "pred_en": {
+          "win": 0.75,
+          "draw": 0.15,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "Harry Kane",
+          "analysis": "England (FIFA 4) vs Ghana (FIFA 60). England's superior quality and depth should dominate. Ghana's defense will be tested by England's pressing and set pieces. Comfortable win for England."
+        }
+      },
+      {
+        "group": "L",
+        "match_no": 46,
+        "date": "2026-06-23",
+        "time_local": null,
+        "home": "Panama",
+        "away": "Croatia",
+        "venue": "BMO Field",
+        "home_zh": "巴拿马",
+        "away_zh": "克罗地亚",
+        "pred": {
+          "win": 0.3,
+          "draw": 0.25,
+          "lose": 0.45,
+          "score": "0-2",
+          "star": "卢卡·莫德里奇",
+          "analysis": "巴拿马世界第78，克罗地亚第12，实力悬殊。克罗地亚控制中场，巴拿马难以形成威胁，客胜概率高。"
+        },
+        "pred_en": {
+          "win": 0.15,
+          "draw": 0.25,
+          "lose": 0.6,
+          "score": "0-2",
+          "star": "Luka Modric",
+          "analysis": "Panama (FIFA 45) vs Croatia (FIFA 7). Croatia's midfield mastery and experience outclass Panama. Panama will defend deep, but Croatia's technical ability creates chances. Croatia wins comfortably."
+        }
+      },
+      {
+        "group": "L",
+        "match_no": 67,
+        "date": "2026-06-27",
+        "time_local": null,
+        "home": "Panama",
+        "away": "England",
+        "venue": "MetLife Stadium",
+        "home_zh": "巴拿马",
+        "away_zh": "英格兰",
+        "pred": {
+          "win": 0.15,
+          "draw": 0.2,
+          "lose": 0.65,
+          "score": "0-3",
+          "star": "哈里·凯恩",
+          "analysis": "巴拿马面对顶级强队英格兰难有作为。英格兰整体攻防远超对手，预计零封大胜，凯恩继续进球。"
+        },
+        "pred_en": {
+          "win": 0.05,
+          "draw": 0.1,
+          "lose": 0.85,
+          "score": "0-4",
+          "star": "Harry Kane",
+          "analysis": "Panama (FIFA 45) vs England (FIFA 4). Mismatch on paper. England's attacking firepower and defensive solidity overwhelm Panama. Panama struggles to possess ball. England cruises."
+        }
+      },
+      {
+        "group": "L",
+        "match_no": 68,
+        "date": "2026-06-27",
+        "time_local": null,
+        "home": "Croatia",
+        "away": "Ghana",
+        "venue": "Lincoln Financial Field",
+        "home_zh": "克罗地亚",
+        "away_zh": "加纳",
+        "pred": {
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-0",
+          "star": "卢卡·莫德里奇",
+          "analysis": "克罗地亚世界第12，加纳第58，克罗地亚经验丰富。尽管加纳有速度，但格子军团控场能力更强，看好主胜。"
+        },
+        "pred_en": {
+          "win": 0.55,
+          "draw": 0.3,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Luka Modric",
+          "analysis": "Croatia (FIFA 7) vs Ghana (FIFA 60). Croatia controls midfield with Modric and Brozovic. Ghana's athleticism may cause moments, but Croatia's tactical discipline prevails. Likely Croatia win."
+        }
+      }
+    ],
+    "standings": [
+      {
+        "team": "England",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Croatia",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Ghana",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Panama",
+        "P": 0,
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "GF": 0,
+        "GA": 0,
+        "GD": 0,
+        "Pts": 0
+      }
+    ]
+  }
+}
