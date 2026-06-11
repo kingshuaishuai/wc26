@@ -45,7 +45,14 @@ def turl(name): return f"team/{tslug(name)}.html"
 # 队名 -> 所在组
 TEAM_GROUP = {t["en"]: L for L in "ABCDEFGHIJKL" for t in DATA[L]["teams"]}
 
-def head(title, desc, rel="", canon=""):
+def jsonld(obj):
+    return f'<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False)}</script>'
+
+def crumbs_ld(items):
+    return jsonld({"@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":f"{BASE}/{u}"} for i,(n,u) in enumerate(items)]})
+
+def head(title, desc, rel="", canon="", ld=""):
     return f"""<!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title>
@@ -58,6 +65,7 @@ def head(title, desc, rel="", canon=""):
 <link rel="stylesheet" href="{rel}style.css">
 <link rel="icon" href="{rel}favicon.svg" type="image/svg+xml">
 {adsense_head()}
+{ld}
 </head><body>
 <header class="nav"><div class="wrap">
 <a class="brand" href="{rel}index.html"><span class="mark"><span>XI</span></span> OracleXI</a>
@@ -127,7 +135,10 @@ def build_index():
     for L in "ABCDEFGHIJKL":
         lis="".join(f'<li><span class="seed">{i+1}</span>{esc(t["en"])}</li>' for i,t in enumerate(DATA[L]["teams"]))
         groups_html+=f'<a class="gcard" href="group/{L}.html" data-reveal><div class="gh"><div class="gl">{L}</div><div class="gt">Group {L}</div></div><ul>{lis}</ul></a>'
-    out = head(f"{SITE} — 2026 World Cup AI Predictions for all 104 matches", DESC, canon="") + f"""
+    site_ld = jsonld({"@context":"https://schema.org","@graph":[
+        {"@type":"WebSite","name":SITE,"url":f"{BASE}/","description":DESC},
+        {"@type":"Organization","name":SITE,"url":f"{BASE}/","logo":f"{BASE}/favicon.svg"}]})
+    out = head(f"{SITE} — 2026 World Cup AI Predictions for all 104 matches", DESC, canon="", ld=site_ld) + f"""
 <section class="hero"><div class="wrap">
 <div class="kicker"><span class="dot"></span>June 11, 2026 · Opening Day · USA · Canada · Mexico</div>
 <h1 class="disp">2026 World Cup<br><em>AI Predictions</em></h1>
@@ -225,7 +236,14 @@ def build_match(m):
     p=P(m); w,d,l=probs(m)
     title=f"{m['home']} vs {m['away']} Prediction: {p.get('score','-')} | 2026 World Cup Group {m['group']}"
     desc=f"{m['home']} vs {m['away']} prediction (2026 World Cup, Group {m['group']}): AI tips {p.get('score','-')}. Win probabilities {w:.0f}%/{d:.0f}%/{l:.0f}%. {(p.get('analysis') or '')[:70]}"
-    out=head(title,desc,rel="../",canon=murl(m))+f"""
+    ev_ld=jsonld({"@context":"https://schema.org","@type":"SportsEvent",
+        "name":f"{m['home']} vs {m['away']} — 2026 FIFA World Cup Group {m['group']}","sport":"Soccer",
+        **({"startDate":m["date"]} if m.get("date") else {}),
+        "eventStatus":"https://schema.org/EventScheduled","url":f"{BASE}/{murl(m)}",
+        **({"location":{"@type":"Place","name":m["venue"]}} if m.get("venue") else {}),
+        "competitor":[{"@type":"SportsTeam","name":m["home"]},{"@type":"SportsTeam","name":m["away"]}]})
+    cr_ld=crumbs_ld([("Home","index.html"),(f"Group {m['group']}",f"group/{m['group']}.html"),(f"{m['home']} vs {m['away']}",murl(m))])
+    out=head(title,desc,rel="../",canon=murl(m),ld=ev_ld+cr_ld)+f"""
 <div class="wrap"><div class="crumb"><a href="../index.html">Home</a> / <a href="../group/{m['group']}.html">Group {m['group']}</a> / {esc(m['home'])} vs {esc(m['away'])}</div></div>
 <section class="detail-hero"><div class="wrap">
 <div class="grp">Group {m['group']} · Match {m.get('match_no','')} · {fmt_date(m['date'])}</div>
