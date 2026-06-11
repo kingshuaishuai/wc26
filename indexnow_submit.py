@@ -20,9 +20,12 @@ def main():
     if not base: print("no BASE, skip"); return
     host = re.sub(r"https?://", "", base).split("/")[0]
     data = json.load(open(os.path.join(ROOT, "data", "groups.json"), encoding="utf-8"))
-    urls = [f"{base}/", f"{base}/sitemap.xml"]
+    def tslug(n): return re.sub(r"[^a-z0-9]+","-",n.lower()).strip("-")
+    urls = [f"{base}/", f"{base}/about.html", f"{base}/privacy.html", f"{base}/sitemap.xml"]
     for L in "ABCDEFGHIJKL":
         urls.append(f"{base}/group/{L}.html")
+        for t in data[L]["teams"]:
+            urls.append(f"{base}/team/{tslug(t['en'])}.html")
         for m in data[L]["matches"]:
             urls.append(f"{base}/match/{m['group'].lower()}{m['match_no']}.html")
     payload = {"host": host, "key": KEY, "keyLocation": f"{base}/{KEY}.txt", "urlList": urls}
