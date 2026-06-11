@@ -39,6 +39,11 @@ ALL.sort(key=lambda m:(m["date"] or "9999", m.get("match_no") or 0))
 def mslug(m): return f"{m['group'].lower()}{m['match_no']}"
 def murl(m): return f"match/{mslug(m)}.html"
 def P(m): return m.get("pred_en", {})
+import re as _re
+def tslug(name): return _re.sub(r"[^a-z0-9]+","-",name.lower()).strip("-")
+def turl(name): return f"team/{tslug(name)}.html"
+# 队名 -> 所在组
+TEAM_GROUP = {t["en"]: L for L in "ABCDEFGHIJKL" for t in DATA[L]["teams"]}
 
 def head(title, desc, rel="", canon=""):
     return f"""<!DOCTYPE html><html lang="en"><head>
@@ -154,7 +159,7 @@ def build_index():
 
 def build_group(L):
     g=DATA[L]
-    teams_html="".join(f'<li><span class="seed">{i+1}</span>{esc(t["en"])}</li>' for i,t in enumerate(g["teams"]))
+    teams_html="".join(f'<li><span class="seed">{i+1}</span><a href="../{turl(t["en"])}" style="color:inherit">{esc(t["en"])}</a></li>' for i,t in enumerate(g["teams"]))
     title=f"Group {L} — {', '.join(t['en'] for t in g['teams'])} | 2026 World Cup Predictions"
     desc=f"2026 World Cup Group {L}: {', '.join(t['en'] for t in g['teams'])}. All 6 fixtures with AI score predictions and win probabilities."
     out=head(title,desc,rel="../",canon=f"group/{L}.html")+f"""
@@ -195,6 +200,27 @@ PRIVACY_HTML = """<p><b>Last updated: June 2026.</b></p>
 <p><b>Children.</b> This site is not directed at children under 13.</p>
 <p><b>Contact.</b> Questions about this policy can be sent via the channels listed on our About page.</p>"""
 
+def build_team(team):
+    name = team["en"]; L = TEAM_GROUP[name]
+    fixtures = [m for m in DATA[L]["matches"] if name in (m["home"], m["away"])]
+    title = f"{name} — 2026 World Cup Fixtures, Predictions & Group {L} Outlook"
+    desc = f"{name} at the 2026 FIFA World Cup: Group {L} fixtures, AI score predictions and squad outlook. {(team.get('outlook') or '')[:90]}"
+    out = head(title, desc, rel="../", canon=turl(name)) + f"""
+<div class="wrap"><div class="crumb"><a href="../index.html">Home</a> / <a href="../group/{L}.html">Group {L}</a> / {esc(name)}</div></div>
+<section class="detail-hero"><div class="wrap">
+<div class="grp">2026 World Cup · Group {L}</div>
+<h1 class="disp" style="font-size:clamp(34px,7vw,68px);margin-top:8px">{esc(name)}</h1>
+</div></section>
+<div class="wrap">{ad()}
+<div class="analysis-box" style="border-left-color:var(--gold)"><div class="lbl">Team Outlook</div>{esc(team.get('outlook') or 'Outlook coming soon.')}</div>
+</div>
+<section><div class="wrap">
+<div class="sec-head"><span class="idx">VS</span><h2 class="disp">{esc(name)} · Group Fixtures</h2><div class="line"></div></div>
+<div class="matches">{"".join(match_card(m, rel="../") for m in fixtures)}</div>
+</div></section>
+""" + foot("../")
+    open(os.path.join(DIST, "team", f"{tslug(name)}.html"), "w", encoding="utf-8").write(out)
+
 def build_match(m):
     p=P(m); w,d,l=probs(m)
     title=f"{m['home']} vs {m['away']} Prediction: {p.get('score','-')} | 2026 World Cup Group {m['group']}"
@@ -228,6 +254,7 @@ def main():
     else: os.makedirs(DIST)
     os.makedirs(os.path.join(DIST,"group"),exist_ok=True)
     os.makedirs(os.path.join(DIST,"match"),exist_ok=True)
+    os.makedirs(os.path.join(DIST,"team"),exist_ok=True)
     shutil.copy(os.path.join(ROOT,"static","style.css"),os.path.join(DIST,"style.css"))
     open(os.path.join(DIST,"favicon.svg"),"w").write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#d4ff2e"/><text x="32" y="45" font-family="Arial Black,Arial" font-weight="900" font-size="26" fill="#0a0b0d" text-anchor="middle">XI</text></svg>')
     keyf = os.path.join(ROOT, ".indexnow_key")
@@ -239,7 +266,10 @@ def main():
     build_static("privacy", "Privacy Policy", PRIVACY_HTML)
     for L in "ABCDEFGHIJKL": build_group(L)
     for m in ALL: build_match(m)
-    urls=["index.html","about.html","privacy.html"]+[f"group/{L}.html" for L in "ABCDEFGHIJKL"]+[murl(m) for m in ALL]
+    ALL_TEAMS=[t for L in "ABCDEFGHIJKL" for t in DATA[L]["teams"]]
+    for t in ALL_TEAMS: build_team(t)
+    urls=(["index.html","about.html","privacy.html"]+[f"group/{L}.html" for L in "ABCDEFGHIJKL"]
+          +[turl(t["en"]) for t in ALL_TEAMS]+[murl(m) for m in ALL])
     sm='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm+="".join(f"<url><loc>{BASE}/{u}</loc></url>\n" for u in urls)+"</urlset>"
     open(os.path.join(DIST,"sitemap.xml"),"w").write(sm)
