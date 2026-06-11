@@ -12,6 +12,8 @@ META = json.load(open(_meta_path, encoding="utf-8")) if os.path.exists(_meta_pat
 TODAY = "2026-06-11"
 BASE = "https://oraclexi.com"
 SITE = "OracleXI"
+# 填入 AdSense 发布商ID(形如 ca-pub-1234567890123456)后，自动广告脚本会注入全站 <head>，并生成 ads.txt
+ADSENSE_PUB = os.environ.get("ADSENSE_PUB", "")
 DESC = "AI predictions for all 104 matches of the 2026 FIFA World Cup — score predictions, win probabilities and expert analysis for every fixture across all 12 groups."
 
 MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
@@ -22,6 +24,11 @@ def fmt_date(d):
     return f"{WK[date(y,m,dd).weekday()]}, {MONTHS[m-1]} {dd}"
 
 def esc(s): return html.escape(str(s)) if s else ""
+
+def adsense_head():
+    if not ADSENSE_PUB: return "<!-- AD_HEAD_SLOT -->"
+    return (f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+            f'?client={ADSENSE_PUB}" crossorigin="anonymous"></script>')
 
 ALL = []
 for L in "ABCDEFGHIJKL":
@@ -45,7 +52,7 @@ def head(title, desc, rel="", canon=""):
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{rel}style.css">
 <link rel="icon" href="{rel}favicon.svg" type="image/svg+xml">
-<!-- AD_HEAD_SLOT -->
+{adsense_head()}
 </head><body>
 <header class="nav"><div class="wrap">
 <a class="brand" href="{rel}index.html"><span class="mark"><span>XI</span></span> OracleXI</a>
@@ -213,7 +220,10 @@ def main():
     sm+="".join(f"<url><loc>{BASE}/{u}</loc></url>\n" for u in urls)+"</urlset>"
     open(os.path.join(DIST,"sitemap.xml"),"w").write(sm)
     open(os.path.join(DIST,"robots.txt"),"w").write(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
-    print(f"✅ Built {2+12+len(ALL)} pages (English)")
+    if ADSENSE_PUB:
+        pub = ADSENSE_PUB.replace("ca-", "")
+        open(os.path.join(DIST,"ads.txt"),"w").write(f"google.com, {pub}, DIRECT, f08c47fec0942fa0\n")
+    print(f"✅ Built {2+12+len(ALL)} pages (English){' + AdSense' if ADSENSE_PUB else ''}")
 
 if __name__=="__main__":
     main()
