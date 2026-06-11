@@ -10,7 +10,7 @@ DATA = json.load(open(os.path.join(ROOT, "data", "groups.json"), encoding="utf-8
 _meta_path = os.path.join(ROOT, "data", "meta.json")
 META = json.load(open(_meta_path, encoding="utf-8")) if os.path.exists(_meta_path) else {}
 TODAY = "2026-06-11"
-BASE = "https://kingshuaishuai.github.io/wc26"   # 换 Cloudflare/自有域名时改这里
+BASE = "https://oraclexi.com"
 SITE = "OracleXI"
 DESC = "AI predictions for all 104 matches of the 2026 FIFA World Cup — score predictions, win probabilities and expert analysis for every fixture across all 12 groups."
 
