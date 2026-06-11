@@ -73,9 +73,9 @@ def ad(): return '<div class="ad-slot"><!-- AD_SLOT -->Advertisement</div>'
 
 def accuracy_strip():
     if not META.get("played"): return ""
-    return (f'<div class="acc-strip"><span><b>{META["played"]}</b>/72 played</span>'
-            f'<span>Outcome accuracy <b>{META.get("outcome_acc","–")}%</b></span>'
-            f'<span>Exact score <b>{META.get("score_acc","–")}%</b></span>'
+    return (f'<div class="acc-strip"><span>Model track record</span>'
+            f'<span>Outcome called right <b>{META.get("outcome_acc","–")}%</b></span>'
+            f'<span class="muted">over {META["played"]} matches · exact score {META.get("score_acc","–")}% (hardest call)</span>'
             f'<span class="upd">Updated {esc(META.get("updated_utc",""))}</span></div>')
 
 def standings_table(g):

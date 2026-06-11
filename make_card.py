@@ -1,31 +1,38 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""分享卡生成器：从 groups.json 读取某场比赛，叠加 AI 预测，输出竖版社媒卡。
-用法: python3 make_card.py A 1 [bg.jpg]"""
+"""English share-card generator: reads a fixture from groups.json, overlays the AI
+prediction, outputs a vertical social card for Pinterest/IG/X.
+Usage: python3 make_card.py A 1 [bg.jpg]   (A = group, 1 = nth fixture in group)"""
 import sys, os, json
 from PIL import Image, ImageDraw, ImageFont
+from datetime import date
 
 ROOT=os.path.dirname(os.path.abspath(__file__))
 DATA=json.load(open(os.path.join(ROOT,"data","groups.json"),encoding="utf-8"))
-HEITI="/System/Library/Fonts/STHeiti Medium.ttc"
+# Latin fonts (Anton-like). Fall back to a bundled system font.
+def font_path(*cands):
+    for c in cands:
+        if os.path.exists(c): return c
+    return cands[-1]
+BOLD = font_path("/System/Library/Fonts/Supplemental/Arial Bold.ttf","/Library/Fonts/Arial Bold.ttf","/System/Library/Fonts/Helvetica.ttc")
+BLACK = font_path("/System/Library/Fonts/Supplemental/Arial Black.ttf","/System/Library/Fonts/Supplemental/Arial Bold.ttf","/System/Library/Fonts/Helvetica.ttc")
 LIME=(212,255,46); CORAL=(255,77,46); INK=(244,242,236); MUTE=(154,162,173); BG=(10,11,13); GOLD=(229,180,91)
 W,H=1080,1350
+MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
-def F(sz): return ImageFont.truetype(HEITI,sz)
+def F(p,sz): return ImageFont.truetype(p,sz)
 
 def find(group, idx):
-    """idx = 组内第几场 (1-6)"""
     ms=DATA[group]["matches"]
     if 1<=idx<=len(ms): return ms[idx-1]
-    raise SystemExit(f"未找到 {group} 第{idx}场")
+    raise SystemExit(f"not found {group} #{idx}")
 
 def make(group, no, bg_path):
-    m=find(group,int(no)); p=m.get("pred",{})
+    m=find(group,int(no)); p=m.get("pred_en",{})
     card=Image.new("RGB",(W,H),BG)
     bg=Image.open(bg_path).convert("RGB")
     bgr=bg.resize((W,int(W*bg.height/bg.width)))
     card.paste(bgr.crop((0,0,W,760)),(0,0))
-    # 渐变压暗
     grad=Image.new("L",(1,H),0)
     for y in range(H):
         grad.putpixel((0,y), 0 if y<480 else (int(255*(y-480)/280) if y<760 else 255))
@@ -35,22 +42,24 @@ def make(group, no, bg_path):
     d=ImageDraw.Draw(card)
     def ctr(txt,y,font,fill):
         w=d.textbbox((0,0),txt,font=font)[2]; d.text(((W-w)/2,y),txt,font=font,fill=fill)
-    # 日期标签
-    md=m["date"][5:].replace("-","月")+"日" if m["date"] else ""
-    ctr(f"● 2026世界杯 {m['group']}组 · {md}",70,F(34),CORAL)
-    # 对阵（长名自动缩字号）
-    vs=f"{m['home_zh']}  VS  {m['away_zh']}"
-    fs=74
-    while d.textbbox((0,0),vs,font=F(fs))[2] > W-80 and fs>40: fs-=4
-    ctr(vs,560,F(fs),INK)
-    ctr("AI 预测比分",840,F(38),MUTE)
-    ctr(p.get("score","-"),905,F(150),LIME)
-    w,dr,l=p.get("win",0)*100,p.get("draw",0)*100,p.get("lose",0)*100
-    ctr(f"{m['home_zh']}胜 {w:.0f}%   平 {dr:.0f}%   {m['away_zh']}胜 {l:.0f}%",1110,F(32),INK)
+    # date label
+    md=""
+    if m.get("date"):
+        y,mo,dd=map(int,m["date"].split("-")); md=f"{MON[mo-1]} {dd}"
+    ctr(f"2026 WORLD CUP   ·   GROUP {m['group']}   ·   {md}",78,F(BOLD,30),CORAL)
+    # fixture (auto-shrink for long names)
+    vs=f"{m['home']}  v  {m['away']}"
+    fs=70
+    while d.textbbox((0,0),vs,font=F(BLACK,fs))[2] > W-70 and fs>34: fs-=3
+    ctr(vs,560,F(BLACK,fs),INK)
+    ctr("AI PREDICTED SCORE",838,F(BOLD,34),MUTE)
+    ctr(p.get("score","-"),892,F(BLACK,150),LIME)
+    w=round((p.get("win") or 0)*100); dr=round((p.get("draw") or 0)*100); l=round((p.get("lose") or 0)*100)
+    ctr(f"{m['home']} {w}%    Draw {dr}%    {m['away']} {l}%",1112,F(BOLD,30),INK)
     star=p.get("star","")
-    if star: ctr(f"看点：{star}"[:22],1170,F(30),GOLD)
-    d.rectangle([0,1270,W,H],fill=LIME)
-    ctr("全部72场AI预测 → kingshuaishuai.github.io/wc26",1295,F(34),BG)
+    if star: ctr(f"Key player: {star}"[:40],1168,F(BOLD,28),GOLD)
+    d.rectangle([0,1272,W,H],fill=LIME)
+    ctr("All 104 AI predictions  ·  oraclexi.com",1296,F(BLACK,34),BG)
     out=os.path.join(ROOT,"assets",f"card_{group}{no}.jpg")
     card.save(out,quality=90)
     return out
