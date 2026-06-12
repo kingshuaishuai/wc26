@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """WC26 Predictions — English static site generator (home + 12 groups + 72 match pages)."""
-import json, os, shutil, html
+import json, os, shutil, html, math
 from datetime import date
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -9,7 +9,7 @@ DIST = os.path.join(ROOT, "dist")
 DATA = json.load(open(os.path.join(ROOT, "data", "groups.json"), encoding="utf-8"))
 _meta_path = os.path.join(ROOT, "data", "meta.json")
 META = json.load(open(_meta_path, encoding="utf-8")) if os.path.exists(_meta_path) else {}
-TODAY = "2026-06-11"
+TODAY = date.today().isoformat()
 BASE = "https://oraclexi.com"
 SITE = "OracleXI"
 # 填入 AdSense 发布商ID(形如 ca-pub-1234567890123456)后，自动广告脚本会注入全站 <head>，并生成 ads.txt
@@ -110,13 +110,68 @@ def result_badge(m):
     r = m.get("result")
     if not r or not r.get("played"): return ""
     p = P(m); ps = p.get("score","")
-    pm = __import__("re").match(r"(\d+)-(\d+)", ps or "")
+    pm = _re.match(r"(\d+)-(\d+)", ps or "")
     hit = ""
     if pm:
         po = "h" if int(pm.group(1))>int(pm.group(2)) else ("a" if int(pm.group(1))<int(pm.group(2)) else "d")
         ao = "h" if r["hs"]>r["as"] else ("a" if r["hs"]<r["as"] else "d")
-        hit = ' <span class="hit ok">✓ called</span>' if po==ao else ' <span class="hit no">✗ missed</span>'
+        exact = int(pm.group(1))==r["hs"] and int(pm.group(2))==r["as"]
+        hit = (' <span class="hit ok">🎯 exact</span>' if exact else
+               ' <span class="hit ok">✓ called</span>' if po==ao else
+               ' <span class="hit no">✗ missed</span>')
     return f'<span class="ft">FT {r["hs"]}–{r["as"]}{hit}</span>'
+
+def _pois(k, lam):
+    return math.exp(-lam) * lam**k / math.factorial(k)
+
+def scorelines(m, top=3):
+    """Top-N most likely scorelines from a blended Poisson model derived from the headline
+    pick + a baseline goal rate. Deterministic (no LLM), defensible, auto-updates per fixture."""
+    p = P(m); pm = _re.match(r"(\d+)\s*-\s*(\d+)", p.get("score","") or "")
+    if not pm: return []
+    ph, pa = int(pm.group(1)), int(pm.group(2))
+    avg = 1.30  # 联赛级基线进球,避免 2-0 推断出对手永不进球
+    lh, la = max(0.25, 0.7*ph + 0.3*avg), max(0.25, 0.7*pa + 0.3*avg)
+    grid = [(f"{h}-{a}", _pois(h,lh)*_pois(a,la)) for h in range(6) for a in range(6)]
+    tot = sum(pr for _,pr in grid) or 1
+    grid.sort(key=lambda x:-x[1])
+    return [(s, round(pr/tot*100)) for s,pr in grid[:top]]
+
+def scorelines_html(m):
+    sl = scorelines(m)
+    if not sl: return ""
+    pick = (P(m).get("score","") or "").replace(" ","")
+    rows = "".join(
+        f'<div class="slrow{" pick" if s==pick else ""}"><span class="sls">{s}</span>'
+        f'<span class="slbar"><i style="width:{pct}%"></i></span>'
+        f'<span class="slp">{pct}%</span>'
+        f'{" <span class=ourpick>our pick</span>" if s==pick else ""}</div>' for s,pct in sl)
+    return (f'<div class="scorelines"><div class="lbl">Most likely scorelines '
+            f'<span class="muted">· Poisson model</span></div>{rows}</div>')
+
+def hit_card(m):
+    """已踢比赛的醒目命中/失手横幅(首页与详情页用)。命中是病毒传播钩子。"""
+    r = m.get("result")
+    if not r or not r.get("played"): return ""
+    p = P(m); pm = _re.match(r"(\d+)-(\d+)", p.get("score","") or "")
+    if not pm: return ""
+    ph, pa = int(pm.group(1)), int(pm.group(2))
+    exact = ph==r["hs"] and pa==r["as"]
+    po = "h" if ph>pa else ("a" if ph<pa else "d")
+    ao = "h" if r["hs"]>r["as"] else ("a" if r["hs"]<r["as"] else "d")
+    fixture = f'{esc(m["home"])} {r["hs"]}–{r["as"]} {esc(m["away"])}'
+    if exact:
+        return (f'<div class="hitcard bull"><div class="bigtag">🎯 BULLSEYE</div>'
+                f'<div class="ht">Called it <b>{ph}–{pa}</b> — exact score.</div>'
+                f'<div class="hs">{fixture} · nailed to the goal.</div></div>')
+    if po==ao:
+        side = esc(m["home"]) if po=="h" else (esc(m["away"]) if po=="a" else "the draw")
+        return (f'<div class="hitcard win"><div class="bigtag">✓ CALLED IT</div>'
+                f'<div class="ht">Right result — we tipped {side}.</div>'
+                f'<div class="hs">Predicted {ph}–{pa} · final {fixture}.</div></div>')
+    return (f'<div class="hitcard miss"><div class="bigtag">✗ MISSED</div>'
+            f'<div class="ht">We tipped {ph}–{pa}, it finished {r["hs"]}–{r["as"]}.</div>'
+            f'<div class="hs">{fixture} · post-match breakdown coming.</div></div>')
 
 def match_card(m, rel=""):
     w,d,l = probs(m); p=P(m)
@@ -127,6 +182,21 @@ def match_card(m, rel=""):
 <div class="barlbl"><span>1 {w:.0f}%</span><span>X {d:.0f}%</span><span>2 {l:.0f}%</span></div>
 <div class="ana">{esc(p.get('analysis',''))}</div>
 </a>"""
+
+def results_section():
+    """首页战绩区:已踢比赛的命中卡(最新在前),把精准命中亮出来当病毒钩子。"""
+    played = [m for m in ALL if (m.get("result") or {}).get("played")]
+    if not played: return ""
+    played.sort(key=lambda m:(m["date"] or "", m.get("match_no") or 0), reverse=True)
+    cards = "".join(hit_card(m) for m in played[:6])
+    acc = (f' — outcome called right <b>{META.get("outcome_acc","–")}%</b>, '
+           f'exact score <b>{META.get("score_acc","–")}%</b>') if META.get("played") else ""
+    return (f'<section id="results"><div class="wrap">'
+            f'<div class="sec-head"><span class="idx">★</span>'
+            f'<h2 class="disp">Results So Far</h2><div class="line"></div></div>'
+            f'<p class="results-sub">{META.get("played",0)} matches played{acc}.</p>'
+            f'<div class="hitgrid">{cards}</div>'
+            f'</div></section>')
 
 def build_index():
     opener = DATA["A"]["matches"][0]; op = P(opener)
@@ -151,6 +221,7 @@ def build_index():
 </a>
 <div class="tag">FIFA 2026</div>
 </div></section>
+{results_section()}
 <div class="wrap">{ad()}</div>
 <section id="upcoming"><div class="wrap">
 <div class="sec-head"><span class="idx">01</span><h2 class="disp">Upcoming Predictions</h2><div class="line"></div></div>
@@ -276,12 +347,14 @@ def build_match(m):
 <div class="meta-row"><span>🏟 <b>{esc(m['venue'] or 'TBD')}</b></span><span>⭐ Watch: <b>{esc(p.get('star') or '—')}</b></span></div>
 </div></section>
 <div class="wrap">
+{hit_card(m)}
 {ad()}
 <div class="prob-big">
 <div class="p win"><div class="v">{w:.0f}%</div><div class="k">{esc(m['home'])} win</div></div>
 <div class="p draw"><div class="v">{d:.0f}%</div><div class="k">Draw</div></div>
 <div class="p lose"><div class="v">{l:.0f}%</div><div class="k">{esc(m['away'])} win</div></div>
 </div>
+{scorelines_html(m)}
 <div class="analysis-box"><div class="lbl">AI Match Analysis</div>{esc(p.get('analysis') or 'Analysis coming soon.')}</div>
 <div class="disclaimer">⚠️ Predictions are generated by an AI model from historical and public data, for entertainment and informational purposes only. Not betting advice.</div>
 {ad()}

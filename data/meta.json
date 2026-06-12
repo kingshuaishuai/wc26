@@ -1,7 +1,7 @@
 {
-  "played": 0,
+  "played": 2,
   "total": 72,
-  "outcome_acc": null,
-  "score_acc": null,
-  "updated_utc": "2026-06-11 03:58 UTC"
+  "outcome_acc": 100.0,
+  "score_acc": 100.0,
+  "updated_utc": "2026-06-12 09:45 UTC"
 }

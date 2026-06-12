@@ -42,12 +42,17 @@
           "analysis": "墨西哥世界排名约15，南非约70，实力差距明显。墨西哥控球进攻，南非防守反击，墨西哥掌控节奏轻松取胜。"
         },
         "pred_en": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
           "score": "2-0",
-          "star": "Raúl Jiménez",
-          "analysis": "Mexico, ranked 12th, is a perennial power with a strong home-continent advantage. South Africa, 60th, relies on athleticism but lacks technical polish. Mexico's fluid attack and pressing style should overwhelm. Expect Jiménez to lead the line. Prediction: Mexico win comfortably."
+          "star": "3",
+          "analysis": "Mexico are clear favourites against South Africa, boasting superior technical quality and home advantage. Expect early dominance with goals from Lozano and Martin. South Africa's defence will struggle to contain Mexico's fluid attack, leading to a comfortable victory. A draw is unlikely given the gap in class."
+        },
+        "result": {
+          "played": true,
+          "hs": 2,
+          "as": 0
         }
       },
       {
@@ -69,12 +74,17 @@
           "analysis": "韩国排名约30，捷克约45，双方实力接近。韩国依靠孙兴慜反击，捷克防守强硬，平局可能性大。"
         },
         "pred_en": {
-          "win": 0.4,
-          "draw": 0.35,
-          "lose": 0.25,
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
           "score": "2-1",
-          "star": "Son Heung-min",
-          "analysis": "South Korea (25th) boasts dynamic attackers like Son, while Czech Republic (35th) relies on disciplined defense and set pieces. Both sides prefer counter-attacking football. This could be tight, but Korea's speed on the break gives them a slight edge. Expect goals. Prediction: South Korea narrow win."
+          "star": "4",
+          "analysis": "South Korea's dynamic attacking trio, led by Son Heung-min, will test Czech Republic's backline. The Czechs are organised but lack pace. Expect a tight first half, but South Korea's home crowd pushes them to a 2-1 win. Draw possible if Czechs capitalise on set pieces."
+        },
+        "result": {
+          "played": true,
+          "hs": 2,
+          "as": 1
         }
       },
       {
@@ -96,12 +106,12 @@
           "analysis": "捷克排名高于南非，南非约70。捷克擅长身体对抗，南非技术稍逊，捷克主场优势明显。"
         },
         "pred_en": {
-          "win": 0.5,
-          "draw": 0.3,
-          "lose": 0.2,
-          "score": "2-1",
-          "star": "Patrik Schick",
-          "analysis": "Czech Republic (35th) has a balanced squad with Schick's clinical finishing. South Africa (60th) struggles against organized defenses. The Czechs' physical style and set-piece prowess should prevail. However, South Africa's pace could cause problems. Prediction: Czech Republic win."
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "2",
+          "analysis": "Czech Republic face a weak South African side and should dominate possession. Patrik Schick and Soucek will be key in scoring. South Africa's limited attacking threat means they are unlikely to score. A comfortable win for the Czechs, with a clean sheet."
         }
       },
       {
@@ -123,12 +133,12 @@
           "analysis": "墨西哥实力稍强于韩国，韩国韧性足。墨西哥控球传导，韩国反击犀利，墨西哥小胜可期。"
         },
         "pred_en": {
-          "win": 0.55,
+          "win": 0.6,
           "draw": 0.25,
-          "lose": 0.2,
-          "score": "2-1",
-          "star": "Hirving Lozano",
-          "analysis": "Mexico (12th) has superior technical quality and depth compared to South Korea (25th). Mexico's possession-based style can control the midfield. However, Korea's counter-attacks with Son are dangerous. Lozano's dribbling and directness should create chances. Prediction: Mexico win."
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "4",
+          "analysis": "Mexico's experience and depth outshine South Korea. Expect a disciplined performance from Mexico, controlling midfield and creating chances. South Korea will counter but fail to break through. Raul Jimenez and Hirving Lozano seal the win. A South Korea upset is unlikely."
         }
       },
       {
@@ -150,12 +160,12 @@
           "analysis": "捷克排名低于墨西哥，墨西哥约15。捷克防守不稳，墨西哥进攻高效，客胜概率大。"
         },
         "pred_en": {
-          "win": 0.6,
-          "draw": 0.2,
-          "lose": 0.2,
-          "score": "2-0",
-          "star": "Edson Álvarez",
-          "analysis": "Mexico (12th) is a class above Czech Republic (35th). Mexico's midfield, anchored by Álvarez, should dominate possession and dictate tempo. The Czechs will rely on set pieces and counter-attacks, but Mexico's defensive organization can handle it. Prediction: Mexico win with clean sheet."
+          "win": 0.15,
+          "draw": 0.25,
+          "lose": 0.6,
+          "score": "1-2",
+          "star": "3",
+          "analysis": "Mexico are the stronger side, even away from home. Czech Republic will rely on set pieces and counter-attacks. Mexico's superior technical ability and experience should see them edge a tight game. Expect a late winner from Mexico, making the score 2-1. A draw is possible."
         }
       },
       {
@@ -177,58 +187,58 @@
           "analysis": "南非排名约70，韩国约30。韩国整体实力占优，孙兴慜领衔锋线，南非难有作为。"
         },
         "pred_en": {
-          "win": 0.45,
+          "win": 0.2,
           "draw": 0.3,
-          "lose": 0.25,
-          "score": "1-0",
-          "star": "Son Heung-min",
-          "analysis": "South Korea (25th) is significantly higher ranked than South Africa (60th). Korea's technical superiority and tactical discipline should control the game. South Africa's best hope is defensive solidity and pace on break. Expect a low-scoring affair. Prediction: South Korea win."
+          "lose": 0.5,
+          "score": "0-1",
+          "star": "2",
+          "analysis": "South Korea are the favourites despite playing away. Their fast transitions and attacking quality will trouble South Africa's defence. South Africa will defend deep but lack the creativity to breach Korea's backline. A narrow 1-0 win for South Korea is expected."
         }
       }
     ],
     "standings": [
       {
         "team": "Mexico",
-        "P": 0,
-        "W": 0,
+        "P": 1,
+        "W": 1,
         "D": 0,
         "L": 0,
-        "GF": 0,
+        "GF": 2,
         "GA": 0,
-        "GD": 0,
+        "GD": 2,
+        "Pts": 3
+      },
+      {
+        "team": "South Korea",
+        "P": 1,
+        "W": 1,
+        "D": 0,
+        "L": 0,
+        "GF": 2,
+        "GA": 1,
+        "GD": 1,
+        "Pts": 3
+      },
+      {
+        "team": "Czech Republic",
+        "P": 1,
+        "W": 0,
+        "D": 0,
+        "L": 1,
+        "GF": 1,
+        "GA": 2,
+        "GD": -1,
         "Pts": 0
       },
       {
         "team": "South Africa",
-        "P": 0,
+        "P": 1,
         "W": 0,
         "D": 0,
-        "L": 0,
+        "L": 1,
         "GF": 0,
-        "GA": 0,
-        "GD": 0,
-        "Pts": 0
-      },
-      {
-        "team": "South Korea",
-        "P": 0,
-        "W": 0,
-        "D": 0,
-        "L": 0,
-        "GF": 0,
-        "GA": 0,
-        "GD": 0,
-        "Pts": 0
-      },
-      {
-        "team": "Czech Republic",
-        "P": 0,
-        "W": 0,
-        "D": 0,
-        "L": 0,
-        "GF": 0,
-        "GA": 0,
-        "GD": 0,
+        "GA": 2,
+        "GD": -2,
         "Pts": 0
       }
     ]
@@ -276,12 +286,12 @@
           "analysis": "加拿大世界排名第40，波黑第60，加拿大边路速度快，波黑防守硬朗。无直接交锋记录，预计加拿大小胜。"
         },
         "pred_en": {
-          "win": 0.45,
-          "draw": 0.3,
+          "win": 0.4,
+          "draw": 0.35,
           "lose": 0.25,
           "score": "2-1",
-          "star": "Alphonso Davies",
-          "analysis": "Canada (FIFA 47) faces Bosnia (74). Canada's dynamic attack, led by Davies' pace, contrasts with Bosnia's experienced but slower backline. Expect Canada to press high and exploit flanks, but Bosnia's set pieces could trouble. Opinion: Canada's energy and home-like support (tournament in North America) give them an edge, but Bosnia's grit may keep it close. Canada wins a tight one."
+          "star": "Canada",
+          "analysis": "Canada, playing at home, hold a slight edge over Bosnia and Herzegovina in a closely matched encounter. Both teams have improved in recent years, but Canada's youthful energy and home advantage tip the scales. Expect a competitive game with Canada edging it by a narrow margin."
         }
       },
       {
@@ -303,12 +313,12 @@
           "analysis": "瑞士世界排名第15，卡塔尔第50，瑞士整体实力碾压，卡塔尔控球打法难破瑞士防线。瑞士轻松获胜。"
         },
         "pred_en": {
-          "win": 0.15,
-          "draw": 0.25,
-          "lose": 0.6,
-          "score": "1-2",
-          "star": "Granit Xhaka",
-          "analysis": "Qatar (FIFA 58) meets Switzerland (15). Swiss efficiency and tactical discipline overwhelm Qatar's possession-based style. Xhaka's midfield control dictates tempo. Qatar may surprise with counterattacks, but Swiss defense stays compact. Opinion: Switzerland's experience in big tournaments proves decisive, securing a comfortable victory."
+          "win": 0.1,
+          "draw": 0.2,
+          "lose": 0.7,
+          "score": "0-2",
+          "star": "Switzerland",
+          "analysis": "Switzerland are clear favorites against Qatar, even away from home. The Swiss possess superior tactical organization and individual quality. Qatar will struggle to create chances, while Switzerland's efficient attack should secure a comfortable victory."
         }
       },
       {
@@ -330,12 +340,12 @@
           "analysis": "瑞士排名远高于波黑，波黑防守老化，瑞士中场控制力强。历史交锋瑞士占优，稳胜。"
         },
         "pred_en": {
-          "win": 0.55,
+          "win": 0.65,
           "draw": 0.25,
-          "lose": 0.2,
+          "lose": 0.1,
           "score": "2-0",
-          "star": "Breel Embolo",
-          "analysis": "Switzerland (15) vs Bosnia (74). Swiss shape and pressing stifle Bosnia's creative outlets. Embolo's pace unsettles Bosnia's aging center-backs. Without Džeko's magic, Bosnia struggle to create. Opinion: Switzerland's system too coherent; they control possession and score early, cruising to a clean sheet win."
+          "star": "Switzerland",
+          "analysis": "Switzerland, at home, are expected to dominate Bosnia and Herzegovina. The Swiss are a well-drilled side with consistent tournament experience, while Bosnia lack recent big-match sharpness. A solid defensive display and clinical finishing should give Switzerland a straightforward win."
         }
       },
       {
@@ -357,12 +367,12 @@
           "analysis": "加拿大排名40，卡塔尔50，加拿大打法快节奏，卡塔尔技术细腻。无交锋，加拿大稍占上风。"
         },
         "pred_en": {
-          "win": 0.5,
-          "draw": 0.3,
-          "lose": 0.2,
-          "score": "1-0",
-          "star": "Jonathan David",
-          "analysis": "Canada (47) faces Qatar (58). Canada's physicality and verticality test Qatar's disciplined backline. David's clinical finishing could decide a tight affair. Qatar rely on Afif's dribbling, but Canada's recovery runs limit threats. Opinion: Canada's athleticism prevails in a tense, low-scoring battle as they edge the hosts."
+          "win": 0.6,
+          "draw": 0.25,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Canada",
+          "analysis": "Canada should handle Qatar comfortably in front of their home fans. Canada's physical and fast-paced style will overwhelm a Qatari side that struggles against organized opponents. Expect Canada to control possession and score twice without reply."
         }
       },
       {
@@ -384,12 +394,12 @@
           "analysis": "瑞士世界排名15，加拿大40，瑞士整体攻防均衡，加拿大反击犀利。瑞士凭经验取胜。"
         },
         "pred_en": {
-          "win": 0.4,
+          "win": 0.5,
           "draw": 0.3,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "Alphonso Davies",
-          "analysis": "Switzerland (15) vs Canada (47). Canada's rise meets Swiss consistency. Canada's fast transitions challenge Swiss organization, but Xhaka's midfield control counters. Both sides create chances; Davies vs Swiss fullbacks a key duel. Opinion: A balanced encounter where Canada's ambition earns a hard-fought draw against the tactical Swiss."
+          "lose": 0.2,
+          "score": "1-0",
+          "star": "Switzerland",
+          "analysis": "In a crucial Group B clash, Switzerland's home advantage and defensive solidity should edge out Canada. Canada will pose a threat on the counter, but Switzerland's experience in tight matches gives them the edge. A narrow 1-0 win is likely."
         }
       },
       {
@@ -411,12 +421,12 @@
           "analysis": "波黑排名60，卡塔尔50，波黑高空球优势，卡塔尔传控灵活。实力接近，平局概率大。"
         },
         "pred_en": {
-          "win": 0.35,
-          "draw": 0.35,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "Edin Džeko",
-          "analysis": "Bosnia (74) vs Qatar (58). Both seek redemption after tough starts. Bosnia rely on Džeko's aerial threat, while Qatar's possession seeks gaps. Defensive lapses likely; expect an open game. Opinion: Two flawed sides cancel out in a tense draw, leaving group qualification hopes hanging by a thread."
+          "win": 0.55,
+          "draw": 0.3,
+          "lose": 0.15,
+          "score": "2-0",
+          "star": "Bosnia and Herzegovina",
+          "analysis": "Bosnia and Herzegovina are stronger than Qatar and playing at home. Despite recent struggles, Bosnia's veteran quality should be enough to overcome Qatar's limited threat. A professional performance with two goals secures the points."
         }
       }
     ],
@@ -510,12 +520,12 @@
           "analysis": "巴西排名第1，摩洛哥第13，整体实力占优。巴西前场犀利，摩洛哥防守稳健，但巴西主场优势下有望小胜。"
         },
         "pred_en": {
-          "win": 0.65,
-          "draw": 0.22,
-          "lose": 0.13,
-          "score": "2-1",
-          "star": "Vinicius Jr",
-          "analysis": "Brazil (FIFA #1) face Morocco (#13) in a tricky opener. Morocco's disciplined defense and counter-attacking style, led by Hakimi, can trouble Brazil. However, Brazil's individual brilliance and depth should prevail. Expect a close match with Brazil edging it."
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
+          "score": "2-0",
+          "star": "Neymar",
+          "analysis": "Brazil enter as overwhelming favourites with home support. Morocco are defensively organised but lack the firepower to threaten consistently. Brazil's technical superiority and depth should see them control possession and create chances, leading to a comfortable win. Expect Neymar to be influential in the final third."
         }
       },
       {
@@ -537,12 +547,12 @@
           "analysis": "海地排名低，苏格兰第40，实力差距明显。苏格兰打法硬朗，中场控制力强，客场取胜概率大。"
         },
         "pred_en": {
-          "win": 0.15,
-          "draw": 0.22,
-          "lose": 0.63,
+          "win": 0.1,
+          "draw": 0.2,
+          "lose": 0.7,
           "score": "0-2",
           "star": "John McGinn",
-          "analysis": "Haiti (FIFA #100+) are massive underdogs against Scotland (#34). Scotland's physicality and set-piece prowess give them an edge. Haiti will defend deep, but Scotland's experience and quality, especially McGinn, should secure a comfortable win."
+          "analysis": "Scotland are the stronger side and will dominate possession. Haiti lack quality in defence and midfield, making it difficult to hold off Scotland's attacking threats. Scott McKenna's leadership and McGinn's creativity should secure a victory, with Haiti rarely threatening."
         }
       },
       {
@@ -564,12 +574,12 @@
           "analysis": "摩洛哥第13，苏格兰第40，摩洛哥技术更细腻。苏格兰主场顽强，但摩洛哥经验丰富，客胜可期。"
         },
         "pred_en": {
-          "win": 0.45,
+          "win": 0.25,
           "draw": 0.3,
-          "lose": 0.25,
-          "score": "1-1",
-          "star": "Hakim Ziyech",
-          "analysis": "Scotland (#34) vs Morocco (#13) is a pivotal clash. Morocco's technical superiority and Ziyech's creativity pose a threat, but Scotland's resilience and home-like support could neutralize. A draw is likely with both teams cautious, but Morocco slight favorites."
+          "lose": 0.45,
+          "score": "1-2",
+          "star": "Achraf Hakimi",
+          "analysis": "Morocco possess superior individual talent and a well-drilled system. Scotland will be compact and rely on set pieces, but Morocco's speed on the counter and Hakimi's overlapping runs can break them down. Expect a close game with Morocco's quality proving decisive."
         }
       },
       {
@@ -591,12 +601,12 @@
           "analysis": "巴西实力碾压海地（排名100+）。巴西进攻多点开花，海地难以抵挡，巴西轻松大胜。"
         },
         "pred_en": {
-          "win": 0.9,
-          "draw": 0.08,
-          "lose": 0.02,
+          "win": 0.85,
+          "draw": 0.12,
+          "lose": 0.03,
           "score": "4-0",
-          "star": "Richarlison",
-          "analysis": "Brazil (#1) vs Haiti (#100+). A mismatch on paper. Brazil's attacking depth, including Richarlison, will overwhelm Haiti's defense. Expect a one-sided affair with Brazil cruising to a multi-goal victory. Haiti's only hope is to limit damage."
+          "star": "Vinícius Júnior",
+          "analysis": "Brazil are a class apart from Haiti. With full-strength lineup and home crowd, they will dominate from start. Haiti will defend deep but lack the organisation to stop Brazil's relentless attacks. Expected multiple goals from Vinicius and co., with Haiti rarely crossing midfield."
         }
       },
       {
@@ -618,12 +628,12 @@
           "analysis": "苏格兰主场对阵巴西，虽拼劲足但实力悬殊。巴西整体配合和球星能力更胜一筹，客胜稳。"
         },
         "pred_en": {
-          "win": 0.05,
-          "draw": 0.12,
-          "lose": 0.83,
+          "win": 0.08,
+          "draw": 0.15,
+          "lose": 0.77,
           "score": "0-2",
           "star": "Casemiro",
-          "analysis": "Scotland (#34) face Brazil (#1) in a daunting task. Brazil's midfield control, led by Casemiro, and swift attacks will be too much for Scotland. Scotland will defend stubbornly, but Brazil's quality should secure a comfortable win."
+          "analysis": "Even away, Brazil's depth and quality overwhelm Scotland. Scotland will defend stoutly but Brazil's midfield control and Casemiro's shielding break down attacks. Brazil's creativity from Neymar and Richarlison ensure a comfortable win with clean sheet."
         }
       },
       {
@@ -645,12 +655,12 @@
           "analysis": "摩洛哥排名13，海地弱旅。摩洛哥攻防均衡，海地缺乏爆冷能力，主胜概率极高。"
         },
         "pred_en": {
-          "win": 0.75,
-          "draw": 0.18,
-          "lose": 0.07,
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
           "score": "3-0",
-          "star": "Achraf Hakimi",
-          "analysis": "Morocco (#13) vs Haiti (#100+). Morocco's organized system and individual talent, like Hakimi, ensure dominance. Haiti's limited resources mean they'll struggle to create chances. Expect a straightforward win for Morocco, likely by a three-goal margin."
+          "star": "Youssef En-Nesyri",
+          "analysis": "Morocco's defensive solidity and attacking flair are too much for Haiti. Haiti struggle against well-structured teams and will be pinned back. En-Nesyri's aerial presence and Ziyech's creativity lead to multiple goals. Morocco control and win easily."
         }
       }
     ],
@@ -744,12 +754,12 @@
           "analysis": "美国世界排名第11，实力占优；巴拉圭防守硬朗但进攻乏力。美国主场作战，控球优势明显，预计小胜。"
         },
         "pred_en": {
-          "win": 0.55,
+          "win": 0.6,
           "draw": 0.25,
-          "lose": 0.2,
-          "score": "2-0",
-          "star": "Christian Pulisic",
-          "analysis": "USA (#12) face Paraguay (#40) in a mismatch. US dynamic pressing and pace should overwhelm Paraguay's organized defense. Paraguay's counter-attacks via Miguel Almirón pose threat. Expect US dominance. Prediction: US win 2-0."
+          "lose": 0.15,
+          "score": "2-1",
+          "star": "3",
+          "analysis": "United States, as hosts, hold a clear edge in quality over Paraguay. Expect the Americans to control possession and create chances through Christian Pulisic. Paraguay will rely on counters but lack the firepower to match. A 2-1 win for the USA is most likely."
         }
       },
       {
@@ -771,12 +781,12 @@
           "analysis": "澳大利亚排名30，土耳其40，两队风格相近。土耳其进攻更为犀利，防守不稳，看好土耳其胜。"
         },
         "pred_en": {
-          "win": 0.3,
-          "draw": 0.3,
-          "lose": 0.4,
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
           "score": "1-2",
-          "star": "Hakan Çalhanoğlu",
-          "analysis": "Australia (#35) host Turkey (#28) in a tense encounter. Turkey's technical midfield, led by Çalhanoğlu, can unlock Australia's physical defense. Australia will rely on set pieces and Aaron Mooy's creativity. Tight match. Prediction: Turkey 2-1."
+          "star": "3",
+          "analysis": "Turkey's attacking talent, led by Hakan Çalhanoğlu, should overwhelm Australia's defense. The Socceroos are organized but lack individual quality. Turkey will win 2-1, with Australia grabbing a consolation goal late."
         }
       },
       {
@@ -798,12 +808,12 @@
           "analysis": "美国实力明显强于澳大利亚，中场控制力强。澳大利亚防反击，但难挡美国整体攻势，美国胜。"
         },
         "pred_en": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
-          "score": "3-1",
-          "star": "Weston McKennie",
-          "analysis": "USA (#12) vs Australia (#35). USA's athletic midfield should dominate, with McKennie's box-to-box runs. Australia's defense may struggle with pace. Expect US to control possession and score. Prediction: USA 3-1."
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "3-0",
+          "star": "4",
+          "analysis": "United States dominate Australia with superior speed and technique. The home crowd fuels an early goal, and the USA cruises to a 3-0 victory. Australia's attack struggles to create chances against a solid US backline."
         }
       },
       {
@@ -825,12 +835,12 @@
           "analysis": "土耳其和巴拉圭实力接近，巴拉圭防守稳固，土耳其进攻有威胁。平局可能性大。"
         },
         "pred_en": {
-          "win": 0.45,
+          "win": 0.5,
           "draw": 0.3,
-          "lose": 0.25,
+          "lose": 0.2,
           "score": "2-1",
-          "star": "Cengiz Ünder",
-          "analysis": "Turkey (#28) against Paraguay (#40). Turkey's fast attackers like Ünder expose Paraguay's slow defense. Paraguay's grit and counter-attacks from Almirón dangerous. Open game. Prediction: Turkey 2-1."
+          "star": "3",
+          "analysis": "Turkey, playing at home, edge Paraguay in a tight contest. Both teams have attacking threats, but Turkey's midfield control proves decisive. A 2-1 win for Turkey keeps them in contention for knockout stages."
         }
       },
       {
@@ -853,11 +863,11 @@
         },
         "pred_en": {
           "win": 0.2,
-          "draw": 0.25,
-          "lose": 0.55,
-          "score": "0-2",
-          "star": "Christian Pulisic",
-          "analysis": "Turkey (#28) vs USA (#12). In a crucial match, USA's superior pressing and transition game overwhelm Turkey. Turkey's midfield may be overrun. US's defensive solidity key. Prediction: USA 2-0."
+          "draw": 0.3,
+          "lose": 0.5,
+          "score": "1-2",
+          "star": "4",
+          "analysis": "United States outclass Turkey on the road, showcasing their depth. Despite Turkey's home advantage, the USA's pressing and quick transitions lead to a 2-1 win. Turkey's goal comes from a set piece, but it's not enough."
         }
       },
       {
@@ -879,12 +889,12 @@
           "analysis": "巴拉圭主场对澳大利亚，巴拉圭防守反击效率高，澳大利亚经验丰富。巴拉圭稍占优。"
         },
         "pred_en": {
-          "win": 0.3,
-          "draw": 0.35,
-          "lose": 0.35,
-          "score": "1-1",
-          "star": "Miguel Almirón",
-          "analysis": "Paraguay (#40) vs Australia (#35). Two evenly-matched sides. Paraguay's defensive organization vs Australia's directness. Likely a stalemate with few chances. Set pieces decisive. Prediction: draw 1-1."
+          "win": 0.5,
+          "draw": 0.3,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "2",
+          "analysis": "Paraguay's experience and physicality overcome Australia in a must-win game. The hosts strike first and hold off a late Australian surge. A 2-1 victory keeps Paraguay's hopes alive, while Australia exits the tournament."
         }
       }
     ],
@@ -978,12 +988,12 @@
           "analysis": "德国世界排名第16，库拉索未进前100。德国全攻全守，技术碾压，库拉索实力悬殊，预计大胜。"
         },
         "pred_en": {
-          "win": 0.85,
-          "draw": 0.1,
-          "lose": 0.05,
+          "win": 0.95,
+          "draw": 0.04,
+          "lose": 0.01,
           "score": "4-0",
-          "star": "Jamal Musiala",
-          "analysis": "Germany (FIFA 12) outclass Curaçao (90) completely. Dominant possession, clinical finishing. Curaçao's defensive organization insufficient. Expect Musiala to orchestrate. Clear win for Germany."
+          "star": "*",
+          "analysis": "Germany are a world powerhouse, while Curaçao are a minnow. The home side dominates possession and creates numerous chances, converting four times. Curaçao offer little threat. A straightforward victory for Germany."
         }
       },
       {
@@ -1005,12 +1015,12 @@
           "analysis": "科特迪瓦排名第50，厄瓜多尔排名第36，两队实力接近。科特迪瓦身体对抗强，厄瓜多尔技术细腻，或平局。"
         },
         "pred_en": {
-          "win": 0.35,
-          "draw": 0.35,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "Moisés Caicedo",
-          "analysis": "Ivory Coast (45) and Ecuador (35) evenly matched. Ecuador's midfield control vs Ivory Coast's physicality. Both have attacking threats but defenses hold. Likely a tense draw with few goals."
+          "win": 0.3,
+          "draw": 0.3,
+          "lose": 0.4,
+          "score": "1-2",
+          "star": "*",
+          "analysis": "Ecuador are slightly stronger than Ivory Coast, but the home advantage helps the Ivorians. However, Ecuador's technical edge leads to two goals, while Ivory Coast pull one back. A tight contest favors the away side."
         }
       },
       {
@@ -1032,12 +1042,12 @@
           "analysis": "德国实力占优，但科特迪瓦防守硬朗。德国控制中场，科特迪瓦反击威胁，德国小胜。"
         },
         "pred_en": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
-          "score": "3-1",
-          "star": "Florian Wirtz",
-          "analysis": "Germany (12) too strong for Ivory Coast (45). Technical superiority and deep squad overcome Ivory Coast's pace. Ivory Coast may score on counter but Germany's quality ensures comfortable victory."
+          "win": 0.92,
+          "draw": 0.06,
+          "lose": 0.02,
+          "score": "3-0",
+          "star": "*",
+          "analysis": "Germany's quality overwhelms Ivory Coast. The German pressing forces errors, leading to three well-worked goals. Ivory Coast struggle to create clear chances. A comfortable home win for Germany."
         }
       },
       {
@@ -1059,12 +1069,12 @@
           "analysis": "厄瓜多尔排名远高于库拉索，高原主场优势。库拉索实力不足，厄瓜多尔轻松取胜。"
         },
         "pred_en": {
-          "win": 0.8,
-          "draw": 0.15,
-          "lose": 0.05,
+          "win": 0.85,
+          "draw": 0.12,
+          "lose": 0.03,
           "score": "3-0",
-          "star": "Enner Valencia",
-          "analysis": "Ecuador (35) face weak Curaçao (90). High press and quick transitions overwhelm. Valencia's experience key. Curaçao lacks offensive threat. Ecuador wins easily with multiple goals."
+          "star": "*",
+          "analysis": "Ecuador are far superior to Curaçao. From the start, Ecuador control the game, scoring three goals through quick passing and movement. Curaçao rarely threaten. A routine victory for the home side."
         }
       },
       {
@@ -1086,12 +1096,12 @@
           "analysis": "科特迪瓦个人能力突出，库拉索防守松散。科特迪瓦稍占上风，但库拉索可能制造麻烦。"
         },
         "pred_en": {
-          "win": 0.2,
-          "draw": 0.25,
-          "lose": 0.55,
+          "win": 0.1,
+          "draw": 0.15,
+          "lose": 0.75,
           "score": "0-2",
-          "star": "Franck Kessié",
-          "analysis": "Ivory Coast (45) far superior to Curaçao (90). Physical dominance and midfield control. Curaçao defends deep but eventually breaks. Ivory Coast's experience secures a straightforward win."
+          "star": "*",
+          "analysis": "Ivory Coast are much stronger than Curaçao. The visitors dominate possession and score two goals from set-pieces and counterattacks. Curaçao defend resolutely but lack attacking threat. An away win."
         }
       },
       {
@@ -1114,11 +1124,11 @@
         },
         "pred_en": {
           "win": 0.2,
-          "draw": 0.25,
-          "lose": 0.55,
-          "score": "1-2",
-          "star": "Jamal Musiala",
-          "analysis": "Germany (12) edge Ecuador (35) in a competitive match. Ecuador's home advantage minimal. Germany's depth and tactical discipline prevail. Musiala's creativity decisive in a narrow victory."
+          "draw": 0.2,
+          "lose": 0.6,
+          "score": "0-2",
+          "star": "*",
+          "analysis": "Germany are the stronger team, even away. Ecuador press hard but Germany's efficiency on the break yields two goals. Ecuador's home crowd inspires effort but no breakthrough. Germany take all three points."
         }
       }
     ],
@@ -1212,12 +1222,12 @@
           "analysis": "荷兰世界第6，日本第20，橙衣军攻防均衡，日本反击犀利但整体差距明显，看好荷兰轻松取胜。"
         },
         "pred_en": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
           "score": "2-0",
-          "star": "Memphis Depay",
-          "analysis": "Netherlands (FIFA 6) vs Japan (20). The Dutch dominate possession with creative flair, while Japan relies on disciplined counters. Historically, Netherlands have a strong record. Expect a controlled performance from Netherlands, with Depay's movement and finishing key. Japan will struggle to break through. Likely Dutch victory."
+          "star": "Netherlands",
+          "analysis": "Netherlands dominate possession and create chances against Japan's disciplined defense. A clinical finish and a late strike seal a comfortable win. Japan struggle to break through the Dutch backline."
         }
       },
       {
@@ -1239,12 +1249,12 @@
           "analysis": "瑞典世界第25，突尼斯第30，北欧球队身体优势，突尼斯防守顽强，预计瑞典小胜。"
         },
         "pred_en": {
-          "win": 0.5,
-          "draw": 0.3,
-          "lose": 0.2,
-          "score": "1-0",
-          "star": "Alexander Isak",
-          "analysis": "Sweden (25) vs Tunisia (30). Sweden's physicality and set-piece prowess give them an edge. Tunisia's defensive organization will make it tight, but Sweden's Isak can exploit gaps. Head-to-head limited, but Sweden's aerial strength likely decisive. A narrow win for Sweden."
+          "win": 0.65,
+          "draw": 0.25,
+          "lose": 0.1,
+          "score": "2-0",
+          "star": "Sweden",
+          "analysis": "Sweden's physicality and set-piece prowess overpower Tunisia. An early header and a counter-attack goal ensure victory. Tunisia rarely threaten, lacking creativity in final third."
         }
       },
       {
@@ -1267,11 +1277,11 @@
         },
         "pred_en": {
           "win": 0.55,
-          "draw": 0.25,
-          "lose": 0.2,
+          "draw": 0.28,
+          "lose": 0.17,
           "score": "2-1",
-          "star": "Frenkie de Jong",
-          "analysis": "Netherlands (6) vs Sweden (25). Netherlands' technical superiority and midfield control through De Jong should prevail. Sweden's robust defense and counterattacks pose a threat, but Dutch quality edges through. Expect an open game with Netherlands securing a win."
+          "star": "Netherlands",
+          "analysis": "Netherlands edge a tactical battle. Sweden equalize after a defensive lapse, but Dutch quality shines with a late winner. Both teams create chances, but Netherlands' clinical edge decides."
         }
       },
       {
@@ -1293,12 +1303,12 @@
           "analysis": "突尼斯第30，日本第20，日本控球传递更佳，突尼斯身体对抗强，平局可能大。"
         },
         "pred_en": {
-          "win": 0.3,
-          "draw": 0.35,
-          "lose": 0.35,
-          "score": "1-1",
-          "star": "Takefusa Kubo",
-          "analysis": "Tunisia (30) vs Japan (20). A tightly contested match. Japan's technical passing meets Tunisia's physical resilience. Both sides are disciplined, leading to few chances. Kubo's creativity could unlock Tunisia, but Tunisia's set pieces are dangerous. Likely a draw with both scoring."
+          "win": 0.2,
+          "draw": 0.3,
+          "lose": 0.5,
+          "score": "0-1",
+          "star": "Japan",
+          "analysis": "Japan's technical superiority and quick transitions trouble Tunisia. A solitary goal from a counter-attack secures the win. Tunisia defend deep but lack offensive threat, unable to break Japan's organization."
         }
       },
       {
@@ -1320,12 +1330,12 @@
           "analysis": "日本第20，瑞典第25，实际瑞典实力稍强，北欧冲击力克制日本，瑞典小胜。"
         },
         "pred_en": {
-          "win": 0.4,
+          "win": 0.25,
           "draw": 0.3,
-          "lose": 0.3,
-          "score": "1-0",
-          "star": "Dejan Kulusevski",
-          "analysis": "Japan (20) vs Sweden (25). Sweden's physicality and aerial strength challenge Japan's technical buildup. Kulusevski's width and dribbling can unsettle Japan's defense. Historically, Sweden has a slight edge in similar matchups. Expect a tight, low-scoring Swedish win."
+          "lose": 0.45,
+          "score": "1-2",
+          "star": "Sweden",
+          "analysis": "Sweden's aerial strength and set-piece efficiency prove decisive. Japan take an early lead but Sweden respond with two headers. Japan's possession fails to translate into clear chances against Sweden's compact defense."
         }
       },
       {
@@ -1347,12 +1357,12 @@
           "analysis": "突尼斯第30，荷兰第6，实力悬殊，荷兰攻击线强大，大胜可期。"
         },
         "pred_en": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
-          "score": "3-0",
-          "star": "Cody Gakpo",
-          "analysis": "Tunisia (30) vs Netherlands (6). A mismatch on paper. Netherlands' attacking depth, led by Gakpo, overwhelms Tunisia's defense. Tunisia will defend deep but lack pace to counter effectively. Netherlands control the game and win comfortably with multiple goals."
+          "win": 0.1,
+          "draw": 0.15,
+          "lose": 0.75,
+          "score": "0-3",
+          "star": "Netherlands",
+          "analysis": "Netherlands' superior quality overwhelms Tunisia from the start. Three well-worked goals, including a long-range strike and a breakaway, highlight the gulf in class. Tunisia offer little resistance, managing no shots on target."
         }
       }
     ],
@@ -1446,12 +1456,12 @@
           "analysis": "比利时世界排名第3，整体实力远超埃及（第30）。德布劳内领衔的中场控制力强，埃及依赖萨拉赫但整体配合不足。预计比利时轻松取胜。"
         },
         "pred_en": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
+          "win": 0.65,
+          "draw": 0.22,
+          "lose": 0.13,
           "score": "2-0",
-          "star": "Kevin De Bruyne",
-          "analysis": "Belgium (FIFA 3) boast world-class talent like De Bruyne and Lukaku, while Egypt (34) rely on Salah's magic. Belgium's high press and possession should overwhelm Egypt's defense. Expect a comfortable win for the Red Devils, though Egypt could snatch a goal on the counter. Belgium's depth key."
+          "star": "3.5",
+          "analysis": "Belgium, as a top European side, heavily outclasses Egypt in individual quality and tactical organization. Their attacking trio and midfield control should overwhelm Egypt's defense. Egypt may pose threats on the counter but lack the consistency to hold Belgium. Expect a comfortable win for the Red Devils."
         }
       },
       {
@@ -1477,8 +1487,8 @@
           "draw": 0.25,
           "lose": 0.15,
           "score": "2-0",
-          "star": "Sardar Azmoun",
-          "analysis": "Iran (20) are tactically disciplined and physically strong, while New Zealand (104) lack top-level experience. Iran's organized defense and quick transitions should control the game. New Zealand may hold out for a while but Iran's quality up front, led by Azmoun, will decide. Iran win likely."
+          "star": "2.5",
+          "analysis": "Iran, a strong Asian team, faces New Zealand, a weaker OFC side. Iran's disciplined defense and set-piece prowess will be key. New Zealand lacks the technical skill to break down Iran's compact shape. Iran should secure a straightforward victory with two goals."
         }
       },
       {
@@ -1500,12 +1510,12 @@
           "analysis": "比利时（第3）对阵伊朗（第20）。比利时攻击线犀利，伊朗防守虽硬但难以抵挡。卢卡库的支点作用关键。比利时胜面大。"
         },
         "pred_en": {
-          "win": 0.8,
-          "draw": 0.15,
-          "lose": 0.05,
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
           "score": "3-0",
-          "star": "Romelu Lukaku",
-          "analysis": "Belgium's attack vs Iran's stubborn defense. Iran (20) are well-organized but Belgium (3) have too much creativity. Expect Belgium to dominate possession and break through via set pieces or individual brilliance. Iran may limit damage but cannot contain Belgium's firepower. Clear Belgian victory."
+          "star": "2.0",
+          "analysis": "Belgium's star power and depth are too much for Iran's resilient but limited squad. Iran's defense will be under constant pressure from Belgium's creative attackers. Belgium's high press and quick transitions will lead to multiple goals, ceasing any Iranian threat."
         }
       },
       {
@@ -1527,12 +1537,12 @@
           "analysis": "新西兰（100）vs埃及（30）。埃及技术更优，萨拉赫的速度和射门是威胁。新西兰虽拼抢积极但整体能力不足。埃及有望小胜。"
         },
         "pred_en": {
-          "win": 0.5,
-          "draw": 0.3,
-          "lose": 0.2,
-          "score": "1-0",
-          "star": "Mohamed Salah",
-          "analysis": "Egypt (34) enter as favorites with Salah's threat. New Zealand (104) are physical but technically inferior. Egypt's passing and movement should create chances. However, NZ can be resilient. A narrow win for Egypt is most probable, but a draw is possible if they fail to finish."
+          "win": 0.1,
+          "draw": 0.2,
+          "lose": 0.7,
+          "score": "0-2",
+          "star": "1.5",
+          "analysis": "Egypt, with superior African quality, dominates New Zealand's fragile defense. The All Whites lack pace and creativity to trouble Egypt's organized backline. Egypt's clinical finishing and set pieces should secure a comfortable away win, despite the home crowd."
         }
       },
       {
@@ -1554,12 +1564,12 @@
           "analysis": "埃及（30）与伊朗（20）风格相似，均以防守反击为主。埃及攻击点单一，伊朗整体更均衡。预计平局，伊朗略占上风。"
         },
         "pred_en": {
-          "win": 0.35,
-          "draw": 0.35,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "Mohamed Salah",
-          "analysis": "Both teams are defensively solid; Egypt (34) have Salah's brilliance, Iran (20) boast collective discipline. This could be a cautious matchup with few chances. The midfield battle is crucial. Likely a low-scoring draw, though either side could nick a goal. Tactical stalemate."
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-0",
+          "star": "4.0",
+          "analysis": "This contest between Egypt and Iran is tightly matched, but Egypt's home advantage and attacking flair give them the edge. Iran's disciplined defense will make it difficult, but Egypt's individual brilliance, especially from Salah, should unlock the defense and secure a 2-0 win."
         }
       },
       {
@@ -1581,12 +1591,12 @@
           "analysis": "新西兰（100）vs比利时（3）。实力悬殊，比利时控场能力强，多特蒙德防线稳固。新西兰难有还手之力。比利时大胜。"
         },
         "pred_en": {
-          "win": 0.85,
+          "win": 0.05,
           "draw": 0.1,
-          "lose": 0.05,
-          "score": "4-0",
-          "star": "Kevin De Bruyne",
-          "analysis": "Belgium (3) overwhelm New Zealand (104) in every aspect. Belgium's fluid attack and pressing will be too much. NZ will defend deep but lack pace to counter. Expect a multi-goal rout for Belgium as they showcase their depth. De Bruyne orchestrates."
+          "lose": 0.85,
+          "score": "0-3",
+          "star": "1.0",
+          "analysis": "Belgium's elite squad completely overmatches New Zealand's limited roster. New Zealand's defensive frailties will be exposed by Belgium's relentless pressure and world-class finishing. Expect a one-sided affair with Belgium scoring three or more goals, making the result a foregone conclusion."
         }
       }
     ],
@@ -1680,12 +1690,12 @@
           "analysis": "西班牙世界第8，佛得角第75，实力悬殊。西班牙控球打法压制，佛得角难有反击机会。预测西班牙大胜。"
         },
         "pred_en": {
-          "win": 0.75,
-          "draw": 0.18,
-          "lose": 0.07,
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
           "score": "3-0",
-          "star": "Pedri",
-          "analysis": "Spain (FIFA 8) heavily outclass Cape Verde (FIFA 73). Spain's possession-based style will dominate against Cape Verde's defensive approach. Expect a comfortable win for Spain, with Pedri orchestrating the midfield. Cape Verde may struggle to create chances, leading to a straightforward Spanish victory."
+          "star": "4",
+          "analysis": "Spain dominate possession and create numerous chances against a weak Cape Verde side. Their attacking quality proves too much, resulting in a comfortable 3-0 victory. Cape Verde rarely threaten and fail to score."
         }
       },
       {
@@ -1707,12 +1717,12 @@
           "analysis": "乌拉圭世界第16，沙特第56，乌拉圭整体实力占优。沙特防守顽强但乌拉圭进攻更强，看好乌拉圭取胜。"
         },
         "pred_en": {
-          "win": 0.6,
+          "win": 0.15,
           "draw": 0.25,
-          "lose": 0.15,
-          "score": "2-1",
-          "star": "Federico Valverde",
-          "analysis": "Uruguay (FIFA 15) favored over Saudi Arabia (FIFA 51). Uruguay's physicality and experience contrast with Saudi's counter-attacking speed. Valverde's midfield engine will be key. Saudi can be dangerous but Uruguay's quality likely secures a narrow win."
+          "lose": 0.6,
+          "score": "0-2",
+          "star": "4",
+          "analysis": "Uruguay's strength overshadows Saudi Arabia's home advantage. The visitors control the game and score two goals, while Saudi Arabia struggle to create clear chances. Uruguay secure a deserved 2-0 away win."
         }
       },
       {
@@ -1734,12 +1744,12 @@
           "analysis": "西班牙实力远超沙特，控球传切配合优势明显。沙特防守反击难有威胁，西班牙轻松取胜。"
         },
         "pred_en": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
-          "score": "2-0",
-          "star": "Gavi",
-          "analysis": "Spain (FIFA 8) strong against Saudi Arabia (FIFA 51). Spain's tiki-taka style aims to break down Saudi's compact defense. Gavi's creativity in tight spaces will be vital. Saudi's pace on the break could cause moments, but Spain controls the game and wins comfortably."
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "4",
+          "analysis": "Spain outclass Saudi Arabia with superior technique and movement. They score three goals without reply, dominating from start to finish. Saudi Arabia cannot cope with Spain's relentless pressure."
         }
       },
       {
@@ -1761,12 +1771,12 @@
           "analysis": "乌拉圭世界排名和实力强于佛得角，攻防均衡。佛得角缺乏爆冷能力，乌拉圭稳赢。"
         },
         "pred_en": {
-          "win": 0.65,
-          "draw": 0.22,
-          "lose": 0.13,
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
           "score": "2-0",
-          "star": "Darwin Nunez",
-          "analysis": "Uruguay (FIFA 15) vs Cape Verde (FIFA 73). Uruguay's solid defense and potent attack, led by Nunez, should overcome Cape Verde's resilience. Cape Verde's upset potential exists but Uruguay's tournament experience and tactical discipline give them a clear edge."
+          "star": "4",
+          "analysis": "Uruguay capitalize on home support and superior individual quality. They score twice and control the match, limiting Cape Verde to few opportunities. A routine 2-0 victory for Uruguay."
         }
       },
       {
@@ -1791,9 +1801,9 @@
           "win": 0.25,
           "draw": 0.35,
           "lose": 0.4,
-          "score": "1-1",
-          "star": "Ryan Mendes",
-          "analysis": "Cape Verde (FIFA 73) and Saudi Arabia (FIFA 51) both seek points. Cape Verde's flair from Mendes vs Saudi's organized approach. Expect a tight contest; Saudi's ranking suggests slight favor, but Cape Verde's unpredictability could force a draw."
+          "score": "1-2",
+          "star": "4",
+          "analysis": "Saudi Arabia's slight edge in quality shows as they score twice, but Cape Verde respond with a goal. The match is competitive, but Saudi Arabia's experience ultimately secures a 2-1 away win."
         }
       },
       {
@@ -1819,8 +1829,8 @@
           "draw": 0.3,
           "lose": 0.5,
           "score": "1-2",
-          "star": "Lamine Yamal",
-          "analysis": "Uruguay (FIFA 15) vs Spain (FIFA 8). Spain's technical superiority, with Yamal's youthful spark, likely overcomes Uruguay's physical defense. Uruguay will battle hard, but Spain's quality in possession and final third should secure a narrow win."
+          "star": "4",
+          "analysis": "Spain's class shines even away from home. Uruguay fight hard and score once, but Spain's technical superiority leads to two goals. A hard-fought 2-1 victory for Spain."
         }
       }
     ],
@@ -1914,12 +1924,12 @@
           "analysis": "法国世界第2，塞内加尔第18，实力差距明显。法国控球压迫，塞内加尔防反但难阻失利。"
         },
         "pred_en": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
           "score": "2-0",
-          "star": "Kylian Mbappé",
-          "analysis": "France (#2) are heavy favorites against Senegal (#20) despite their 2018 World Cup matchup ending 1-0. Senegal's counter-attacking style could trouble France, but Les Bleus's depth and Mbappé's pace should prevail. Expect a controlled win for France."
+          "star": "Mbappé",
+          "analysis": "France, as one of the tournament favorites, dominate Senegal with superior possession and clinical finishing. Mbappé's pace and Griezmann's creativity unlock the Senegalese defense, securing a comfortable victory. Senegal struggle to create chances against a well-organized backline."
         }
       },
       {
@@ -1941,12 +1951,12 @@
           "analysis": "伊拉克第68，挪威第44，实力接近。挪威技术稍优，但伊拉克顽强，平局可能大。"
         },
         "pred_en": {
-          "win": 0.15,
-          "draw": 0.2,
-          "lose": 0.65,
+          "win": 0.1,
+          "draw": 0.15,
+          "lose": 0.75,
           "score": "0-2",
-          "star": "Erling Haaland",
-          "analysis": "Iraq (#70) lack the quality to contain Norway (#40). Haaland's clinical finishing and Norway's physical style dominate. Iraq will defend deep, but Norway's set-piece threat and pace on the break secure a comfortable win."
+          "star": "Haaland",
+          "analysis": "Norway, led by Erling Haaland, overpower Iraq with physicality and technical superiority. Haaland scores a brace, capitalizing on defensive lapses. Iraq's limited attack fails to trouble Norway's defense, resulting in a straightforward away win."
         }
       },
       {
@@ -1969,11 +1979,11 @@
         },
         "pred_en": {
           "win": 0.85,
-          "draw": 0.1,
-          "lose": 0.05,
-          "score": "3-0",
-          "star": "Kylian Mbappé",
-          "analysis": "France (#2) overwhelm Iraq (#70) with technical superiority and quick transitions. Iraq's low block may hold for a while, but France's variety in attack, led by Mbappé, will crack it. A routine victory for the favorites."
+          "draw": 0.12,
+          "lose": 0.03,
+          "score": "4-0",
+          "star": "Griezmann",
+          "analysis": "France dismantle Iraq with a ruthless attacking display. Griezmann orchestrates play, contributing a goal and two assists. Iraq's defense is overwhelmed by France's speed and movement, unable to mount any significant threat."
         }
       },
       {
@@ -1995,12 +2005,12 @@
           "analysis": "挪威第44，塞内加尔第18，非洲劲旅略优。挪威进攻强，但防守不稳，塞内加尔反击犀利。"
         },
         "pred_en": {
-          "win": 0.4,
-          "draw": 0.35,
-          "lose": 0.25,
-          "score": "1-1",
-          "star": "Erling Haaland",
-          "analysis": "Norway (#40) face Senegal (#20) in a balanced contest. Senegal's African champions experience and counter-attacking threat (Mané) test Norway's defense. Haaland poses constant danger, but Senegal's organization earns a draw."
+          "win": 0.55,
+          "draw": 0.25,
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Ødegaard",
+          "analysis": "Norway edge Senegal in a closely contested match. Ødegaard's midfield control and a late winner from substitute King prove decisive. Senegal equalize through Mane but fail to hold on, as Norway's home advantage and resilience shine through."
         }
       },
       {
@@ -2022,12 +2032,12 @@
           "analysis": "挪威挑战世界第2法国，实力悬殊。法国中场强大，限制厄德高，哈兰德孤立无援。"
         },
         "pred_en": {
-          "win": 0.15,
-          "draw": 0.2,
-          "lose": 0.65,
+          "win": 0.2,
+          "draw": 0.25,
+          "lose": 0.55,
           "score": "1-2",
-          "star": "Kylian Mbappé",
-          "analysis": "Norway (#40) struggled historically against top sides. France (#2) control possession and press high. Norway rely on Haaland's moments, but France's midfield dominance and defensive solidity edge a narrow win, though Norway push hard."
+          "star": "Mbappé",
+          "analysis": "France's class prevails away from home against Norway. Mbappé's double, including a brilliant solo goal, overcomes Norway's early lead from Haaland. France's tactical discipline and counter-attacking efficiency secure a vital win."
         }
       },
       {
@@ -2049,12 +2059,12 @@
           "analysis": "塞内加尔第18，伊拉克第68，非洲冠军占优。塞内加尔身体对抗强，伊拉克难防边路冲击。"
         },
         "pred_en": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
           "score": "2-0",
-          "star": "Sadio Mané",
-          "analysis": "Senegal (#20) are clear favorites over Iraq (#70). Mané's creativity and Senegal's physical advantage in set pieces and pace on the wings decide the game. Iraq battle but lack precision in final third. Senegal win comfortably."
+          "star": "Mané",
+          "analysis": "Senegal comfortably dispatch Iraq with Mané leading the charge. His pace and trickery create both goals, while the defense remains untroubled. Iraq's lack of creativity and defensive organization leave them without a reply."
         }
       }
     ],
@@ -2148,12 +2158,12 @@
           "analysis": "阿根廷世界第1，阿尔及利亚第30，首次交锋。阿根廷控球压制，阿尔及利亚反击有威胁，但整体实力差距明显，看好阿根廷轻松取胜。"
         },
         "pred_en": {
-          "win": 0.75,
-          "draw": 0.15,
-          "lose": 0.1,
+          "win": 0.85,
+          "draw": 0.1,
+          "lose": 0.05,
           "score": "3-0",
-          "star": "Lionel Messi",
-          "analysis": "Argentina (FIFA 1) dominate Algeria (FIFA 30) with superior technical skill and depth. No recent head-to-head; Argentina's attacking flair versus Algeria's organized defense. Expect Messi to unlock spaces, while Algeria struggle to contain pressure. Clear Argentine victory likely."
+          "star": "Argentina",
+          "analysis": "Argentina, as world champions, dominate Algeria with superior quality and home advantage. Lionel Messi orchestrates the attack, securing a comfortable victory. Algeria's defense struggles to contain the relentless pressure, leading to a clear 3-0 win."
         }
       },
       {
@@ -2175,12 +2185,12 @@
           "analysis": "奥地利世界第25，约旦第80，无历史交锋。奥地利整体实力占优，约旦防守顽强但进攻乏力，奥地利有望掌控节奏。"
         },
         "pred_en": {
-          "win": 0.65,
-          "draw": 0.2,
-          "lose": 0.15,
+          "win": 0.75,
+          "draw": 0.18,
+          "lose": 0.07,
           "score": "2-0",
-          "star": "David Alaba",
-          "analysis": "Austria (FIFA 25) face Jordan (FIFA 80) with significant ranking gap. Austria's disciplined pressing and Alaba's leadership counter Jordan's counter-attacking style. No prior encounters; Austria's European quality should prevail comfortably."
+          "star": "Austria",
+          "analysis": "Austria, a solid European side, faces weak Jordan at home. With better organization and individual talent, Austria controls the game. Jordan offers little threat, and Austria scores twice to secure a straightforward win."
         }
       },
       {
@@ -2202,12 +2212,12 @@
           "analysis": "阿根廷实力远超奥地利（世界第1 vs 第25）。奥地利中场对抗不弱，但阿根廷球星个人能力决定比赛，看好阿根廷连胜。"
         },
         "pred_en": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
-          "score": "2-1",
-          "star": "Lionel Messi",
-          "analysis": "Argentina (1) vs Austria (25) - Argentina's fluid attack vs Austria's compact defense. Messi's creativity decisive; Austria rely on Alaba's set pieces and transitions. Argentina's depth and big-game experience give them the edge, but Austria can frustrate."
+          "win": 0.8,
+          "draw": 0.15,
+          "lose": 0.05,
+          "score": "3-0",
+          "star": "Argentina",
+          "analysis": "Argentina's elite squad overpowers Austria even without home advantage. Messi and Lautaro Martinez exploit defensive gaps, while Austria's creative play falters. A dominant performance results in a 3-0 victory."
         }
       },
       {
@@ -2229,12 +2239,12 @@
           "analysis": "阿尔及利亚世界第30，约旦第80，首次碰面。阿尔及利亚技术细腻，约旦身体硬朗但经验不足，阿尔及利亚胜算更大。"
         },
         "pred_en": {
-          "win": 0.55,
+          "win": 0.15,
           "draw": 0.25,
-          "lose": 0.2,
-          "score": "1-0",
-          "star": "Riyad Mahrez",
-          "analysis": "Jordan (80) vs Algeria (30) - Algeria's African Cup pedigree and Mahrez's flair outclass Jordan. Jordan's physicality and pace on break cause moments of danger. Algeria's technical superiority likely secures narrow win despite Jordan's resilience."
+          "lose": 0.6,
+          "score": "0-2",
+          "star": "Algeria",
+          "analysis": "Algeria, African champions, are too strong for Jordan. Despite playing away, Algeria's technical skill and physicality control the match. Jordan struggles to create chances, and Algeria scores twice to win comfortably."
         }
       },
       {
@@ -2256,12 +2266,12 @@
           "analysis": "阿尔及利亚与奥地利实力接近（第30 vs 第25），风格迥异。阿尔及利亚技术流，奥地利力量型，平局可能性高。"
         },
         "pred_en": {
-          "win": 0.35,
+          "win": 0.5,
           "draw": 0.3,
-          "lose": 0.35,
-          "score": "1-1",
-          "star": "David Alaba",
-          "analysis": "Algeria (30) vs Austria (25) - Even matchup. Algeria's quick transitions and Mahrez's dribbling vs Austria's organized midfield. Alaba's versatility a key. Both teams balanced; high probability of draw with both scoring. Tactical battle likely."
+          "lose": 0.2,
+          "score": "2-1",
+          "star": "Algeria",
+          "analysis": "Algeria hosts Austria in a tight contest. Algeria's home crowd and faster transitions edge them ahead. Austria equalizes but Algeria snatches a late winner. A 2-1 scoreline reflects the closely fought match."
         }
       },
       {
@@ -2283,12 +2293,12 @@
           "analysis": "阿根廷世界第1，约旦仅第80，实力悬殊。阿根廷攻防俱佳，约旦难以抵挡，阿根廷大胜可期。"
         },
         "pred_en": {
-          "win": 0.9,
-          "draw": 0.07,
-          "lose": 0.03,
-          "score": "4-0",
-          "star": "Lionel Messi",
-          "analysis": "Jordan (80) vs Argentina (1) - Massive gap. Argentina's relentless pressure and Messi's magic overwhelm Jordan. Jordan's defense faces constant threat; no historical matches. Argentina cruise to dominant win, highlighting class difference."
+          "win": 0.02,
+          "draw": 0.08,
+          "lose": 0.9,
+          "score": "0-3",
+          "star": "Argentina",
+          "analysis": "Argentina, even away, is a class above Jordan. The gulf in quality is stark as Argentina dominates possession and chances. Jordan defends deep but cannot stop Messi and co. A 3-0 win is routine for the elite side."
         }
       }
     ],
@@ -2382,12 +2392,12 @@
           "analysis": "葡萄牙世界排名第8，刚果(金)第65，实力悬殊。葡萄牙控球进攻犀利，刚果(金)防守松散，难阻葡萄牙取胜。"
         },
         "pred_en": {
-          "win": 0.75,
-          "draw": 0.18,
-          "lose": 0.07,
-          "score": "2-0",
-          "star": "Cristiano Ronaldo",
-          "analysis": "Portugal (#9 FIFA) heavily favored against DR Congo (#64). Portuguese technical superiority and depth should overwhelm DR Congo's physical but disorganized defense. Expect controlled possession and clinical finishing. Ronaldo's leadership will be key. Clear win for Portugal."
+          "win": 0.85,
+          "draw": 0.12,
+          "lose": 0.03,
+          "score": "3-0",
+          "star": "Portugal",
+          "analysis": "Portugal, a European powerhouse, dominates group K. Facing DR Congo at home, they control possession and create numerous chances. CR7 and midfielders exploit Congo's weak defense, scoring three. Congo rarely threaten, making a blowout likely."
         }
       },
       {
@@ -2409,12 +2419,12 @@
           "analysis": "哥伦比亚第17，乌兹别克斯坦第74，哥伦比亚技术占优。乌兹别克斯坦主场作战顽强，但哥伦比亚反击效率更高。"
         },
         "pred_en": {
-          "win": 0.13,
-          "draw": 0.22,
-          "lose": 0.65,
-          "score": "1-2",
-          "star": "James Rodriguez",
-          "analysis": "Uzbekistan (#74) face Colombia (#17). Colombia's individual quality and tactical discipline should overcome Uzbekistan's compact setup. James Rodriguez orchestrates attacks, while Uzbekistan may struggle to create chances. Colombia wins a competitive match."
+          "win": 0.1,
+          "draw": 0.2,
+          "lose": 0.7,
+          "score": "0-2",
+          "star": "Colombia",
+          "analysis": "Colombia's superior strength and skill overwhelm Uzbekistan on the road. Despite home support, Uzbekistan struggle to contain James Rodríguez and Diaz. Colombia's clinical finishing yields two goals, while Uzbekistan's attack is nullified."
         }
       },
       {
@@ -2436,12 +2446,12 @@
           "analysis": "葡萄牙实力碾压，世界排名远高于乌兹别克斯坦。葡萄牙进攻多点开花，乌兹别克斯坦难以抗衡，完胜。"
         },
         "pred_en": {
-          "win": 0.8,
-          "draw": 0.15,
-          "lose": 0.05,
+          "win": 0.9,
+          "draw": 0.08,
+          "lose": 0.02,
           "score": "3-0",
-          "star": "Bruno Fernandes",
-          "analysis": "Portugal (#9) vs Uzbekistan (#74). Heavy mismatch. Portugal's high press and creative midfield, led by Fernandes, will dismantle Uzbekistan's defense. Uzbekistan lacks pace to counter. Comfortable win for Portugal."
+          "star": "Portugal",
+          "analysis": "Portugal cruises past Uzbekistan with ease. Their world-class midfield and attack dominate possession, creating multiple scoring opportunities. Uzbekistan defend deep but concede three goals from set pieces and open play. A comfortable win for Portugal."
         }
       },
       {
@@ -2466,9 +2476,9 @@
           "win": 0.7,
           "draw": 0.2,
           "lose": 0.1,
-          "score": "2-1",
-          "star": "Luis Diaz",
-          "analysis": "Colombia (#17) take on DR Congo (#64). Colombia's flair and pace on the wings, with Luis Diaz, pose major threats. DR Congo's physicality may trouble but not enough. Colombia's quality should secure a victory."
+          "score": "2-0",
+          "star": "Colombia",
+          "analysis": "Colombia's experience and quality prove decisive at home against DR Congo. They control the midfield and create chances through swift counterattacks. Congo's defense holds early but cracks in the second half, allowing Colombia to score twice."
         }
       },
       {
@@ -2490,12 +2500,12 @@
           "analysis": "葡萄牙第8 vs 哥伦比亚第17，技术流对决。葡萄牙控场稍优，哥伦比亚反击犀利，平局概率较大。"
         },
         "pred_en": {
-          "win": 0.2,
+          "win": 0.15,
           "draw": 0.25,
-          "lose": 0.55,
-          "score": "1-2",
-          "star": "Rafael Leao",
-          "analysis": "Colombia (#17) vs Portugal (#9). Top-of-group clash. Portugal's possession and technical edge face Colombia's energetic counter-attacks. Neutral venue; Portugal's experience in big games gives slight advantage. Leao's pace could decide. Close match, Portugal edges it."
+          "lose": 0.6,
+          "score": "0-1",
+          "star": "Portugal",
+          "analysis": "Portugal, despite being away, edge out Colombia in a tight contest. Their disciplined defense neutralizes Colombia's attack, while a moment of brilliance from Fernandes secures the win. Colombia push for an equalizer but fail to breach Portugal's backline."
         }
       },
       {
@@ -2517,12 +2527,12 @@
           "analysis": "刚果(金)第65，乌兹别克斯坦第74，实力接近。刚果(金)体能好，乌兹别克斯坦技术细，平局合理。"
         },
         "pred_en": {
-          "win": 0.35,
-          "draw": 0.35,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "Cédric Bakambu",
-          "analysis": "DR Congo (#64) vs Uzbekistan (#74). Two lower-ranked sides with contrasting styles: DR Congo's physicality vs Uzbekistan's organization. Both lack firepower. A low-scoring draw seems likely, with set pieces pivotal. Bakambu's aerial threat could make the difference."
+          "win": 0.55,
+          "draw": 0.3,
+          "lose": 0.15,
+          "score": "1-0",
+          "star": "DR Congo",
+          "analysis": "DR Congo narrowly beats Uzbekistan in a closely fought match. Home advantage and physical play unsettle Uzbekistan, but both sides lack creativity. A solitary goal from a set piece decides the tie. Uzbekistan's defensive organization limits damage."
         }
       }
     ],
@@ -2616,12 +2626,12 @@
           "analysis": "英格兰世界第5，克罗地亚第12，近两次交锋英格兰1胜1平。三狮阵容年轻冲击力强，克罗地亚中场老化，看好英格兰小胜。"
         },
         "pred_en": {
-          "win": 0.55,
-          "draw": 0.25,
-          "lose": 0.2,
-          "score": "2-1",
+          "win": 0.7,
+          "draw": 0.2,
+          "lose": 0.1,
+          "score": "2-0",
           "star": "Harry Kane",
-          "analysis": "England (FIFA 4) vs Croatia (FIFA 7). England's pace and pressing against Croatia's midfield control. Croatia's experience could trouble England, but home advantage favors England. Expect a close match; England edges it with Kane's finishing."
+          "analysis": "England dominate at home against Croatia. Strong midfield control and clinical finishing give them a comfortable win, while Croatia struggle to create clear chances."
         }
       },
       {
@@ -2643,12 +2653,12 @@
           "analysis": "加纳世界第58，巴拿马第78，加纳球员个人能力更强，巴拿马防守松散。预测加纳占据控球优势，轻松取胜。"
         },
         "pred_en": {
-          "win": 0.4,
-          "draw": 0.35,
-          "lose": 0.25,
-          "score": "2-1",
+          "win": 0.65,
+          "draw": 0.25,
+          "lose": 0.1,
+          "score": "2-0",
           "star": "Mohammed Kudus",
-          "analysis": "Ghana (FIFA 60) vs Panama (FIFA 45). Ghana's technical flair vs Panama's defensive organization. Both teams seek points. Ghana's attack led by Kudus may break through, but Panama is resilient. Slight edge to Ghana."
+          "analysis": "Ghana's pace and physicality overwhelm Panama. Early goal sets tone, and solid defense keeps Panama at bay. Panama lack quality to mount a comeback."
         }
       },
       {
@@ -2670,12 +2680,12 @@
           "analysis": "英格兰实力碾压加纳，世界排名差50位以上。英格兰快速边路进攻将撕破加纳防线，凯恩有望梅开二度。"
         },
         "pred_en": {
-          "win": 0.75,
+          "win": 0.8,
           "draw": 0.15,
-          "lose": 0.1,
+          "lose": 0.05,
           "score": "3-0",
           "star": "Harry Kane",
-          "analysis": "England (FIFA 4) vs Ghana (FIFA 60). England's superior quality and depth should dominate. Ghana's defense will be tested by England's pressing and set pieces. Comfortable win for England."
+          "analysis": "England's superior class shines against Ghana. Quick passing and movement create multiple goals, while Ghana's defense is exposed. A one-sided affair."
         }
       },
       {
@@ -2702,7 +2712,7 @@
           "lose": 0.6,
           "score": "0-2",
           "star": "Luka Modric",
-          "analysis": "Panama (FIFA 45) vs Croatia (FIFA 7). Croatia's midfield mastery and experience outclass Panama. Panama will defend deep, but Croatia's technical ability creates chances. Croatia wins comfortably."
+          "analysis": "Croatia's experience and midfield control prove decisive away to Panama. Modric dictates tempo, and clinical finishing secures victory despite Panama's defensive efforts."
         }
       },
       {
@@ -2725,11 +2735,11 @@
         },
         "pred_en": {
           "win": 0.05,
-          "draw": 0.1,
-          "lose": 0.85,
-          "score": "0-4",
+          "draw": 0.15,
+          "lose": 0.8,
+          "score": "0-3",
           "star": "Harry Kane",
-          "analysis": "Panama (FIFA 45) vs England (FIFA 4). Mismatch on paper. England's attacking firepower and defensive solidity overwhelm Panama. Panama struggles to possess ball. England cruises."
+          "analysis": "England cruise past Panama. From the start, England's pressure forces errors, leading to multiple goals. Panama cannot cope with the pace and precision of England's attack."
         }
       },
       {
@@ -2751,12 +2761,12 @@
           "analysis": "克罗地亚世界第12，加纳第58，克罗地亚经验丰富。尽管加纳有速度，但格子军团控场能力更强，看好主胜。"
         },
         "pred_en": {
-          "win": 0.55,
-          "draw": 0.3,
+          "win": 0.6,
+          "draw": 0.25,
           "lose": 0.15,
           "score": "2-0",
           "star": "Luka Modric",
-          "analysis": "Croatia (FIFA 7) vs Ghana (FIFA 60). Croatia controls midfield with Modric and Brozovic. Ghana's athleticism may cause moments, but Croatia's tactical discipline prevails. Likely Croatia win."
+          "analysis": "Croatia leverage home advantage to control possession and create chances against Ghana. Modric orchestrates play, and goals from set pieces seal a solid win."
         }
       }
     ],
