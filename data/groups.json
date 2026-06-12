@@ -33,14 +33,6 @@
         "venue": "Estadio Azteca",
         "home_zh": "墨西哥",
         "away_zh": "南非",
-        "pred": {
-          "win": 0.65,
-          "draw": 0.2,
-          "lose": 0.15,
-          "score": "2-0",
-          "star": "H.洛萨诺",
-          "analysis": "墨西哥世界排名约15，南非约70，实力差距明显。墨西哥控球进攻，南非防守反击，墨西哥掌控节奏轻松取胜。"
-        },
         "pred_en": {
           "win": 0.8,
           "draw": 0.15,
@@ -53,7 +45,8 @@
           "played": true,
           "hs": 2,
           "as": 0
-        }
+        },
+        "kickoff_utc": "2026-06-11T19:00:00Z"
       },
       {
         "group": "A",
@@ -65,14 +58,6 @@
         "venue": "Estadio Akron",
         "home_zh": "韩国",
         "away_zh": "捷克",
-        "pred": {
-          "win": 0.4,
-          "draw": 0.35,
-          "lose": 0.25,
-          "score": "1-1",
-          "star": "孙兴慜",
-          "analysis": "韩国排名约30，捷克约45，双方实力接近。韩国依靠孙兴慜反击，捷克防守强硬，平局可能性大。"
-        },
         "pred_en": {
           "win": 0.55,
           "draw": 0.25,
@@ -85,7 +70,8 @@
           "played": true,
           "hs": 2,
           "as": 1
-        }
+        },
+        "kickoff_utc": "2026-06-12T02:00:00Z"
       },
       {
         "group": "A",
@@ -97,14 +83,6 @@
         "venue": "Mercedes-Benz Stadium",
         "home_zh": "捷克",
         "away_zh": "南非",
-        "pred": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
-          "score": "2-0",
-          "star": "P.希克",
-          "analysis": "捷克排名高于南非，南非约70。捷克擅长身体对抗，南非技术稍逊，捷克主场优势明显。"
-        },
         "pred_en": {
           "win": 0.7,
           "draw": 0.2,
@@ -112,7 +90,8 @@
           "score": "3-0",
           "star": "2",
           "analysis": "Czech Republic face a weak South African side and should dominate possession. Patrik Schick and Soucek will be key in scoring. South Africa's limited attacking threat means they are unlikely to score. A comfortable win for the Czechs, with a clean sheet."
-        }
+        },
+        "kickoff_utc": "2026-06-18T16:00:00Z"
       },
       {
         "group": "A",
@@ -124,14 +103,6 @@
         "venue": "Estadio Akron",
         "home_zh": "墨西哥",
         "away_zh": "韩国",
-        "pred": {
-          "win": 0.55,
-          "draw": 0.25,
-          "lose": 0.2,
-          "score": "2-1",
-          "star": "H.洛萨诺",
-          "analysis": "墨西哥实力稍强于韩国，韩国韧性足。墨西哥控球传导，韩国反击犀利，墨西哥小胜可期。"
-        },
         "pred_en": {
           "win": 0.6,
           "draw": 0.25,
@@ -139,7 +110,8 @@
           "score": "2-0",
           "star": "4",
           "analysis": "Mexico's experience and depth outshine South Korea. Expect a disciplined performance from Mexico, controlling midfield and creating chances. South Korea will counter but fail to break through. Raul Jimenez and Hirving Lozano seal the win. A South Korea upset is unlikely."
-        }
+        },
+        "kickoff_utc": "2026-06-19T01:00:00Z"
       },
       {
         "group": "A",
@@ -151,14 +123,6 @@
         "venue": "Estadio Azteca",
         "home_zh": "捷克",
         "away_zh": "墨西哥",
-        "pred": {
-          "win": 0.2,
-          "draw": 0.25,
-          "lose": 0.55,
-          "score": "0-2",
-          "star": "H.洛萨诺",
-          "analysis": "捷克排名低于墨西哥，墨西哥约15。捷克防守不稳，墨西哥进攻高效，客胜概率大。"
-        },
         "pred_en": {
           "win": 0.15,
           "draw": 0.25,
@@ -166,7 +130,8 @@
           "score": "1-2",
           "star": "3",
           "analysis": "Mexico are the stronger side, even away from home. Czech Republic will rely on set pieces and counter-attacks. Mexico's superior technical ability and experience should see them edge a tight game. Expect a late winner from Mexico, making the score 2-1. A draw is possible."
-        }
+        },
+        "kickoff_utc": "2026-06-25T01:00:00Z"
       },
       {
         "group": "A",
@@ -178,14 +143,6 @@
         "venue": "Estadio BBVA",
         "home_zh": "南非",
         "away_zh": "韩国",
-        "pred": {
-          "win": 0.2,
-          "draw": 0.25,
-          "lose": 0.55,
-          "score": "0-2",
-          "star": "孙兴慜",
-          "analysis": "南非排名约70，韩国约30。韩国整体实力占优，孙兴慜领衔锋线，南非难有作为。"
-        },
         "pred_en": {
           "win": 0.2,
           "draw": 0.3,
@@ -193,7 +150,8 @@
           "score": "0-1",
           "star": "2",
           "analysis": "South Korea are the favourites despite playing away. Their fast transitions and attacking quality will trouble South Africa's defence. South Africa will defend deep but lack the creativity to breach Korea's backline. A narrow 1-0 win for South Korea is expected."
-        }
+        },
+        "kickoff_utc": "2026-06-25T01:00:00Z"
       }
     ],
     "standings": [
@@ -277,14 +235,6 @@
         "venue": "BMO Field",
         "home_zh": "加拿大",
         "away_zh": "波黑",
-        "pred": {
-          "win": 0.4,
-          "draw": 0.3,
-          "lose": 0.3,
-          "score": "2-1",
-          "star": "阿方索·戴维斯（加拿大）、哲科（波黑）",
-          "analysis": "加拿大世界排名第40，波黑第60，加拿大边路速度快，波黑防守硬朗。无直接交锋记录，预计加拿大小胜。"
-        },
         "pred_en": {
           "win": 0.4,
           "draw": 0.35,
@@ -292,7 +242,8 @@
           "score": "2-1",
           "star": "Canada",
           "analysis": "Canada, playing at home, hold a slight edge over Bosnia and Herzegovina in a closely matched encounter. Both teams have improved in recent years, but Canada's youthful energy and home advantage tip the scales. Expect a competitive game with Canada edging it by a narrow margin."
-        }
+        },
+        "kickoff_utc": "2026-06-12T19:00:00Z"
       },
       {
         "group": "B",
@@ -304,14 +255,6 @@
         "venue": "Levi's Stadium",
         "home_zh": "卡塔尔",
         "away_zh": "瑞士",
-        "pred": {
-          "win": 0.1,
-          "draw": 0.2,
-          "lose": 0.7,
-          "score": "0-2",
-          "star": "阿菲夫（卡塔尔）、扎卡（瑞士）",
-          "analysis": "瑞士世界排名第15，卡塔尔第50，瑞士整体实力碾压，卡塔尔控球打法难破瑞士防线。瑞士轻松获胜。"
-        },
         "pred_en": {
           "win": 0.1,
           "draw": 0.2,
@@ -319,7 +262,8 @@
           "score": "0-2",
           "star": "Switzerland",
           "analysis": "Switzerland are clear favorites against Qatar, even away from home. The Swiss possess superior tactical organization and individual quality. Qatar will struggle to create chances, while Switzerland's efficient attack should secure a comfortable victory."
-        }
+        },
+        "kickoff_utc": "2026-06-13T19:00:00Z"
       },
       {
         "group": "B",
@@ -331,14 +275,6 @@
         "venue": "SoFi Stadium",
         "home_zh": "瑞士",
         "away_zh": "波黑",
-        "pred": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
-          "score": "2-0",
-          "star": "恩博洛（瑞士）、皮亚尼奇（波黑）",
-          "analysis": "瑞士排名远高于波黑，波黑防守老化，瑞士中场控制力强。历史交锋瑞士占优，稳胜。"
-        },
         "pred_en": {
           "win": 0.65,
           "draw": 0.25,
@@ -346,7 +282,8 @@
           "score": "2-0",
           "star": "Switzerland",
           "analysis": "Switzerland, at home, are expected to dominate Bosnia and Herzegovina. The Swiss are a well-drilled side with consistent tournament experience, while Bosnia lack recent big-match sharpness. A solid defensive display and clinical finishing should give Switzerland a straightforward win."
-        }
+        },
+        "kickoff_utc": "2026-06-18T19:00:00Z"
       },
       {
         "group": "B",
@@ -358,14 +295,6 @@
         "venue": null,
         "home_zh": "加拿大",
         "away_zh": "卡塔尔",
-        "pred": {
-          "win": 0.45,
-          "draw": 0.3,
-          "lose": 0.25,
-          "score": "2-1",
-          "star": "戴维（加拿大）、海多斯（卡塔尔）",
-          "analysis": "加拿大排名40，卡塔尔50，加拿大打法快节奏，卡塔尔技术细腻。无交锋，加拿大稍占上风。"
-        },
         "pred_en": {
           "win": 0.6,
           "draw": 0.25,
@@ -373,7 +302,8 @@
           "score": "2-0",
           "star": "Canada",
           "analysis": "Canada should handle Qatar comfortably in front of their home fans. Canada's physical and fast-paced style will overwhelm a Qatari side that struggles against organized opponents. Expect Canada to control possession and score twice without reply."
-        }
+        },
+        "kickoff_utc": "2026-06-18T22:00:00Z"
       },
       {
         "group": "B",
@@ -385,14 +315,6 @@
         "venue": null,
         "home_zh": "瑞士",
         "away_zh": "加拿大",
-        "pred": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
-          "score": "2-1",
-          "star": "扎卡（瑞士）、戴维斯（加拿大）",
-          "analysis": "瑞士世界排名15，加拿大40，瑞士整体攻防均衡，加拿大反击犀利。瑞士凭经验取胜。"
-        },
         "pred_en": {
           "win": 0.5,
           "draw": 0.3,
@@ -400,7 +322,8 @@
           "score": "1-0",
           "star": "Switzerland",
           "analysis": "In a crucial Group B clash, Switzerland's home advantage and defensive solidity should edge out Canada. Canada will pose a threat on the counter, but Switzerland's experience in tight matches gives them the edge. A narrow 1-0 win is likely."
-        }
+        },
+        "kickoff_utc": "2026-06-24T19:00:00Z"
       },
       {
         "group": "B",
@@ -412,14 +335,6 @@
         "venue": "Lumen Field",
         "home_zh": "波黑",
         "away_zh": "卡塔尔",
-        "pred": {
-          "win": 0.35,
-          "draw": 0.35,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "哲科（波黑）、阿菲夫（卡塔尔）",
-          "analysis": "波黑排名60，卡塔尔50，波黑高空球优势，卡塔尔传控灵活。实力接近，平局概率大。"
-        },
         "pred_en": {
           "win": 0.55,
           "draw": 0.3,
@@ -427,7 +342,8 @@
           "score": "2-0",
           "star": "Bosnia and Herzegovina",
           "analysis": "Bosnia and Herzegovina are stronger than Qatar and playing at home. Despite recent struggles, Bosnia's veteran quality should be enough to overcome Qatar's limited threat. A professional performance with two goals secures the points."
-        }
+        },
+        "kickoff_utc": "2026-06-24T19:00:00Z"
       }
     ],
     "standings": [
@@ -511,14 +427,6 @@
         "venue": "MetLife Stadium",
         "home_zh": "巴西",
         "away_zh": "摩洛哥",
-        "pred": {
-          "win": 0.6,
-          "draw": 0.22,
-          "lose": 0.18,
-          "score": "2-1",
-          "star": "维尼修斯",
-          "analysis": "巴西排名第1，摩洛哥第13，整体实力占优。巴西前场犀利，摩洛哥防守稳健，但巴西主场优势下有望小胜。"
-        },
         "pred_en": {
           "win": 0.75,
           "draw": 0.18,
@@ -538,14 +446,6 @@
         "venue": "Gillette Stadium",
         "home_zh": "海地",
         "away_zh": "苏格兰",
-        "pred": {
-          "win": 0.2,
-          "draw": 0.25,
-          "lose": 0.55,
-          "score": "0-2",
-          "star": "罗伯逊",
-          "analysis": "海地排名低，苏格兰第40，实力差距明显。苏格兰打法硬朗，中场控制力强，客场取胜概率大。"
-        },
         "pred_en": {
           "win": 0.1,
           "draw": 0.2,
@@ -565,14 +465,6 @@
         "venue": "Gillette Stadium",
         "home_zh": "苏格兰",
         "away_zh": "摩洛哥",
-        "pred": {
-          "win": 0.3,
-          "draw": 0.28,
-          "lose": 0.42,
-          "score": "1-2",
-          "star": "齐耶赫",
-          "analysis": "摩洛哥第13，苏格兰第40，摩洛哥技术更细腻。苏格兰主场顽强，但摩洛哥经验丰富，客胜可期。"
-        },
         "pred_en": {
           "win": 0.25,
           "draw": 0.3,
@@ -592,14 +484,6 @@
         "venue": "Lincoln Financial Field",
         "home_zh": "巴西",
         "away_zh": "海地",
-        "pred": {
-          "win": 0.75,
-          "draw": 0.15,
-          "lose": 0.1,
-          "score": "3-0",
-          "star": "内马尔",
-          "analysis": "巴西实力碾压海地（排名100+）。巴西进攻多点开花，海地难以抵挡，巴西轻松大胜。"
-        },
         "pred_en": {
           "win": 0.85,
           "draw": 0.12,
@@ -619,14 +503,6 @@
         "venue": "Hard Rock Stadium",
         "home_zh": "苏格兰",
         "away_zh": "巴西",
-        "pred": {
-          "win": 0.15,
-          "draw": 0.2,
-          "lose": 0.65,
-          "score": "0-2",
-          "star": "维尼修斯",
-          "analysis": "苏格兰主场对阵巴西，虽拼劲足但实力悬殊。巴西整体配合和球星能力更胜一筹，客胜稳。"
-        },
         "pred_en": {
           "win": 0.08,
           "draw": 0.15,
@@ -646,14 +522,6 @@
         "venue": "Mercedes-Benz Stadium",
         "home_zh": "摩洛哥",
         "away_zh": "海地",
-        "pred": {
-          "win": 0.7,
-          "draw": 0.18,
-          "lose": 0.12,
-          "score": "2-0",
-          "star": "恩内斯里",
-          "analysis": "摩洛哥排名13，海地弱旅。摩洛哥攻防均衡，海地缺乏爆冷能力，主胜概率极高。"
-        },
         "pred_en": {
           "win": 0.8,
           "draw": 0.15,
@@ -745,14 +613,6 @@
         "venue": "SoFi Stadium",
         "home_zh": "美国",
         "away_zh": "巴拉圭",
-        "pred": {
-          "win": 0.55,
-          "draw": 0.25,
-          "lose": 0.2,
-          "score": "2-1",
-          "star": "普利西奇",
-          "analysis": "美国世界排名第11，实力占优；巴拉圭防守硬朗但进攻乏力。美国主场作战，控球优势明显，预计小胜。"
-        },
         "pred_en": {
           "win": 0.6,
           "draw": 0.25,
@@ -772,14 +632,6 @@
         "venue": null,
         "home_zh": "澳大利亚",
         "away_zh": "土耳其",
-        "pred": {
-          "win": 0.3,
-          "draw": 0.3,
-          "lose": 0.4,
-          "score": "1-2",
-          "star": "伊尔马兹",
-          "analysis": "澳大利亚排名30，土耳其40，两队风格相近。土耳其进攻更为犀利，防守不稳，看好土耳其胜。"
-        },
         "pred_en": {
           "win": 0.2,
           "draw": 0.25,
@@ -799,14 +651,6 @@
         "venue": "Lumen Field",
         "home_zh": "美国",
         "away_zh": "澳大利亚",
-        "pred": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
-          "score": "2-0",
-          "star": "麦肯尼",
-          "analysis": "美国实力明显强于澳大利亚，中场控制力强。澳大利亚防反击，但难挡美国整体攻势，美国胜。"
-        },
         "pred_en": {
           "win": 0.7,
           "draw": 0.2,
@@ -826,14 +670,6 @@
         "venue": "Levi's Stadium",
         "home_zh": "土耳其",
         "away_zh": "巴拉圭",
-        "pred": {
-          "win": 0.4,
-          "draw": 0.3,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "阿尔米隆",
-          "analysis": "土耳其和巴拉圭实力接近，巴拉圭防守稳固，土耳其进攻有威胁。平局可能性大。"
-        },
         "pred_en": {
           "win": 0.5,
           "draw": 0.3,
@@ -853,14 +689,6 @@
         "venue": "SoFi Stadium",
         "home_zh": "土耳其",
         "away_zh": "美国",
-        "pred": {
-          "win": 0.35,
-          "draw": 0.25,
-          "lose": 0.4,
-          "score": "1-2",
-          "star": "德斯特",
-          "analysis": "土耳其主场对阵美国，美国实力更强但客场作战。土耳其进攻强悍，有望爆冷胜。"
-        },
         "pred_en": {
           "win": 0.2,
           "draw": 0.3,
@@ -880,14 +708,6 @@
         "venue": "Levi's Stadium",
         "home_zh": "巴拉圭",
         "away_zh": "澳大利亚",
-        "pred": {
-          "win": 0.45,
-          "draw": 0.3,
-          "lose": 0.25,
-          "score": "2-1",
-          "star": "罗哈斯",
-          "analysis": "巴拉圭主场对澳大利亚，巴拉圭防守反击效率高，澳大利亚经验丰富。巴拉圭稍占优。"
-        },
         "pred_en": {
           "win": 0.5,
           "draw": 0.3,
@@ -979,14 +799,6 @@
         "venue": "NRG Stadium",
         "home_zh": "德国",
         "away_zh": "库拉索",
-        "pred": {
-          "win": 0.85,
-          "draw": 0.1,
-          "lose": 0.05,
-          "score": "4-0",
-          "star": "穆西亚拉",
-          "analysis": "德国世界排名第16，库拉索未进前100。德国全攻全守，技术碾压，库拉索实力悬殊，预计大胜。"
-        },
         "pred_en": {
           "win": 0.95,
           "draw": 0.04,
@@ -994,7 +806,8 @@
           "score": "4-0",
           "star": "*",
           "analysis": "Germany are a world powerhouse, while Curaçao are a minnow. The home side dominates possession and creates numerous chances, converting four times. Curaçao offer little threat. A straightforward victory for Germany."
-        }
+        },
+        "kickoff_utc": "2026-06-14T17:00:00Z"
       },
       {
         "group": "E",
@@ -1006,14 +819,6 @@
         "venue": "Lincoln Financial Field",
         "home_zh": "科特迪瓦",
         "away_zh": "厄瓜多尔",
-        "pred": {
-          "win": 0.4,
-          "draw": 0.3,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "凯西",
-          "analysis": "科特迪瓦排名第50，厄瓜多尔排名第36，两队实力接近。科特迪瓦身体对抗强，厄瓜多尔技术细腻，或平局。"
-        },
         "pred_en": {
           "win": 0.3,
           "draw": 0.3,
@@ -1021,7 +826,8 @@
           "score": "1-2",
           "star": "*",
           "analysis": "Ecuador are slightly stronger than Ivory Coast, but the home advantage helps the Ivorians. However, Ecuador's technical edge leads to two goals, while Ivory Coast pull one back. A tight contest favors the away side."
-        }
+        },
+        "kickoff_utc": "2026-06-14T23:00:00Z"
       },
       {
         "group": "E",
@@ -1033,14 +839,6 @@
         "venue": "BMO Field",
         "home_zh": "德国",
         "away_zh": "科特迪瓦",
-        "pred": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
-          "score": "2-1",
-          "star": "哈弗茨",
-          "analysis": "德国实力占优，但科特迪瓦防守硬朗。德国控制中场，科特迪瓦反击威胁，德国小胜。"
-        },
         "pred_en": {
           "win": 0.92,
           "draw": 0.06,
@@ -1048,7 +846,8 @@
           "score": "3-0",
           "star": "*",
           "analysis": "Germany's quality overwhelms Ivory Coast. The German pressing forces errors, leading to three well-worked goals. Ivory Coast struggle to create clear chances. A comfortable home win for Germany."
-        }
+        },
+        "kickoff_utc": "2026-06-20T20:00:00Z"
       },
       {
         "group": "E",
@@ -1060,14 +859,6 @@
         "venue": "Arrowhead Stadium",
         "home_zh": "厄瓜多尔",
         "away_zh": "库拉索",
-        "pred": {
-          "win": 0.75,
-          "draw": 0.15,
-          "lose": 0.1,
-          "score": "3-0",
-          "star": "瓦伦西亚",
-          "analysis": "厄瓜多尔排名远高于库拉索，高原主场优势。库拉索实力不足，厄瓜多尔轻松取胜。"
-        },
         "pred_en": {
           "win": 0.85,
           "draw": 0.12,
@@ -1075,7 +866,8 @@
           "score": "3-0",
           "star": "*",
           "analysis": "Ecuador are far superior to Curaçao. From the start, Ecuador control the game, scoring three goals through quick passing and movement. Curaçao rarely threaten. A routine victory for the home side."
-        }
+        },
+        "kickoff_utc": "2026-06-21T00:00:00Z"
       },
       {
         "group": "E",
@@ -1087,14 +879,6 @@
         "venue": "Lincoln Financial Field",
         "home_zh": "库拉索",
         "away_zh": "科特迪瓦",
-        "pred": {
-          "win": 0.5,
-          "draw": 0.3,
-          "lose": 0.2,
-          "score": "2-1",
-          "star": "扎哈",
-          "analysis": "科特迪瓦个人能力突出，库拉索防守松散。科特迪瓦稍占上风，但库拉索可能制造麻烦。"
-        },
         "pred_en": {
           "win": 0.1,
           "draw": 0.15,
@@ -1102,7 +886,8 @@
           "score": "0-2",
           "star": "*",
           "analysis": "Ivory Coast are much stronger than Curaçao. The visitors dominate possession and score two goals from set-pieces and counterattacks. Curaçao defend resolutely but lack attacking threat. An away win."
-        }
+        },
+        "kickoff_utc": "2026-06-25T20:00:00Z"
       },
       {
         "group": "E",
@@ -1114,14 +899,6 @@
         "venue": "MetLife Stadium",
         "home_zh": "厄瓜多尔",
         "away_zh": "德国",
-        "pred": {
-          "win": 0.2,
-          "draw": 0.25,
-          "lose": 0.55,
-          "score": "1-2",
-          "star": "萨内",
-          "analysis": "厄瓜多尔主场有优势，德国整体实力强但客场作战。德国经验丰富，有望反客为主。"
-        },
         "pred_en": {
           "win": 0.2,
           "draw": 0.2,
@@ -1129,7 +906,8 @@
           "score": "0-2",
           "star": "*",
           "analysis": "Germany are the stronger team, even away. Ecuador press hard but Germany's efficiency on the break yields two goals. Ecuador's home crowd inspires effort but no breakthrough. Germany take all three points."
-        }
+        },
+        "kickoff_utc": "2026-06-25T20:00:00Z"
       }
     ],
     "standings": [
@@ -1213,14 +991,6 @@
         "venue": "AT&T Stadium",
         "home_zh": "荷兰",
         "away_zh": "日本",
-        "pred": {
-          "win": 0.65,
-          "draw": 0.22,
-          "lose": 0.13,
-          "score": "2-0",
-          "star": "德佩（荷兰）",
-          "analysis": "荷兰世界第6，日本第20，橙衣军攻防均衡，日本反击犀利但整体差距明显，看好荷兰轻松取胜。"
-        },
         "pred_en": {
           "win": 0.75,
           "draw": 0.18,
@@ -1228,7 +998,8 @@
           "score": "2-0",
           "star": "Netherlands",
           "analysis": "Netherlands dominate possession and create chances against Japan's disciplined defense. A clinical finish and a late strike seal a comfortable win. Japan struggle to break through the Dutch backline."
-        }
+        },
+        "kickoff_utc": "2026-06-14T20:00:00Z"
       },
       {
         "group": "F",
@@ -1240,14 +1011,6 @@
         "venue": "Estadio BBVA",
         "home_zh": "瑞典",
         "away_zh": "突尼斯",
-        "pred": {
-          "win": 0.5,
-          "draw": 0.3,
-          "lose": 0.2,
-          "score": "1-0",
-          "star": "伊萨克（瑞典）",
-          "analysis": "瑞典世界第25，突尼斯第30，北欧球队身体优势，突尼斯防守顽强，预计瑞典小胜。"
-        },
         "pred_en": {
           "win": 0.65,
           "draw": 0.25,
@@ -1255,7 +1018,8 @@
           "score": "2-0",
           "star": "Sweden",
           "analysis": "Sweden's physicality and set-piece prowess overpower Tunisia. An early header and a counter-attack goal ensure victory. Tunisia rarely threaten, lacking creativity in final third."
-        }
+        },
+        "kickoff_utc": "2026-06-15T02:00:00Z"
       },
       {
         "group": "F",
@@ -1267,14 +1031,6 @@
         "venue": "NRG Stadium",
         "home_zh": "荷兰",
         "away_zh": "瑞典",
-        "pred": {
-          "win": 0.45,
-          "draw": 0.3,
-          "lose": 0.25,
-          "score": "2-1",
-          "star": "范迪克（荷兰）",
-          "analysis": "荷兰世界第6，瑞典第25，历史交锋荷兰占优，但瑞典有爆冷能力，荷兰险胜。"
-        },
         "pred_en": {
           "win": 0.55,
           "draw": 0.28,
@@ -1282,7 +1038,8 @@
           "score": "2-1",
           "star": "Netherlands",
           "analysis": "Netherlands edge a tactical battle. Sweden equalize after a defensive lapse, but Dutch quality shines with a late winner. Both teams create chances, but Netherlands' clinical edge decides."
-        }
+        },
+        "kickoff_utc": "2026-06-20T17:00:00Z"
       },
       {
         "group": "F",
@@ -1294,14 +1051,6 @@
         "venue": "Estadio BBVA",
         "home_zh": "突尼斯",
         "away_zh": "日本",
-        "pred": {
-          "win": 0.25,
-          "draw": 0.35,
-          "lose": 0.4,
-          "score": "1-1",
-          "star": "久保建英（日本）",
-          "analysis": "突尼斯第30，日本第20，日本控球传递更佳，突尼斯身体对抗强，平局可能大。"
-        },
         "pred_en": {
           "win": 0.2,
           "draw": 0.3,
@@ -1309,7 +1058,8 @@
           "score": "0-1",
           "star": "Japan",
           "analysis": "Japan's technical superiority and quick transitions trouble Tunisia. A solitary goal from a counter-attack secures the win. Tunisia defend deep but lack offensive threat, unable to break Japan's organization."
-        }
+        },
+        "kickoff_utc": "2026-06-21T04:00:00Z"
       },
       {
         "group": "F",
@@ -1321,14 +1071,6 @@
         "venue": "AT&T Stadium",
         "home_zh": "日本",
         "away_zh": "瑞典",
-        "pred": {
-          "win": 0.2,
-          "draw": 0.3,
-          "lose": 0.5,
-          "score": "0-1",
-          "star": "福斯贝里（瑞典）",
-          "analysis": "日本第20，瑞典第25，实际瑞典实力稍强，北欧冲击力克制日本，瑞典小胜。"
-        },
         "pred_en": {
           "win": 0.25,
           "draw": 0.3,
@@ -1336,7 +1078,8 @@
           "score": "1-2",
           "star": "Sweden",
           "analysis": "Sweden's aerial strength and set-piece efficiency prove decisive. Japan take an early lead but Sweden respond with two headers. Japan's possession fails to translate into clear chances against Sweden's compact defense."
-        }
+        },
+        "kickoff_utc": "2026-06-25T23:00:00Z"
       },
       {
         "group": "F",
@@ -1348,14 +1091,6 @@
         "venue": "Arrowhead Stadium",
         "home_zh": "突尼斯",
         "away_zh": "荷兰",
-        "pred": {
-          "win": 0.1,
-          "draw": 0.2,
-          "lose": 0.7,
-          "score": "0-3",
-          "star": "加克波（荷兰）",
-          "analysis": "突尼斯第30，荷兰第6，实力悬殊，荷兰攻击线强大，大胜可期。"
-        },
         "pred_en": {
           "win": 0.1,
           "draw": 0.15,
@@ -1363,7 +1098,8 @@
           "score": "0-3",
           "star": "Netherlands",
           "analysis": "Netherlands' superior quality overwhelms Tunisia from the start. Three well-worked goals, including a long-range strike and a breakaway, highlight the gulf in class. Tunisia offer little resistance, managing no shots on target."
-        }
+        },
+        "kickoff_utc": "2026-06-25T23:00:00Z"
       }
     ],
     "standings": [
@@ -1447,14 +1183,6 @@
         "venue": "Lumen Field",
         "home_zh": "比利时",
         "away_zh": "埃及",
-        "pred": {
-          "win": 0.65,
-          "draw": 0.2,
-          "lose": 0.15,
-          "score": "2-0",
-          "star": "德布劳内",
-          "analysis": "比利时世界排名第3，整体实力远超埃及（第30）。德布劳内领衔的中场控制力强，埃及依赖萨拉赫但整体配合不足。预计比利时轻松取胜。"
-        },
         "pred_en": {
           "win": 0.65,
           "draw": 0.22,
@@ -1474,14 +1202,6 @@
         "venue": "SoFi Stadium",
         "home_zh": "伊朗",
         "away_zh": "新西兰",
-        "pred": {
-          "win": 0.45,
-          "draw": 0.3,
-          "lose": 0.25,
-          "score": "1-1",
-          "star": "塔雷米",
-          "analysis": "伊朗（第20）与新西兰（第100）实力差距不大。伊朗防守顽强，新西兰身体对抗强但技术粗糙。平局可能性较大，伊朗稍占优势。"
-        },
         "pred_en": {
           "win": 0.6,
           "draw": 0.25,
@@ -1501,14 +1221,6 @@
         "venue": "SoFi Stadium",
         "home_zh": "比利时",
         "away_zh": "伊朗",
-        "pred": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
-          "score": "2-0",
-          "star": "卢卡库",
-          "analysis": "比利时（第3）对阵伊朗（第20）。比利时攻击线犀利，伊朗防守虽硬但难以抵挡。卢卡库的支点作用关键。比利时胜面大。"
-        },
         "pred_en": {
           "win": 0.75,
           "draw": 0.18,
@@ -1528,14 +1240,6 @@
         "venue": null,
         "home_zh": "新西兰",
         "away_zh": "埃及",
-        "pred": {
-          "win": 0.25,
-          "draw": 0.3,
-          "lose": 0.45,
-          "score": "0-1",
-          "star": "萨拉赫",
-          "analysis": "新西兰（100）vs埃及（30）。埃及技术更优，萨拉赫的速度和射门是威胁。新西兰虽拼抢积极但整体能力不足。埃及有望小胜。"
-        },
         "pred_en": {
           "win": 0.1,
           "draw": 0.2,
@@ -1555,14 +1259,6 @@
         "venue": "Lumen Field",
         "home_zh": "埃及",
         "away_zh": "伊朗",
-        "pred": {
-          "win": 0.4,
-          "draw": 0.35,
-          "lose": 0.25,
-          "score": "1-1",
-          "star": "阿兹蒙",
-          "analysis": "埃及（30）与伊朗（20）风格相似，均以防守反击为主。埃及攻击点单一，伊朗整体更均衡。预计平局，伊朗略占上风。"
-        },
         "pred_en": {
           "win": 0.55,
           "draw": 0.25,
@@ -1582,14 +1278,6 @@
         "venue": null,
         "home_zh": "新西兰",
         "away_zh": "比利时",
-        "pred": {
-          "win": 0.1,
-          "draw": 0.15,
-          "lose": 0.75,
-          "score": "0-3",
-          "star": "德布劳内",
-          "analysis": "新西兰（100）vs比利时（3）。实力悬殊，比利时控场能力强，多特蒙德防线稳固。新西兰难有还手之力。比利时大胜。"
-        },
         "pred_en": {
           "win": 0.05,
           "draw": 0.1,
@@ -1681,14 +1369,6 @@
         "venue": "Mercedes-Benz Stadium",
         "home_zh": "西班牙",
         "away_zh": "佛得角",
-        "pred": {
-          "win": 0.8,
-          "draw": 0.15,
-          "lose": 0.05,
-          "score": "3-0",
-          "star": "莫拉塔",
-          "analysis": "西班牙世界第8，佛得角第75，实力悬殊。西班牙控球打法压制，佛得角难有反击机会。预测西班牙大胜。"
-        },
         "pred_en": {
           "win": 0.85,
           "draw": 0.1,
@@ -1696,7 +1376,8 @@
           "score": "3-0",
           "star": "4",
           "analysis": "Spain dominate possession and create numerous chances against a weak Cape Verde side. Their attacking quality proves too much, resulting in a comfortable 3-0 victory. Cape Verde rarely threaten and fail to score."
-        }
+        },
+        "kickoff_utc": "2026-06-15T16:00:00Z"
       },
       {
         "group": "H",
@@ -1708,14 +1389,6 @@
         "venue": "Hard Rock Stadium",
         "home_zh": "沙特阿拉伯",
         "away_zh": "乌拉圭",
-        "pred": {
-          "win": 0.25,
-          "draw": 0.3,
-          "lose": 0.45,
-          "score": "1-2",
-          "star": "努涅斯",
-          "analysis": "乌拉圭世界第16，沙特第56，乌拉圭整体实力占优。沙特防守顽强但乌拉圭进攻更强，看好乌拉圭取胜。"
-        },
         "pred_en": {
           "win": 0.15,
           "draw": 0.25,
@@ -1723,7 +1396,8 @@
           "score": "0-2",
           "star": "4",
           "analysis": "Uruguay's strength overshadows Saudi Arabia's home advantage. The visitors control the game and score two goals, while Saudi Arabia struggle to create clear chances. Uruguay secure a deserved 2-0 away win."
-        }
+        },
+        "kickoff_utc": "2026-06-15T22:00:00Z"
       },
       {
         "group": "H",
@@ -1735,14 +1409,6 @@
         "venue": "Mercedes-Benz Stadium",
         "home_zh": "西班牙",
         "away_zh": "沙特阿拉伯",
-        "pred": {
-          "win": 0.78,
-          "draw": 0.17,
-          "lose": 0.05,
-          "score": "2-0",
-          "star": "佩德里",
-          "analysis": "西班牙实力远超沙特，控球传切配合优势明显。沙特防守反击难有威胁，西班牙轻松取胜。"
-        },
         "pred_en": {
           "win": 0.85,
           "draw": 0.1,
@@ -1750,7 +1416,8 @@
           "score": "3-0",
           "star": "4",
           "analysis": "Spain outclass Saudi Arabia with superior technique and movement. They score three goals without reply, dominating from start to finish. Saudi Arabia cannot cope with Spain's relentless pressure."
-        }
+        },
+        "kickoff_utc": "2026-06-21T16:00:00Z"
       },
       {
         "group": "H",
@@ -1762,14 +1429,6 @@
         "venue": "Hard Rock Stadium",
         "home_zh": "乌拉圭",
         "away_zh": "佛得角",
-        "pred": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
-          "score": "2-0",
-          "star": "巴尔韦德",
-          "analysis": "乌拉圭世界排名和实力强于佛得角，攻防均衡。佛得角缺乏爆冷能力，乌拉圭稳赢。"
-        },
         "pred_en": {
           "win": 0.8,
           "draw": 0.15,
@@ -1777,7 +1436,8 @@
           "score": "2-0",
           "star": "4",
           "analysis": "Uruguay capitalize on home support and superior individual quality. They score twice and control the match, limiting Cape Verde to few opportunities. A routine 2-0 victory for Uruguay."
-        }
+        },
+        "kickoff_utc": "2026-06-21T22:00:00Z"
       },
       {
         "group": "H",
@@ -1789,14 +1449,6 @@
         "venue": "NRG Stadium",
         "home_zh": "佛得角",
         "away_zh": "沙特阿拉伯",
-        "pred": {
-          "win": 0.4,
-          "draw": 0.3,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "达赫兰",
-          "analysis": "佛得角与沙特实力接近，世界排名相近。沙特稍占优但佛得角有冲击力，平局可能。"
-        },
         "pred_en": {
           "win": 0.25,
           "draw": 0.35,
@@ -1804,7 +1456,8 @@
           "score": "1-2",
           "star": "4",
           "analysis": "Saudi Arabia's slight edge in quality shows as they score twice, but Cape Verde respond with a goal. The match is competitive, but Saudi Arabia's experience ultimately secures a 2-1 away win."
-        }
+        },
+        "kickoff_utc": "2026-06-27T00:00:00Z"
       },
       {
         "group": "H",
@@ -1816,14 +1469,6 @@
         "venue": "Estadio Akron",
         "home_zh": "乌拉圭",
         "away_zh": "西班牙",
-        "pred": {
-          "win": 0.35,
-          "draw": 0.3,
-          "lose": 0.35,
-          "score": "1-1",
-          "star": "罗德里",
-          "analysis": "乌拉圭与西班牙实力接近，西班牙控球略优但乌拉圭防守硬朗。历史交锋西班牙稍占上风，或平局。"
-        },
         "pred_en": {
           "win": 0.2,
           "draw": 0.3,
@@ -1831,7 +1476,8 @@
           "score": "1-2",
           "star": "4",
           "analysis": "Spain's class shines even away from home. Uruguay fight hard and score once, but Spain's technical superiority leads to two goals. A hard-fought 2-1 victory for Spain."
-        }
+        },
+        "kickoff_utc": "2026-06-27T00:00:00Z"
       }
     ],
     "standings": [
@@ -1915,14 +1561,6 @@
         "venue": "MetLife Stadium",
         "home_zh": "法国",
         "away_zh": "塞内加尔",
-        "pred": {
-          "win": 0.65,
-          "draw": 0.2,
-          "lose": 0.15,
-          "score": "2-0",
-          "star": "姆巴佩",
-          "analysis": "法国世界第2，塞内加尔第18，实力差距明显。法国控球压迫，塞内加尔防反但难阻失利。"
-        },
         "pred_en": {
           "win": 0.75,
           "draw": 0.18,
@@ -1942,14 +1580,6 @@
         "venue": "Gillette Stadium",
         "home_zh": "伊拉克",
         "away_zh": "挪威",
-        "pred": {
-          "win": 0.4,
-          "draw": 0.3,
-          "lose": 0.3,
-          "score": "1-1",
-          "star": "厄德高",
-          "analysis": "伊拉克第68，挪威第44，实力接近。挪威技术稍优，但伊拉克顽强，平局可能大。"
-        },
         "pred_en": {
           "win": 0.1,
           "draw": 0.15,
@@ -1969,14 +1599,6 @@
         "venue": "Lincoln Financial Field",
         "home_zh": "法国",
         "away_zh": "伊拉克",
-        "pred": {
-          "win": 0.75,
-          "draw": 0.15,
-          "lose": 0.1,
-          "score": "3-0",
-          "star": "格列兹曼",
-          "analysis": "法国实力碾压伊拉克（第68），全场控制局面，伊拉克难有还手之力。"
-        },
         "pred_en": {
           "win": 0.85,
           "draw": 0.12,
@@ -1996,14 +1618,6 @@
         "venue": "MetLife Stadium",
         "home_zh": "挪威",
         "away_zh": "塞内加尔",
-        "pred": {
-          "win": 0.35,
-          "draw": 0.3,
-          "lose": 0.35,
-          "score": "1-2",
-          "star": "哈兰德",
-          "analysis": "挪威第44，塞内加尔第18，非洲劲旅略优。挪威进攻强，但防守不稳，塞内加尔反击犀利。"
-        },
         "pred_en": {
           "win": 0.55,
           "draw": 0.25,
@@ -2023,14 +1637,6 @@
         "venue": "Gillette Stadium",
         "home_zh": "挪威",
         "away_zh": "法国",
-        "pred": {
-          "win": 0.2,
-          "draw": 0.25,
-          "lose": 0.55,
-          "score": "0-2",
-          "star": "哈兰德",
-          "analysis": "挪威挑战世界第2法国，实力悬殊。法国中场强大，限制厄德高，哈兰德孤立无援。"
-        },
         "pred_en": {
           "win": 0.2,
           "draw": 0.25,
@@ -2050,14 +1656,6 @@
         "venue": "BMO Field",
         "home_zh": "塞内加尔",
         "away_zh": "伊拉克",
-        "pred": {
-          "win": 0.5,
-          "draw": 0.25,
-          "lose": 0.25,
-          "score": "2-1",
-          "star": "马内",
-          "analysis": "塞内加尔第18，伊拉克第68，非洲冠军占优。塞内加尔身体对抗强，伊拉克难防边路冲击。"
-        },
         "pred_en": {
           "win": 0.7,
           "draw": 0.2,
@@ -2149,14 +1747,6 @@
         "venue": "Arrowhead Stadium",
         "home_zh": "阿根廷",
         "away_zh": "阿尔及利亚",
-        "pred": {
-          "win": 0.65,
-          "draw": 0.22,
-          "lose": 0.13,
-          "score": "2-0",
-          "star": "梅西",
-          "analysis": "阿根廷世界第1，阿尔及利亚第30，首次交锋。阿根廷控球压制，阿尔及利亚反击有威胁，但整体实力差距明显，看好阿根廷轻松取胜。"
-        },
         "pred_en": {
           "win": 0.85,
           "draw": 0.1,
@@ -2164,7 +1754,8 @@
           "score": "3-0",
           "star": "Argentina",
           "analysis": "Argentina, as world champions, dominate Algeria with superior quality and home advantage. Lionel Messi orchestrates the attack, securing a comfortable victory. Algeria's defense struggles to contain the relentless pressure, leading to a clear 3-0 win."
-        }
+        },
+        "kickoff_utc": "2026-06-17T01:00:00Z"
       },
       {
         "group": "J",
@@ -2176,14 +1767,6 @@
         "venue": "Levi's Stadium",
         "home_zh": "奥地利",
         "away_zh": "约旦",
-        "pred": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
-          "score": "2-0",
-          "star": "阿拉巴",
-          "analysis": "奥地利世界第25，约旦第80，无历史交锋。奥地利整体实力占优，约旦防守顽强但进攻乏力，奥地利有望掌控节奏。"
-        },
         "pred_en": {
           "win": 0.75,
           "draw": 0.18,
@@ -2191,7 +1774,8 @@
           "score": "2-0",
           "star": "Austria",
           "analysis": "Austria, a solid European side, faces weak Jordan at home. With better organization and individual talent, Austria controls the game. Jordan offers little threat, and Austria scores twice to secure a straightforward win."
-        }
+        },
+        "kickoff_utc": "2026-06-17T04:00:00Z"
       },
       {
         "group": "J",
@@ -2203,14 +1787,6 @@
         "venue": "AT&T Stadium",
         "home_zh": "阿根廷",
         "away_zh": "奥地利",
-        "pred": {
-          "win": 0.7,
-          "draw": 0.18,
-          "lose": 0.12,
-          "score": "2-0",
-          "star": "梅西",
-          "analysis": "阿根廷实力远超奥地利（世界第1 vs 第25）。奥地利中场对抗不弱，但阿根廷球星个人能力决定比赛，看好阿根廷连胜。"
-        },
         "pred_en": {
           "win": 0.8,
           "draw": 0.15,
@@ -2218,7 +1794,8 @@
           "score": "3-0",
           "star": "Argentina",
           "analysis": "Argentina's elite squad overpowers Austria even without home advantage. Messi and Lautaro Martinez exploit defensive gaps, while Austria's creative play falters. A dominant performance results in a 3-0 victory."
-        }
+        },
+        "kickoff_utc": "2026-06-22T17:00:00Z"
       },
       {
         "group": "J",
@@ -2230,14 +1807,6 @@
         "venue": "Levi's Stadium",
         "home_zh": "约旦",
         "away_zh": "阿尔及利亚",
-        "pred": {
-          "win": 0.15,
-          "draw": 0.25,
-          "lose": 0.6,
-          "score": "0-2",
-          "star": "马赫雷斯",
-          "analysis": "阿尔及利亚世界第30，约旦第80，首次碰面。阿尔及利亚技术细腻，约旦身体硬朗但经验不足，阿尔及利亚胜算更大。"
-        },
         "pred_en": {
           "win": 0.15,
           "draw": 0.25,
@@ -2245,7 +1814,8 @@
           "score": "0-2",
           "star": "Algeria",
           "analysis": "Algeria, African champions, are too strong for Jordan. Despite playing away, Algeria's technical skill and physicality control the match. Jordan struggles to create chances, and Algeria scores twice to win comfortably."
-        }
+        },
+        "kickoff_utc": "2026-06-23T03:00:00Z"
       },
       {
         "group": "J",
@@ -2257,14 +1827,6 @@
         "venue": "Arrowhead Stadium",
         "home_zh": "阿尔及利亚",
         "away_zh": "奥地利",
-        "pred": {
-          "win": 0.35,
-          "draw": 0.3,
-          "lose": 0.35,
-          "score": "1-1",
-          "star": "阿拉巴",
-          "analysis": "阿尔及利亚与奥地利实力接近（第30 vs 第25），风格迥异。阿尔及利亚技术流，奥地利力量型，平局可能性高。"
-        },
         "pred_en": {
           "win": 0.5,
           "draw": 0.3,
@@ -2272,7 +1834,8 @@
           "score": "2-1",
           "star": "Algeria",
           "analysis": "Algeria hosts Austria in a tight contest. Algeria's home crowd and faster transitions edge them ahead. Austria equalizes but Algeria snatches a late winner. A 2-1 scoreline reflects the closely fought match."
-        }
+        },
+        "kickoff_utc": "2026-06-28T02:00:00Z"
       },
       {
         "group": "J",
@@ -2284,14 +1847,6 @@
         "venue": "AT&T Stadium",
         "home_zh": "约旦",
         "away_zh": "阿根廷",
-        "pred": {
-          "win": 0.8,
-          "draw": 0.12,
-          "lose": 0.08,
-          "score": "3-0",
-          "star": "梅西",
-          "analysis": "阿根廷世界第1，约旦仅第80，实力悬殊。阿根廷攻防俱佳，约旦难以抵挡，阿根廷大胜可期。"
-        },
         "pred_en": {
           "win": 0.02,
           "draw": 0.08,
@@ -2299,7 +1854,8 @@
           "score": "0-3",
           "star": "Argentina",
           "analysis": "Argentina, even away, is a class above Jordan. The gulf in quality is stark as Argentina dominates possession and chances. Jordan defends deep but cannot stop Messi and co. A 3-0 win is routine for the elite side."
-        }
+        },
+        "kickoff_utc": "2026-06-28T02:00:00Z"
       }
     ],
     "standings": [
@@ -2383,14 +1939,6 @@
         "venue": "NRG Stadium",
         "home_zh": "葡萄牙",
         "away_zh": "刚果(金)",
-        "pred": {
-          "win": 0.72,
-          "draw": 0.18,
-          "lose": 0.1,
-          "score": "2-0",
-          "star": "C罗",
-          "analysis": "葡萄牙世界排名第8，刚果(金)第65，实力悬殊。葡萄牙控球进攻犀利，刚果(金)防守松散，难阻葡萄牙取胜。"
-        },
         "pred_en": {
           "win": 0.85,
           "draw": 0.12,
@@ -2410,14 +1958,6 @@
         "venue": "Estadio Azteca",
         "home_zh": "乌兹别克斯坦",
         "away_zh": "哥伦比亚",
-        "pred": {
-          "win": 0.2,
-          "draw": 0.3,
-          "lose": 0.5,
-          "score": "1-2",
-          "star": "J罗",
-          "analysis": "哥伦比亚第17，乌兹别克斯坦第74，哥伦比亚技术占优。乌兹别克斯坦主场作战顽强，但哥伦比亚反击效率更高。"
-        },
         "pred_en": {
           "win": 0.1,
           "draw": 0.2,
@@ -2437,14 +1977,6 @@
         "venue": "NRG Stadium",
         "home_zh": "葡萄牙",
         "away_zh": "乌兹别克斯坦",
-        "pred": {
-          "win": 0.78,
-          "draw": 0.15,
-          "lose": 0.07,
-          "score": "3-0",
-          "star": "B费",
-          "analysis": "葡萄牙实力碾压，世界排名远高于乌兹别克斯坦。葡萄牙进攻多点开花，乌兹别克斯坦难以抗衡，完胜。"
-        },
         "pred_en": {
           "win": 0.9,
           "draw": 0.08,
@@ -2464,14 +1996,6 @@
         "venue": "Estadio Akron",
         "home_zh": "哥伦比亚",
         "away_zh": "刚果(金)",
-        "pred": {
-          "win": 0.58,
-          "draw": 0.25,
-          "lose": 0.17,
-          "score": "2-0",
-          "star": "迪亚斯",
-          "analysis": "哥伦比亚排名第17，刚果(金)第65，技术优势明显。刚果(金)身体对抗强但组织差，哥伦比亚控制比赛。"
-        },
         "pred_en": {
           "win": 0.7,
           "draw": 0.2,
@@ -2491,14 +2015,6 @@
         "venue": "Hard Rock Stadium",
         "home_zh": "哥伦比亚",
         "away_zh": "葡萄牙",
-        "pred": {
-          "win": 0.4,
-          "draw": 0.35,
-          "lose": 0.25,
-          "score": "1-1",
-          "star": "C罗 vs J罗",
-          "analysis": "葡萄牙第8 vs 哥伦比亚第17，技术流对决。葡萄牙控场稍优，哥伦比亚反击犀利，平局概率较大。"
-        },
         "pred_en": {
           "win": 0.15,
           "draw": 0.25,
@@ -2518,14 +2034,6 @@
         "venue": "Mercedes-Benz Stadium",
         "home_zh": "刚果(金)",
         "away_zh": "乌兹别克斯坦",
-        "pred": {
-          "win": 0.35,
-          "draw": 0.38,
-          "lose": 0.27,
-          "score": "1-1",
-          "star": "姆本巴",
-          "analysis": "刚果(金)第65，乌兹别克斯坦第74，实力接近。刚果(金)体能好，乌兹别克斯坦技术细，平局合理。"
-        },
         "pred_en": {
           "win": 0.55,
           "draw": 0.3,
@@ -2617,14 +2125,6 @@
         "venue": "AT&T Stadium",
         "home_zh": "英格兰",
         "away_zh": "克罗地亚",
-        "pred": {
-          "win": 0.55,
-          "draw": 0.25,
-          "lose": 0.2,
-          "score": "2-1",
-          "star": "哈里·凯恩",
-          "analysis": "英格兰世界第5，克罗地亚第12，近两次交锋英格兰1胜1平。三狮阵容年轻冲击力强，克罗地亚中场老化，看好英格兰小胜。"
-        },
         "pred_en": {
           "win": 0.7,
           "draw": 0.2,
@@ -2644,14 +2144,6 @@
         "venue": "BMO Field",
         "home_zh": "加纳",
         "away_zh": "巴拿马",
-        "pred": {
-          "win": 0.6,
-          "draw": 0.25,
-          "lose": 0.15,
-          "score": "2-0",
-          "star": "穆罕默德·库杜斯",
-          "analysis": "加纳世界第58，巴拿马第78，加纳球员个人能力更强，巴拿马防守松散。预测加纳占据控球优势，轻松取胜。"
-        },
         "pred_en": {
           "win": 0.65,
           "draw": 0.25,
@@ -2671,14 +2163,6 @@
         "venue": "Gillette Stadium",
         "home_zh": "英格兰",
         "away_zh": "加纳",
-        "pred": {
-          "win": 0.7,
-          "draw": 0.2,
-          "lose": 0.1,
-          "score": "3-0",
-          "star": "哈里·凯恩",
-          "analysis": "英格兰实力碾压加纳，世界排名差50位以上。英格兰快速边路进攻将撕破加纳防线，凯恩有望梅开二度。"
-        },
         "pred_en": {
           "win": 0.8,
           "draw": 0.15,
@@ -2698,14 +2182,6 @@
         "venue": "BMO Field",
         "home_zh": "巴拿马",
         "away_zh": "克罗地亚",
-        "pred": {
-          "win": 0.3,
-          "draw": 0.25,
-          "lose": 0.45,
-          "score": "0-2",
-          "star": "卢卡·莫德里奇",
-          "analysis": "巴拿马世界第78，克罗地亚第12，实力悬殊。克罗地亚控制中场，巴拿马难以形成威胁，客胜概率高。"
-        },
         "pred_en": {
           "win": 0.15,
           "draw": 0.25,
@@ -2725,14 +2201,6 @@
         "venue": "MetLife Stadium",
         "home_zh": "巴拿马",
         "away_zh": "英格兰",
-        "pred": {
-          "win": 0.15,
-          "draw": 0.2,
-          "lose": 0.65,
-          "score": "0-3",
-          "star": "哈里·凯恩",
-          "analysis": "巴拿马面对顶级强队英格兰难有作为。英格兰整体攻防远超对手，预计零封大胜，凯恩继续进球。"
-        },
         "pred_en": {
           "win": 0.05,
           "draw": 0.15,
@@ -2752,14 +2220,6 @@
         "venue": "Lincoln Financial Field",
         "home_zh": "克罗地亚",
         "away_zh": "加纳",
-        "pred": {
-          "win": 0.55,
-          "draw": 0.25,
-          "lose": 0.2,
-          "score": "2-0",
-          "star": "卢卡·莫德里奇",
-          "analysis": "克罗地亚世界第12，加纳第58，克罗地亚经验丰富。尽管加纳有速度，但格子军团控场能力更强，看好主胜。"
-        },
         "pred_en": {
           "win": 0.6,
           "draw": 0.25,

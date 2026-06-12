@@ -27,6 +27,8 @@ jobs:
           node-version: "22"
       - name: Update results (best-effort)
         run: python update_results.py || echo "update skipped"
+      - name: Fetch kickoff times (best-effort)
+        run: python fetch_schedule.py || echo "schedule skipped"
       - name: Build site
         env:
           ADSENSE_PUB: ${{ secrets.ADSENSE_PUB }}

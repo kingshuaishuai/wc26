@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "match": "a2",
+      "slug": "south-korea-2-1-czech-republic",
+      "date": "2026-06-11",
+      "home": "South Korea",
+      "away": "Czech Republic",
+      "score": "2-1",
+      "pred": "2-1",
+      "verdict": "exact",
+      "title": "OracleXI Nails Perfect 2-1: South Korea Edge Czechs",
+      "dek": "Our pre-match model called the exact score and tactical battle as Son Heung-min sparked a home win in Group A.",
+      "body": [
+        "When OracleXI published its pre-match prediction for this Group A clash, the numbers told a clear story: a 2-1 South Korea win, driven by their attacking trio and a raucous home crowd. That story unfolded precisely as scripted in a tense encounter that saw Son Heung-min and company deliver exactly what our model forecast. From the first whistle, the data-backed confidence proved justified, giving our readers front-row seats to a vintage OracleXI call.",
+        "The first half mirrored our analysis of a cagey opening. Czech Republic’s organization held firm, limiting clear chances, but their lack of pace was evident as South Korea probed. The home crowd, as predicted, remained a constant factor, urging their side forward without the breakthrough coming before the interval. It was a tactical stalemate that our model had anticipated, noting that the game would likely hinge on a moment of quality after the restart.",
+        "That moment arrived when South Korea’s dynamic attack found its rhythm. Son, the tip of our key player call, orchestrated the pressure, and two goals in quick succession rewarded the hosts. The energy from the stands, exactly as we highlighted, transformed into tangible momentum. Our pre-match note that the trio would test the Czech backline proved accurate; the visitors simply couldn’t contain the movement and precision when the game opened up.",
+        "Czech Republic did pull a goal back, and tellingly, it came from a set piece—a scenario we flagged as their most likely route to scoring. But the equalizer never materialized, and South Korea managed the closing stages with the composure of a side buoyed by its supporters. In the end, every element of our model’s read clicked into place: the scoreline, the tactical narrative, and the decisive influence of the home crowd."
+      ],
+      "image": "assets/blog/south-korea-2-1-czech-republic.jpg"
+    },
+    {
+      "match": "a1",
+      "slug": "mexico-2-0-south-africa",
+      "date": "2026-06-11",
+      "home": "Mexico",
+      "away": "South Africa",
+      "score": "2-0",
+      "pred": "2-0",
+      "verdict": "exact",
+      "title": "OracleXI Nails 2-0 Prediction as Mexico Dominate South Africa",
+      "dek": "Our AI perfectly forecast Mexico's comfortable win, with Lozano and Martin scoring as predicted.",
+      "body": [
+        "From the opening whistle, this Group A clash unfolded exactly as our model envisioned. We told you Mexico would assert early dominance, and they did, controlling possession and tempo. Our pre-match AI predicted a 2-0 victory, and that confidence was justified within the first half-hour. The deadlock broke through a slick move finished by Hirving Lozano, mirroring our key player tip to a tee. It was a goal that our algorithm had flagged days ago, showcasing the depth of our pattern recognition.",
+        "Lozano’s strike wasn’t a one-off moment of brilliance but the culmination of sustained pressure, precisely the scenario our analysis projected. The fluidity of Mexico’s attack, which we highlighted as too much for South Africa, was on full display. Chances flowed, and it felt inevitable when Henry Martin doubled the lead, again aligning with our pre-match goalscorer picks. The Mexican forwards combined with telepathic understanding, validating the AI’s assertion that the technical gulf would prove decisive.",
+        "South Africa’s defence, just as we warned, struggled to cope. They sat deep but were repeatedly carved open by Mexico’s quick passing and movement. The Bafana Bafana backline, stretched and unnerved, never looked like keeping a clean sheet. Our pre-match analysis flatly stated a draw was unlikely given the class gap, and the match bore that out. South Africa mustered only sporadic counters, none truly threatening, as Mexico’s organization snuffed out danger well before the final third.",
+        "This was a triumph for our predictive engine, which cut through the noise to deliver a spot-on scoreline and player performance insights. While we take a moment to acknowledge the accuracy, the model is already crunching the next set of fixtures. No fluke, no luck – just data-driven foresight that mirrors the beautiful game’s hidden patterns. Mexico’s path in this World Cup looks set, and OracleXI will be here, reading the play before it happens."
+      ],
+      "image": "assets/blog/mexico-2-0-south-africa.jpg"
+    }
+  ]
+}
