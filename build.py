@@ -71,14 +71,17 @@ def crumbs_ld(items):
     return jsonld({"@context":"https://schema.org","@type":"BreadcrumbList",
         "itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":f"{BASE}/{u}"} for i,(n,u) in enumerate(items)]})
 
-def head(title, desc, rel="", canon="", ld=""):
+def head(title, desc, rel="", canon="", ld="", img="", meta_extra=""):
+    og_img = f"{BASE}/{img}" if img else f"{BASE}/assets/og.jpg"
     return f"""<!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{BASE}/{canon}">
-<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
-<meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
+{meta_extra}<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
+<meta property="og:type" content="website"><meta property="og:url" content="{BASE}/{canon}">
+<meta property="og:image" content="{og_img}"><meta name="twitter:image" content="{og_img}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{rel}style.css">
@@ -347,7 +350,8 @@ def build_blog_post(p):
                      **({"image": f"{BASE}/{p['image']}"} if p.get("image") else {}),
                      "author": {"@type": "Organization", "name": SITE},
                      "publisher": {"@type": "Organization", "name": SITE}})
-    out = head(title, desc, rel="../", canon=f"blog/{p['slug']}.html", ld=cr_ld+art_ld) + f"""
+    out = head(title, desc, rel="../", canon=f"blog/{p['slug']}.html", ld=cr_ld+art_ld,
+               img=p.get("image", "")) + f"""
 <div class="wrap"><div class="crumb"><a href="../index.html">Home</a> / <a href="../blog/index.html">Blog</a> / {esc(p['title'])}</div></div>
 {hero}
 <article class="wrap post">
@@ -546,9 +550,9 @@ def main():
     os.makedirs(os.path.join(DIST,"match"),exist_ok=True)
     os.makedirs(os.path.join(DIST,"team"),exist_ok=True)
     os.makedirs(os.path.join(DIST,"blog"),exist_ok=True)
-    _blogimg=os.path.join(ROOT,"assets","blog")  # 博客配图(MiniMax 生成)随站部署
-    if os.path.isdir(_blogimg):
-        shutil.copytree(_blogimg, os.path.join(DIST,"assets","blog"), dirs_exist_ok=True)
+    _assets=os.path.join(ROOT,"assets")  # 博客配图/OG分享图随站部署
+    if os.path.isdir(_assets):
+        shutil.copytree(_assets, os.path.join(DIST,"assets"), dirs_exist_ok=True)
     shutil.copy(os.path.join(ROOT,"static","style.css"),os.path.join(DIST,"style.css"))
     open(os.path.join(DIST,"favicon.svg"),"w").write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#d4ff2e"/><text x="32" y="45" font-family="Arial Black,Arial" font-weight="900" font-size="26" fill="#0a0b0d" text-anchor="middle">XI</text></svg>')
     keyf = os.path.join(ROOT, ".indexnow_key")
@@ -571,7 +575,7 @@ def main():
           +[f"blog/{p['slug']}.html" for p in BLOG.get("posts",[])]
           +[turl(t["en"]) for t in ALL_TEAMS]+[murl(m) for m in ALL])
     sm='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    sm+="".join(f"<url><loc>{BASE}/{u}</loc></url>\n" for u in urls)+"</urlset>"
+    sm+="".join(f"<url><loc>{BASE}/{u}</loc><lastmod>{TODAY}</lastmod></url>\n" for u in urls)+"</urlset>"
     open(os.path.join(DIST,"sitemap.xml"),"w").write(sm)
     open(os.path.join(DIST,"robots.txt"),"w").write(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
     if ADSENSE_PUB:
