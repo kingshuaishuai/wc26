@@ -806,10 +806,11 @@
           "draw": 0.04,
           "lose": 0.01,
           "score": "4-0",
-          "star": "*",
+          "star": "Jamal Musiala",
           "analysis": "Germany are a world powerhouse, while Curaçao are a minnow. The home side dominates possession and creates numerous chances, converting four times. Curaçao offer little threat. A straightforward victory for Germany."
         },
-        "kickoff_utc": "2026-06-14T17:00:00Z"
+        "kickoff_utc": "2026-06-14T17:00:00Z",
+        "pred_updated_utc": "2026-06-12T17:00:26Z"
       },
       {
         "group": "E",
