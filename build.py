@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """WC26 Predictions — English static site generator (home + 12 groups + 72 match pages)."""
 import json, os, shutil, html, math
-from datetime import date
+from datetime import date, datetime, timedelta
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
@@ -504,16 +504,49 @@ def build_data_page():
 """ + foot()
     open(os.path.join(DIST,"data.html"),"w",encoding="utf-8").write(out)
 
+_CA_V = ("toronto", "bmo", "vancouver", "bc place")
+_MX_V = ("azteca", "monterrey", "guadalajara", "akron", "estadio")
+
+def _venue_country(v):
+    s = (v or "").lower()
+    if any(k in s for k in _CA_V): return "CA"
+    if any(k in s for k in _MX_V): return "MX"
+    return "US"  # 2026 世界杯绝大多数场馆在美国
+
+def event_ld(m):
+    """SportsEvent 结构化数据(补全 Google 推荐字段:performer/organizer/description/endDate/image/address)。"""
+    p = P(m); home, away = m["home"], m["away"]
+    teams = [{"@type": "SportsTeam", "name": home}, {"@type": "SportsTeam", "name": away}]
+    ev = {"@context": "https://schema.org", "@type": "SportsEvent",
+          "name": f"{home} vs {away} — 2026 FIFA World Cup Group {m['group']}",
+          "sport": "Soccer",
+          "description": (f"2026 FIFA World Cup Group {m['group']} match: {home} vs {away}. "
+                          f"AI prediction {p.get('score','-')} with win probabilities and analysis."),
+          "url": f"{BASE}/{murl(m)}", "image": f"{BASE}/assets/og.jpg",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "organizer": {"@type": "Organization", "name": "FIFA", "url": "https://www.fifa.com"},
+          "performer": teams, "competitor": teams}
+    start = m.get("kickoff_utc") or m.get("date")
+    if start:
+        ev["startDate"] = start
+    ko = m.get("kickoff_utc")
+    if ko:
+        try:
+            ev["endDate"] = (datetime.strptime(ko, "%Y-%m-%dT%H:%M:%SZ")
+                             + timedelta(hours=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        except Exception:
+            pass
+    if m.get("venue"):
+        ev["location"] = {"@type": "Place", "name": m["venue"],
+                          "address": {"@type": "PostalAddress", "name": m["venue"],
+                                      "addressCountry": _venue_country(m["venue"])}}
+    return jsonld(ev)
+
 def build_match(m):
     p=P(m); w,d,l=probs(m)
     title=f"{m['home']} vs {m['away']} Prediction: {p.get('score','-')} | 2026 World Cup Group {m['group']}"
     desc=f"{m['home']} vs {m['away']} prediction (2026 World Cup, Group {m['group']}): AI tips {p.get('score','-')}. Win probabilities {w:.0f}%/{d:.0f}%/{l:.0f}%. {(p.get('analysis') or '')[:70]}"
-    ev_ld=jsonld({"@context":"https://schema.org","@type":"SportsEvent",
-        "name":f"{m['home']} vs {m['away']} — 2026 FIFA World Cup Group {m['group']}","sport":"Soccer",
-        **({"startDate":m["date"]} if m.get("date") else {}),
-        "eventStatus":"https://schema.org/EventScheduled","url":f"{BASE}/{murl(m)}",
-        **({"location":{"@type":"Place","name":m["venue"]}} if m.get("venue") else {}),
-        "competitor":[{"@type":"SportsTeam","name":m["home"]},{"@type":"SportsTeam","name":m["away"]}]})
+    ev_ld=event_ld(m)
     cr_ld=crumbs_ld([("Home","index.html"),(f"Group {m['group']}",f"group/{m['group']}.html"),(f"{m['home']} vs {m['away']}",murl(m))])
     out=head(title,desc,rel="../",canon=murl(m),ld=ev_ld+cr_ld)+f"""
 <div class="wrap"><div class="crumb"><a href="../index.html">Home</a> / <a href="../group/{m['group']}.html">Group {m['group']}</a> / {esc(m['home'])} vs {esc(m['away'])}</div></div>
