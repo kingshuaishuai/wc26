@@ -1,6 +1,11 @@
 #!/bin/zsh
 # 本地定时任务:拉比分→生成战报(DeepSeek/MiniMax,用本地.env密钥)→推送触发CI部署。
 # 密钥只在本地,绝不上 GitHub。日志 /tmp/oraclexi_blog.log。
+#
+# ⏸ 已停用(2026-06-13):站点暂不投入资源,停止 API 开销(博客/动态预测)。
+#   站点静态部分仍在 Cloudflare 免费运行,比分靠免密钥的 GitHub CI 自动更新。
+#   要恢复:删掉下面这行 exit 0 即可。
+exit 0
 cd /Users/yishuai/develop/ai/make-money/projects/worldcup2026 || exit 1
 set -a; source /Users/yishuai/develop/ai/make-money/.env; set +a
 PY=/Users/yishuai/anaconda3/bin/python3
