@@ -37,6 +37,7 @@ _ICON = {
     "alert": '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
     "download": '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/>',
     "trophy": '<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>',
+    "refresh": '<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/>',
 }
 def icon(name, cls=""):
     return (f'<svg class="ic {cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
@@ -122,6 +123,13 @@ document.querySelectorAll('[data-reveal]').forEach((el,i)=>{{el.dataset.d=(i%6)*
  function up(){{chips.forEach(function(c){{var t=rel(c.getAttribute('data-ko'));
   c.textContent=t; c.classList.toggle('live',t==='LIVE');}});}}
  up(); setInterval(up,1000);
+}})();
+(function(){{
+ var f=document.querySelector('.pred-fresh[data-updated]'); if(!f) return;
+ var w=f.querySelector('.pf-when'), u=new Date(f.getAttribute('data-updated')).getTime();
+ var diff=Date.now()-u, h=Math.floor(diff/3600000), m=Math.floor(diff%3600000/60000);
+ var ago=h>0?(h+'h '+m+'m ago'):(m+'m ago');
+ if(w) w.textContent='Updated with latest team news '+ago;
 }})();
 </script></body></html>"""
 
@@ -212,6 +220,17 @@ def scorelines_html(m):
         f'{" <span class=ourpick>our pick</span>" if s==pick else ""}</div>' for s,pct in sl)
     return (f'<div class="scorelines"><div class="lbl">Most likely scorelines '
             f'<span class="muted">· Poisson model</span></div>{rows}</div>')
+
+def pred_fresh(m):
+    """未踢比赛若已动态刷新过,显示"最近更新 + 开球锁定"。前端按 data-updated 渲染相对时间。"""
+    if (m.get("result") or {}).get("played"):
+        return ""
+    u = m.get("pred_updated_utc")
+    if not u:
+        return ""
+    return (f'<div class="pred-fresh" data-updated="{u}">{icon("refresh")}'
+            f'<span class="pf-when">Updated with latest team news</span>'
+            f'<span class="pf-lock">· Locks at kickoff</span></div>')
 
 def congrats(m):
     """已踢比赛:热烈恭喜获胜方并加油(平局则致敬双方)。"""
@@ -498,6 +517,7 @@ def build_match(m):
 <div class="grp">Group {m['group']} · Match {m.get('match_no','')} · {fmt_date(m['date'])}</div>
 <div class="vs-row"><div class="name">{esc(m['home'])}</div><div><div class="vs">VS</div><div class="pscore">{esc(p.get('score','-'))}</div>{verdict_badge(m, big=True)}</div><div class="name">{esc(m['away'])}</div></div>
 <div class="meta-row"><span>{icon("pin")} <b>{esc(m['venue'] or 'TBD')}</b></span><span>{icon("star")} Watch: <b>{esc(p.get('star') or '—')}</b></span></div>
+{pred_fresh(m)}
 </div></section>
 <div class="wrap">
 {congrats(m)}

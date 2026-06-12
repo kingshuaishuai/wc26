@@ -241,9 +241,10 @@
           "lose": 0.25,
           "score": "2-1",
           "star": "Canada",
-          "analysis": "Canada, playing at home, hold a slight edge over Bosnia and Herzegovina in a closely matched encounter. Both teams have improved in recent years, but Canada's youthful energy and home advantage tip the scales. Expect a competitive game with Canada edging it by a narrow margin."
+          "analysis": "Canada, with home advantage and youthful energy, hold a slight edge over Bosnia. Both teams are closely matched, but Canada's dynamic play should see them narrowly win a competitive game."
         },
-        "kickoff_utc": "2026-06-12T19:00:00Z"
+        "kickoff_utc": "2026-06-12T19:00:00Z",
+        "pred_updated_utc": "2026-06-12T15:10:28Z"
       },
       {
         "group": "B",
@@ -260,10 +261,11 @@
           "draw": 0.2,
           "lose": 0.7,
           "score": "0-2",
-          "star": "Switzerland",
+          "star": "Granit Xhaka",
           "analysis": "Switzerland are clear favorites against Qatar, even away from home. The Swiss possess superior tactical organization and individual quality. Qatar will struggle to create chances, while Switzerland's efficient attack should secure a comfortable victory."
         },
-        "kickoff_utc": "2026-06-13T19:00:00Z"
+        "kickoff_utc": "2026-06-13T19:00:00Z",
+        "pred_updated_utc": "2026-06-12T15:10:28Z"
       },
       {
         "group": "B",
