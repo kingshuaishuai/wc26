@@ -244,7 +244,12 @@
           "analysis": "No significant team news emerged. Canada's home advantage and youthful energy still give them a narrow edge over Bosnia. Expect a tight contest with Davies as the key creative force."
         },
         "kickoff_utc": "2026-06-12T19:00:00Z",
-        "pred_updated_utc": "2026-06-12T17:30:26Z"
+        "pred_updated_utc": "2026-06-12T17:30:26Z",
+        "result": {
+          "played": true,
+          "hs": 1,
+          "as": 1
+        }
       },
       {
         "group": "B",
@@ -262,10 +267,10 @@
           "lose": 0.7,
           "score": "0-2",
           "star": "Granit Xhaka",
-          "analysis": "Switzerland are clear favorites against Qatar, even away from home. The Swiss possess superior tactical organization and individual quality. Qatar will struggle to create chances, while Switzerland's efficient attack should secure a comfortable victory."
+          "analysis": "No significant team news updates. Qatar's lack of quality and Switzerland's superior organization remain decisive. Prediction unchanged."
         },
         "kickoff_utc": "2026-06-13T19:00:00Z",
-        "pred_updated_utc": "2026-06-12T15:10:28Z"
+        "pred_updated_utc": "2026-06-13T09:22:04Z"
       },
       {
         "group": "B",
@@ -351,25 +356,25 @@
     "standings": [
       {
         "team": "Canada",
-        "P": 0,
+        "P": 1,
         "W": 0,
-        "D": 0,
+        "D": 1,
         "L": 0,
-        "GF": 0,
-        "GA": 0,
+        "GF": 1,
+        "GA": 1,
         "GD": 0,
-        "Pts": 0
+        "Pts": 1
       },
       {
         "team": "Bosnia and Herzegovina",
-        "P": 0,
+        "P": 1,
         "W": 0,
-        "D": 0,
+        "D": 1,
         "L": 0,
-        "GF": 0,
-        "GA": 0,
+        "GF": 1,
+        "GA": 1,
         "GD": 0,
-        "Pts": 0
+        "Pts": 1
       },
       {
         "team": "Qatar",
@@ -622,6 +627,11 @@
           "score": "2-1",
           "star": "3",
           "analysis": "United States, as hosts, hold a clear edge in quality over Paraguay. Expect the Americans to control possession and create chances through Christian Pulisic. Paraguay will rely on counters but lack the firepower to match. A 2-1 win for the USA is most likely."
+        },
+        "result": {
+          "played": true,
+          "hs": 4,
+          "as": 1
         }
       },
       {
@@ -723,25 +733,14 @@
     "standings": [
       {
         "team": "United States",
-        "P": 0,
-        "W": 0,
+        "P": 1,
+        "W": 1,
         "D": 0,
         "L": 0,
-        "GF": 0,
-        "GA": 0,
-        "GD": 0,
-        "Pts": 0
-      },
-      {
-        "team": "Paraguay",
-        "P": 0,
-        "W": 0,
-        "D": 0,
-        "L": 0,
-        "GF": 0,
-        "GA": 0,
-        "GD": 0,
-        "Pts": 0
+        "GF": 4,
+        "GA": 1,
+        "GD": 3,
+        "Pts": 3
       },
       {
         "team": "Australia",
@@ -763,6 +762,17 @@
         "GF": 0,
         "GA": 0,
         "GD": 0,
+        "Pts": 0
+      },
+      {
+        "team": "Paraguay",
+        "P": 1,
+        "W": 0,
+        "D": 0,
+        "L": 1,
+        "GF": 1,
+        "GA": 4,
+        "GD": -3,
         "Pts": 0
       }
     ]
@@ -807,10 +817,10 @@
           "lose": 0.01,
           "score": "4-0",
           "star": "Jamal Musiala",
-          "analysis": "Germany are a world powerhouse, while Curaçao are a minnow. The home side dominates possession and creates numerous chances, converting four times. Curaçao offer little threat. A straightforward victory for Germany."
+          "analysis": "Germany, a world powerhouse, will dominate possession and create numerous chances against Curaçao, a minnow. Expect four goals from the home side with little threat from the visitors. A straightforward victory."
         },
         "kickoff_utc": "2026-06-14T17:00:00Z",
-        "pred_updated_utc": "2026-06-12T17:00:26Z"
+        "pred_updated_utc": "2026-06-13T09:22:04Z"
       },
       {
         "group": "E",
@@ -830,7 +840,8 @@
           "star": "*",
           "analysis": "Ecuador are slightly stronger than Ivory Coast, but the home advantage helps the Ivorians. However, Ecuador's technical edge leads to two goals, while Ivory Coast pull one back. A tight contest favors the away side."
         },
-        "kickoff_utc": "2026-06-14T23:00:00Z"
+        "kickoff_utc": "2026-06-14T23:00:00Z",
+        "pred_updated_utc": "2026-06-13T09:22:04Z"
       },
       {
         "group": "E",
@@ -1000,9 +1011,10 @@
           "lose": 0.07,
           "score": "2-0",
           "star": "Netherlands",
-          "analysis": "Netherlands dominate possession and create chances against Japan's disciplined defense. A clinical finish and a late strike seal a comfortable win. Japan struggle to break through the Dutch backline."
+          "analysis": "No significant team news has emerged to alter the pre-match prediction. Netherlands' superior quality and home advantage should see them dominate possession and secure a comfortable victory, with Japan struggling to create clear-cut chances."
         },
-        "kickoff_utc": "2026-06-14T20:00:00Z"
+        "kickoff_utc": "2026-06-14T20:00:00Z",
+        "pred_updated_utc": "2026-06-13T09:22:04Z"
       },
       {
         "group": "F",
@@ -1022,7 +1034,8 @@
           "star": "Sweden",
           "analysis": "Sweden's physicality and set-piece prowess overpower Tunisia. An early header and a counter-attack goal ensure victory. Tunisia rarely threaten, lacking creativity in final third."
         },
-        "kickoff_utc": "2026-06-15T02:00:00Z"
+        "kickoff_utc": "2026-06-15T02:00:00Z",
+        "pred_updated_utc": "2026-06-13T09:22:04Z"
       },
       {
         "group": "F",

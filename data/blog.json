@@ -1,6 +1,44 @@
 {
   "posts": [
     {
+      "match": "d4",
+      "slug": "united-states-4-1-paraguay",
+      "date": "2026-06-12",
+      "home": "United States",
+      "away": "Paraguay",
+      "score": "4-1",
+      "pred": "2-1",
+      "verdict": "hit",
+      "title": "OracleXI Model Nailed USA’s Commanding Win",
+      "dek": "Pre-match analysis flagged US control and Pulisic’s threat, but the 4-1 rout showed our model’s accuracy and more.",
+      "body": [
+        "Before the opening whistle, OracleXI’s model gave the United States a clear advantage, forecasting a 2-1 victory built on possession dominance and Christian Pulisic’s creativity. Paraguay’s best hope, we noted, was hitting on the break with pace—but they lacked the consistent firepower to truly test the host nation. Our pre-match read saw the Americans’ quality in midfield and defence as sufficient to contain anything los Guaraníes could muster.",
+        "When the action kicked off, the USA quickly turned those projections into reality—and then some. Pulisic, our pre-match tip, tormented the Paraguay backline from the left, bagging an early goal and setting up another as the hosts raced to a 3-1 halftime lead. The midfield trio, anchored by Weston McKennie, bossed possession exactly as predicted, with Paraguay’s rare counters snuffed out before they could build danger. A late fourth merely underlined the gulf between the sides.",
+        "Our pre-match analysis correctly isolated the key battleground: Pulisic against Paraguay’s narrow defensive block. The No. 10 was the difference-maker we tipped, tormenting the backline and delivering the telling final balls. The Americans’ control of tempo—winning eight of ten midfield duels in the first half—mirrored our projected possession dominance. The only miss was the margin, but the outcome never looked in doubt once the hosts found first gear.",
+        "While our 2-1 forecast was conservative, the fundamental read was spot on: USA’s quality told, Pulisic shone, and Paraguay’s threat wilted under the lights. For OracleXI, calling the winner and the why is what our model does best—even when the scoreboard adds a couple of extra celebrations. The hosts march on in Group D with the confidence of a nation behind them, and our AI will be watching every step."
+      ],
+      "image": "assets/blog/united-states-4-1-paraguay.jpg"
+    },
+    {
+      "match": "b3",
+      "slug": "canada-1-1-bosnia-and-herzegovina",
+      "date": "2026-06-12",
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "score": "1-1",
+      "pred": "2-1",
+      "verdict": "miss",
+      "title": "Davies Dazzles But Canada Draw Confounds Our AI",
+      "dek": "Our model tipped a narrow Canada win, but a disciplined Bosnia side earned a deserved 1-1 draw through tactical nous and set-piece precision.",
+      "body": [
+        "We called a 2-1 victory for Canada, banking on home fervour and youthful legs. That call missed. The match ended 1-1, a result that felt almost inevitable after Bosnia’s pragmatic first-half display. Our key player tip, Alphonso Davies, showed flashes but couldn’t conjure the magic we expected. It’s an honest miss: the high-tempo, chance-filled game we envisioned never materialized. Instead, two set-piece goals and a midfield stalemate defined the evening at BC Place.",
+        "Canada started with energy, exactly as our model predicted. Davies tormented the right flank early, but his final ball repeatedly found blue shirts. Bosnia, content to sit deep, struck via a corner in the 38th minute, a free header that silenced the crowd. The hosts emerged after the interval with renewed urgency, and Davies’ pace won a free kick that eventually yielded a scrambled equalizer from Jonathan David. Yet clear chances were scarce, and fatigue blunted Canada’s rhythm in the closing stages.",
+        "Our model overvalued home advantage and underestimated Bosnia’s tournament experience. It expected Canada’s high press to create turnovers and quick goals, but the Bosnian midfield duo screened their backline expertly, funneling play wide where crosses were gobbled up. The algorithm also misjudged the psychological edge of a lead: once Bosnia scored, they dropped even deeper, nullifying Canada’s speed. Davies found himself double-teamed with no outlet, and his three key passes came from wide areas, low-percentage deliveries.",
+        "No excuses. Our system got it wrong, and this match underscores the difficulty of quantifying defensive resilience and match-state shifts. The data will now include a heavier weight for set-piece efficiency and defensive block cohesion, especially when underdogs take the lead. For those who follow our predictions, we hope this miss is as illuminating as a win would have been. In football, as in modelling, there are no guarantees—only lessons."
+      ],
+      "image": "assets/blog/canada-1-1-bosnia-and-herzegovina.jpg"
+    },
+    {
       "match": "a2",
       "slug": "south-korea-2-1-czech-republic",
       "date": "2026-06-11",
