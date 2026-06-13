@@ -822,10 +822,10 @@
           "lose": 0.01,
           "score": "4-0",
           "star": "Jamal Musiala",
-          "analysis": "Team news confirms expected lineups with no major injuries or suspensions for Germany. Curaçao's minnow status unchanged. Germany's dominance remains overwhelming, so the prediction of a comfortable 4-0 win stands."
+          "analysis": "Confirmed lineups as expected, no injuries or suspensions. Germany's superior quality against minnows Curaçao suggests a comfortable win. Jamal Musiala remains key."
         },
         "kickoff_utc": "2026-06-14T17:00:00Z",
-        "pred_updated_utc": "2026-06-13T15:30:28Z"
+        "pred_updated_utc": "2026-06-13T22:00:26Z"
       },
       {
         "group": "E",
@@ -846,7 +846,7 @@
           "analysis": "No significant team news for either side; prior prediction remains valid. Ecuador's technical edge and away strength should secure a narrow win."
         },
         "kickoff_utc": "2026-06-14T23:00:00Z",
-        "pred_updated_utc": "2026-06-13T15:30:28Z"
+        "pred_updated_utc": "2026-06-13T22:00:26Z"
       },
       {
         "group": "E",
@@ -1016,10 +1016,10 @@
           "lose": 0.07,
           "score": "2-0",
           "star": "Netherlands",
-          "analysis": "No new team news has emerged for either side. The prior prediction stands: Netherlands' quality and home advantage should secure a comfortable 2-0 win, with Japan lacking cutting edge."
+          "analysis": "No new team news has emerged. The prior prediction stands: Netherlands' quality and home advantage should secure a comfortable 2-0 win, with Japan lacking cutting edge."
         },
         "kickoff_utc": "2026-06-14T20:00:00Z",
-        "pred_updated_utc": "2026-06-13T15:30:28Z"
+        "pred_updated_utc": "2026-06-13T22:00:26Z"
       },
       {
         "group": "F",
@@ -1037,10 +1037,10 @@
           "lose": 0.1,
           "score": "2-0",
           "star": "Alexander Isak",
-          "analysis": "No significant team news altering the prediction. Sweden's set-piece dominance and physical advantage remain decisive."
+          "analysis": "No relevant team news to alter prediction. Sweden's set-piece dominance and physical edge, with Isak leading the line, remain decisive for a 2-0 win."
         },
         "kickoff_utc": "2026-06-15T02:00:00Z",
-        "pred_updated_utc": "2026-06-13T15:30:28Z"
+        "pred_updated_utc": "2026-06-13T22:00:26Z"
       },
       {
         "group": "F",
@@ -1419,7 +1419,8 @@
           "star": "4",
           "analysis": "Uruguay's strength overshadows Saudi Arabia's home advantage. The visitors control the game and score two goals, while Saudi Arabia struggle to create clear chances. Uruguay secure a deserved 2-0 away win."
         },
-        "kickoff_utc": "2026-06-15T22:00:00Z"
+        "kickoff_utc": "2026-06-15T22:00:00Z",
+        "pred_updated_utc": "2026-06-13T22:00:26Z"
       },
       {
         "group": "H",
