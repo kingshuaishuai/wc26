@@ -270,7 +270,12 @@
           "analysis": "No relevant team news provided. Prior analysis stands: Switzerland's organization and Qatar's lack of quality remain decisive. Prediction unchanged."
         },
         "kickoff_utc": "2026-06-13T19:00:00Z",
-        "pred_updated_utc": "2026-06-13T18:30:27Z"
+        "pred_updated_utc": "2026-06-13T18:30:27Z",
+        "result": {
+          "played": true,
+          "hs": 1,
+          "as": 1
+        }
       },
       {
         "group": "B",
@@ -378,25 +383,25 @@
       },
       {
         "team": "Qatar",
-        "P": 0,
+        "P": 1,
         "W": 0,
-        "D": 0,
+        "D": 1,
         "L": 0,
-        "GF": 0,
-        "GA": 0,
+        "GF": 1,
+        "GA": 1,
         "GD": 0,
-        "Pts": 0
+        "Pts": 1
       },
       {
         "team": "Switzerland",
-        "P": 0,
+        "P": 1,
         "W": 0,
-        "D": 0,
+        "D": 1,
         "L": 0,
-        "GF": 0,
-        "GA": 0,
+        "GF": 1,
+        "GA": 1,
         "GD": 0,
-        "Pts": 0
+        "Pts": 1
       }
     ]
   },

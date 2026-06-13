@@ -1,6 +1,25 @@
 {
   "posts": [
     {
+      "match": "b8",
+      "slug": "qatar-1-1-switzerland",
+      "date": "2026-06-13",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "score": "1-1",
+      "pred": "0-2",
+      "verdict": "miss",
+      "title": "Qatar Derail Our Prediction in Gritty Draw",
+      "dek": "We forecast a 2-0 Swiss cruise, but Qatar fought to a 1-1 draw in a gritty Group B clash.",
+      "body": [
+        "Our pre-match prediction of a straightforward 0-2 victory for Switzerland crashed spectacularly. We got it wrong. No caveats, no blaming bad luck. The model’s faith in Swiss organization and Qatar’s supposed lack of quality proved unfounded. The hosts produced a performance that exposed flaws in our assessment, and we owe it to you to dissect exactly where the analysis broke down.",
+        "Qatar struck first through a clever set-piece just after the half-hour mark, silencing the doubters. Switzerland huffed and puffed but found no cutting edge until a late Granit Xhaka penalty salvaged a point. Despite dominating possession, the Swiss created few clear chances. Xhaka, our key player tip, was tidy but lacked the incisiveness needed to unlock a resolute Qatari defense. The 1-1 scoreline felt fair.",
+        "The model overestimated Switzerland’s attacking output against a deep block. It treated them like a top-tier side, but their chance creation metrics were inflated by weaker qualifiers. Qatar, as hosts, played with a level of intensity and tactical discipline we simply didn’t expect. Their counter-attacks caused genuine problems, and Switzerland’s normally reliable backline looked vulnerable. Statistics painted a false picture of inevitability.",
+        "This match is a reminder that World Cup hosts—especially those written off—can upend form books. Our prediction models need to better weight contextual factors like home advantage and occasion. We’ll review how we quantify ‘lack of quality’ because Qatar proved it’s not just about individual pedigree. It’s a humbling miss, but one we’ll learn from. No excuses, just a commitment to improve."
+      ],
+      "image": "assets/blog/qatar-1-1-switzerland.jpg"
+    },
+    {
       "match": "d4",
       "slug": "united-states-4-1-paraguay",
       "date": "2026-06-12",
