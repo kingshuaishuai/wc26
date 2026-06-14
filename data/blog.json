@@ -20,6 +20,25 @@
       "image": "assets/blog/brazil-1-1-morocco.jpg"
     },
     {
+      "match": "c5",
+      "slug": "haiti-0-1-scotland",
+      "date": "2026-06-13",
+      "home": "Haiti",
+      "away": "Scotland",
+      "score": "0-1",
+      "pred": "0-2",
+      "verdict": "hit",
+      "title": "Model Called It: Scotland’s Clean-Sheet Win",
+      "dek": "OracleXI’s pre-match analysis accurately predicted a Scotland victory and Haitian goal drought, with John McGinn proving the creative spark.",
+      "body": [
+        "OracleXI’s pre-match model pointed to a straightforward Scotland win, with a 0-2 scoreline tipped. While Steve Clarke’s men settled for a 1-0 victory in Port-au-Prince, the core logic held firm. We forecast Scotland would boss possession and keep a clean sheet—and that’s exactly what unfolded. The narrow margin reflects Haiti’s spirited defensive effort but doesn’t undermine the predictive accuracy: a composed, professional away performance delivered the three points our algorithm expected.",
+        "From the opening whistle, Scotland controlled the tempo just as we anticipated. Haiti’s midfield lacked the technical quality to disrupt Scotland’s passing sequences, and the hosts were often pinned into their own half. Scott McKenna marshalled the backline with authority, snuffing out rare Haitian forays before they became dangerous. It was a textbook display of control: possession stats leaned heavily in Scotland’s favour, and the defensive unit never looked flustered. The pre-match read that Haiti would struggle to hold off Scotland’s attacking threats proved accurate.",
+        "John McGinn was the beating heart of Scotland’s creativity, validating our key player tip. The Aston Villa midfielder knitted play together, finding pockets of space and delivering the decisive through-ball for the game’s only goal. His movement and vision unsettled a Haitian defence that, as we noted, lacked the organisation to cope with such quality. McGinn didn’t score, but his influence underlined why our model highlighted him as the match’s potential difference-maker. In a game of few clear chances, his moment of invention was enough.",
+        "Haiti rarely threatened, exactly as our analysis predicted. Their attack created zero shots on target, a stark illustration of the gulf in quality our model identified. Scotland’s midfield pressing and defensive shape starved the hosts of service, making it a comfortable night for the travelling side. While our exact 2-0 scoreline missed by one goal, the broader forecast—a dominant Scotland win with a clean sheet—was spot on. The result reinforces OracleXI’s ability to cut through noise and pinpoint where a match will be won and lost."
+      ],
+      "image": "assets/blog/haiti-0-1-scotland.jpg"
+    },
+    {
       "match": "b8",
       "slug": "qatar-1-1-switzerland",
       "date": "2026-06-13",
