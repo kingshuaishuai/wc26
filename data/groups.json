@@ -843,7 +843,7 @@
         "pred_updated_utc": "2026-06-14T16:30:29Z",
         "result": {
           "played": true,
-          "hs": 3,
+          "hs": 7,
           "as": 1
         }
       },
@@ -863,10 +863,10 @@
           "lose": 0.4,
           "score": "1-2",
           "star": "M. Caicedo",
-          "analysis": "No significant team news for either side. Ecuador's technical superiority and away form support a narrow win. Prediction unchanged."
+          "analysis": "No significant team news reported. Ecuador's technical superiority and strong away form support a narrow victory. Prediction unchanged from prior."
         },
         "kickoff_utc": "2026-06-14T23:00:00Z",
-        "pred_updated_utc": "2026-06-14T16:30:29Z"
+        "pred_updated_utc": "2026-06-14T19:00:29Z"
       },
       {
         "group": "E",
@@ -956,9 +956,9 @@
         "W": 1,
         "D": 0,
         "L": 0,
-        "GF": 3,
+        "GF": 7,
         "GA": 1,
-        "GD": 2,
+        "GD": 6,
         "Pts": 3
       },
       {
@@ -990,8 +990,8 @@
         "D": 0,
         "L": 1,
         "GF": 1,
-        "GA": 3,
-        "GD": -2,
+        "GA": 7,
+        "GD": -6,
         "Pts": 0
       }
     ]
@@ -1039,7 +1039,7 @@
           "analysis": "No significant team news updates; prior prediction stands."
         },
         "kickoff_utc": "2026-06-14T20:00:00Z",
-        "pred_updated_utc": "2026-06-14T17:30:33Z"
+        "pred_updated_utc": "2026-06-14T19:00:29Z"
       },
       {
         "group": "F",
