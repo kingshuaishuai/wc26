@@ -1,6 +1,25 @@
 {
   "posts": [
     {
+      "match": "d6",
+      "slug": "australia-2-0-turkey",
+      "date": "2026-06-13",
+      "home": "Australia",
+      "away": "Turkey",
+      "score": "2-0",
+      "pred": "1-2",
+      "verdict": "miss",
+      "title": "Australia 2-0 Turkey: Where Our Model Failed Miserably",
+      "dek": "We called a comfortable Turkey win; instead, the Socceroos delivered a defensive masterclass and clinical finishing.",
+      "body": [
+        "We got it wrong. Flat out, no excuses. Our model predicted a 2-1 Turkey victory, buoyed by their apparent attacking superiority. Instead, Australia beat them 2-0 in a result that never looked in doubt after the first goal. The pre-match analysis leaned heavily on Turkey’s creative talent, but it ignored the Socceroos’ capacity to execute a disciplined game plan on the biggest stage.",
+        "From the first whistle, Australia ceded possession but locked down the centre. Hakan Çalhanoğlu was smothered by Jackson Irvine’s relentless pressing, while Harry Souttar won every aerial duel. Turkey’s sterile dominance came to nothing—they managed just one shot on target in the first half. The Socceroos, meanwhile, struck on a counter-attack: a long throw caused chaos, and Mitchell Duke poked home.",
+        "The Turkish attack, vaunted in our preview, never found its rhythm. Our model overvalued individual flair and underestimated Australia’s tactical discipline. Arnold set up a deep block that left Çalhanoğlu isolated. The Socceroos didn’t need to dominate; they only needed to pounce. A Kye Rowles header from a set-piece doubled the lead just after halftime, and Turkey visibly wilted. Çalhanoğlu’s desperate long-range efforts summed up a day when organization trumped star power.",
+        "This miss exposes a flaw: our algorithm undervalues defensive organization and set-piece prowess in tournament settings. Australia’s xG was paltry, but their finishing was clinical. Pre-tournament, we might have scoffed at their chances, but this was no fluke. We’ll recalibrate to give more weight to such intangibles. For now, credit to the Socceroos—they made our 1-2 prediction look embarrassingly wrong."
+      ],
+      "image": "assets/blog/australia-2-0-turkey.jpg"
+    },
+    {
       "match": "c7",
       "slug": "brazil-1-1-morocco",
       "date": "2026-06-13",
