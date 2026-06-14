@@ -1,6 +1,25 @@
 {
   "posts": [
     {
+      "match": "e10",
+      "slug": "germany-3-1-cura-ao",
+      "date": "2026-06-14",
+      "home": "Germany",
+      "away": "Curaçao",
+      "score": "3-1",
+      "pred": "4-0",
+      "verdict": "hit",
+      "title": "Germany Cruise as Wirtz Shines, Model Called It",
+      "dek": "OracleXI’s pre-match read nailed Germany’s dominance and Wirtz as orchestrator, with the 3-1 win matching our 4-0 call.",
+      "body": [
+        "Germany’s 3-1 win over Curaçao at the World Cup may not have been the 4-0 blowout our AI projected, but it was a commanding display that echoed OracleXI’s pre-match confidence. From the opening whistle, the Mannschaft imposed their will, bossing possession and pinning the islanders deep. A flurry of early chances hinted at the rout we foresaw, even if the final margin was a shade narrower. The model’s read was clear: Germany would cruise, and cruise they did.",
+        "Our pre-match breakdown dismissed any injury noise, noting that Jamal Musiala’s absence was already priced into the model—and that Florian Wirtz would step up as the creative fulcrum. Wirtz delivered precisely that, pulling strings with a sumptuous passing range and bagging a goal to cap a masterful showing. The 21-year-old’s performance vindicated our key player tip, as he ghosted past markers and fed runners with the vision we singled out pre-game.",
+        "Curaçao’s late consolation goal was the lone blemish on an otherwise clean predictive sheet. Our model forecast a shutout, and for 78 minutes, the German backline looked impenetrable. The underdogs showed pluck, snatching a goal that denied the 4-0 but hardly dented the overall narrative. The shot maps and expected goals data aligned with our pre-match assessment: one-way traffic that should have produced more, yet the 3-1 still felt like a statement.",
+        "Ultimately, OracleXI’s model cut through the noise to identify the core story: German superiority and Wirtz’s outburst. Minor updates—Curaçao’s personnel tweaks, a late knock for a squad player—proved negligible against the algorithm’s conviction. While we won’t claim a perfect crystal ball, the pre-match read that mattered most echoed across 90 minutes. Germany by multiple goals was the call, and when Wirtz curled home the second, it felt like the model had already told us."
+      ],
+      "image": "assets/blog/germany-3-1-cura-ao.jpg"
+    },
+    {
       "match": "d6",
       "slug": "australia-2-0-turkey",
       "date": "2026-06-13",
