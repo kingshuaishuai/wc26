@@ -446,6 +446,11 @@
           "score": "2-0",
           "star": "Neymar",
           "analysis": "Brazil enter as overwhelming favourites with home support. Morocco are defensively organised but lack the firepower to threaten consistently. Brazil's technical superiority and depth should see them control possession and create chances, leading to a comfortable win. Expect Neymar to be influential in the final third."
+        },
+        "result": {
+          "played": true,
+          "hs": 1,
+          "as": 1
         }
       },
       {
@@ -547,25 +552,25 @@
     "standings": [
       {
         "team": "Brazil",
-        "P": 0,
+        "P": 1,
         "W": 0,
-        "D": 0,
+        "D": 1,
         "L": 0,
-        "GF": 0,
-        "GA": 0,
+        "GF": 1,
+        "GA": 1,
         "GD": 0,
-        "Pts": 0
+        "Pts": 1
       },
       {
         "team": "Morocco",
-        "P": 0,
+        "P": 1,
         "W": 0,
-        "D": 0,
+        "D": 1,
         "L": 0,
-        "GF": 0,
-        "GA": 0,
+        "GF": 1,
+        "GA": 1,
         "GD": 0,
-        "Pts": 0
+        "Pts": 1
       },
       {
         "team": "Haiti",

@@ -1,6 +1,25 @@
 {
   "posts": [
     {
+      "match": "c7",
+      "slug": "brazil-1-1-morocco",
+      "date": "2026-06-13",
+      "home": "Brazil",
+      "away": "Morocco",
+      "score": "1-1",
+      "pred": "2-0",
+      "verdict": "miss",
+      "title": "Our 2-0 Brazil Prediction? Morocco Had Other Ideas",
+      "dek": "We predicted a 2-0 Brazil win; instead, Morocco's grit held firm to expose our model's blind spots.",
+      "body": [
+        "Our pre-match AI model was unequivocal: Brazil would cruise to a 2-0 victory, with Neymar pulling the strings. The final whistle told a different story, a 1-1 stalemate that left our prediction in tatters. We own this miss completely. No excuses, no spin—our numbers misread the clash between Brazilian flair and Moroccan resilience, and we were left looking foolish as the underdogs earned a deserved point.",
+        "From the kick-off, it was clear Morocco had done their homework. They sat deep, denying Brazil space in the final third and frustrating Neymar into anonymity. Against the run of play, a lightning counter-attack saw Morocco snatch the lead, sending shockwaves through the home crowd. Brazil poured forward in the second half, finally equalizing through a scrappy set-piece, but Morocco’s backline, heroically marshalled, repelled wave after wave to secure a famous draw.",
+        "So where did our model fail? It assumed Brazil’s technical superiority would translate into clear-cut chances, but Morocco’s low block and tireless pressing stifled any rhythm. Our prediction failed to weigh the psychological edge of a disciplined underdog and overestimated Neymar’s ability to unlock packed defenses. The model also underestimated Morocco’s threat on the break, treating them as a passive opponent rather than a side capable of seizing moments.",
+        "This result wasn’t a fluke; it was a wake-up call. Our framework leaned too heavily on pedigree and home advantage, ignoring how organized, tournament-hardened teams can neutralize star power. We’ll recalibrate to better account for such defensive masterclasses. For now, we tip our hat to Morocco and admit: our AI got it wrong, plain and simple."
+      ],
+      "image": "assets/blog/brazil-1-1-morocco.jpg"
+    },
+    {
       "match": "b8",
       "slug": "qatar-1-1-switzerland",
       "date": "2026-06-13",
