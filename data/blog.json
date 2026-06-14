@@ -1,6 +1,25 @@
 {
   "posts": [
     {
+      "match": "f11",
+      "slug": "netherlands-2-2-japan",
+      "date": "2026-06-14",
+      "home": "Netherlands",
+      "away": "Japan",
+      "score": "2-2",
+      "pred": "2-0",
+      "verdict": "miss",
+      "title": "AI's Clean-Sheet Dream Shattered by Samurai Blue",
+      "dek": "Our model foresaw a routine Dutch 2-0 victory, but Japan's second-half surge exposed defensive frailties we overlooked.",
+      "body": [
+        "We called it plain: Netherlands 2-0. Straightforward, clinical, secure. The pre-match AI saw no cause for concern, tipping Memphis Depay as the key figure in a routine win. Instead, Group F gave us a 2-2 thriller, and our prediction lay in tatters. There’s no squirming out of this—our model got it flat wrong, and we own that miss without a hint of excuse. When the final whistle blew, the only clean sheet was on Japan’s spirit, not the Dutch goal.",
+        "Japan came with a plan we never assigned to them. After falling behind, they swarmed forward in the second half, using sharp combination play down the wings to exploit space behind the Dutch full-backs. Two quick-fire goals silenced the Oranje faithful and exposed a defensive sloppiness our model deemed unlikely. The Samurai Blue’s high press unsettled a midfield that, on paper, should have controlled the game. Where we predicted composure, we got chaos.",
+        "Why did our model miss so badly? It leaned heavily on pre-tournament defensive stats that painted the Netherlands as a solid unit, while underestimating Japan’s attacking evolution. Without fresh team-news triggers, the prior prediction stood—blinding us to tactical nuances. The AI also overvalued Depay’s form in a system that, on the night, isolated him. In short, we trusted a static snapshot of two teams who refused to sit still.",
+        "No algorithm can fully account for the raw, unpredictable momentum swings that define a World Cup. This draw isn’t a statistical anomaly; it’s a reminder that football resists neat quantification. For OracleXI, the miss stings, but it sharpens our focus: we must integrate in-match adaptability metrics and less recency-biased defensive data. Next time, we’ll respect the chaos a little sooner."
+      ],
+      "image": "assets/blog/netherlands-2-2-japan.jpg"
+    },
+    {
       "match": "e10",
       "slug": "germany-3-1-cura-ao",
       "date": "2026-06-14",
