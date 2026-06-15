@@ -536,10 +536,13 @@ def event_ld(m):
                              + timedelta(hours=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
         except Exception:
             pass
-    if m.get("venue"):
-        ev["location"] = {"@type": "Place", "name": m["venue"],
-                          "address": {"@type": "PostalAddress", "name": m["venue"],
-                                      "addressCountry": _venue_country(m["venue"])}}
+    venue = m.get("venue")
+    if venue:                                            # 有场馆:完整 Place + 地址
+        ev["location"] = {"@type": "Place", "name": venue,
+                          "address": {"@type": "PostalAddress", "name": venue,
+                                      "addressCountry": _venue_country(venue)}}
+    else:                                                # 兜底:venue缺失也必有location,免Google报缺字段
+        ev["location"] = {"@type": "Place", "name": "FIFA World Cup 2026 Stadium"}
     return jsonld(ev)
 
 def build_match(m):
