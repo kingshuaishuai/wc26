@@ -20,6 +20,25 @@
       "image": "assets/blog/netherlands-2-2-japan.jpg"
     },
     {
+      "match": "e9",
+      "slug": "ivory-coast-1-0-ecuador",
+      "date": "2026-06-14",
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "score": "1-0",
+      "pred": "1-2",
+      "verdict": "miss",
+      "title": "Model Miss: Ivory Coast Shut Down Ecuador",
+      "dek": "Our AI anticipated a narrow Ecuador victory; instead, Ivory Coast’s resolute defense and clinical finishing sealed a 1-0 upset.",
+      "body": [
+        "We got it wrong. Our model had Ecuador as narrow 2-1 winners, leaning on their technical class and strong away record. But football isn’t played on spreadsheets, and Ivory Coast delivered a humbling reality check. An early goal, then a wall of orange and green, undid every probability we assigned. No excuses—just a plain miss.",
+        "Ivory Coast executed a classic smash-and-grab. A seventh-minute corner caused chaos, and Sébastien Haller bundled home what proved the winner. From there, they defended deep in a compact 5-4-1, denying Ecuador any rhythm. The Ivorians’ physicality in midfield, led by Franck Kessié, smothered the center, while their pace on the break always threatened a second.",
+        "Ecuador were flat. Our key player tip, Moisés Caicedo, was double-teamed into a non-factor, his forward passes routinely cut out. Without his line-breaking, Enner Valencia fed on scraps. The model overvalued Ecuador’s away form, which came against weaker South American sides, and underestimated the Ivorians’ ability to disrupt technically superior opponents through sheer discipline and set-piece danger.",
+        "This loss forces a recalibration. We’ll weight defensive organization and set-piece xG more heavily, especially in tournament contexts where African sides often thrive. The model missed the intangible of a pro-Ivory Coast North American crowd and the steel that comes with a World Cup backs-to-the-wall scenario. No spin—we learn and iterate."
+      ],
+      "image": "assets/blog/ivory-coast-1-0-ecuador.jpg"
+    },
+    {
       "match": "e10",
       "slug": "germany-3-1-cura-ao",
       "date": "2026-06-14",
