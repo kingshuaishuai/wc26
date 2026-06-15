@@ -1070,7 +1070,12 @@
           "analysis": "No significant team news for either side; prior prediction stands. Sweden's set-piece dominance and physical edge with Isak remain decisive."
         },
         "kickoff_utc": "2026-06-15T02:00:00Z",
-        "pred_updated_utc": "2026-06-15T01:00:27Z"
+        "pred_updated_utc": "2026-06-15T01:00:27Z",
+        "result": {
+          "played": true,
+          "hs": 5,
+          "as": 1
+        }
       },
       {
         "group": "F",
@@ -1155,6 +1160,17 @@
     ],
     "standings": [
       {
+        "team": "Sweden",
+        "P": 1,
+        "W": 1,
+        "D": 0,
+        "L": 0,
+        "GF": 5,
+        "GA": 1,
+        "GD": 4,
+        "Pts": 3
+      },
+      {
         "team": "Netherlands",
         "P": 1,
         "W": 0,
@@ -1177,25 +1193,14 @@
         "Pts": 1
       },
       {
-        "team": "Sweden",
-        "P": 0,
-        "W": 0,
-        "D": 0,
-        "L": 0,
-        "GF": 0,
-        "GA": 0,
-        "GD": 0,
-        "Pts": 0
-      },
-      {
         "team": "Tunisia",
-        "P": 0,
+        "P": 1,
         "W": 0,
         "D": 0,
-        "L": 0,
-        "GF": 0,
-        "GA": 0,
-        "GD": 0,
+        "L": 1,
+        "GF": 1,
+        "GA": 5,
+        "GD": -4,
         "Pts": 0
       }
     ]
@@ -1827,9 +1832,10 @@
           "lose": 0.07,
           "score": "2-0",
           "star": "Austria",
-          "analysis": "Austria, a solid European side, faces weak Jordan at home. With better organization and individual talent, Austria controls the game. Jordan offers little threat, and Austria scores twice to secure a straightforward win."
+          "analysis": "Austria faces an injury setback but remains far superior to Jordan. At home, they should control the game and secure a straightforward 2-0 victory. Jordan's attack poses little threat."
         },
-        "kickoff_utc": "2026-06-17T04:00:00Z"
+        "kickoff_utc": "2026-06-17T04:00:00Z",
+        "pred_updated_utc": "2026-06-15T04:00:29Z"
       },
       {
         "group": "J",
