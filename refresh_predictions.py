@@ -8,6 +8,7 @@
 import datetime
 import json
 import os
+import re
 import time
 import urllib.request
 
@@ -49,19 +50,37 @@ def iso(dt):
     return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def _json_loads(s):
+    s = s.strip()
+    if s.startswith("```"):                              # 容错:剥 markdown 围栏
+        s = re.sub(r"^```[a-zA-Z]*\n?|\n?```$", "", s).strip()
+    return json.loads(s)
+
+
+def _save(path, obj):
+    tmp = path + ".tmp"                                  # 原子写:临时文件 + os.replace,防写坏主数据
+    json.dump(obj, open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    os.replace(tmp, path)
+
+
 SYS_P = (
     "You are OracleXI's lead football analyst producing disciplined, evidence-based 2026 FIFA World Cup "
     "match predictions. Hard rules:\n"
     "1. Reason FACTOR BY FACTOR from the EVIDENCE provided (group standings & qualification stakes, both "
     "teams' tournament form, injuries/suspensions, predicted lineups). Do not invent facts unsupported by "
     "the evidence or well-established reality.\n"
-    "2. CALIBRATE probabilities to reality: draws are common (often 22-32%); blowouts are rare; evenly "
-    "matched sides get close probabilities. Reserve lopsided splits (e.g. 75/18/7) for genuine "
-    "mismatches backed by evidence. win+draw+lose must sum to ~1.0.\n"
-    "3. Be DISCIPLINED, not reactive: only change a prior call when evidence justifies it; if news is thin "
+    "2. CALIBRATE probabilities to REAL football, not gut feeling. HARD CAPS:\n"
+    "   - A single side's win prob should normally stay <=0.70. Only a genuine elite-vs-minnow mismatch "
+    "(e.g. a top-8 nation vs a debutant) may reach up to 0.82 — NEVER exceed 0.82.\n"
+    "   - Draws are common: for evenly matched sides, draw should be 0.28-0.35, and you MAY make the DRAW "
+    "the most likely outcome with a level scoreline (1-1, 0-0, 2-2) when that is genuinely most probable.\n"
+    "   - win+draw+lose must sum to ~1.0.\n"
+    "3. Predicted SCORELINE must be realistic: most matches finish between 0-0 and 2-1; reserve 3+ goal "
+    "margins (3-0, 4-0) ONLY for clear mismatches with evidence. Default to tight, plausible scores.\n"
+    "4. Be DISCIPLINED, not reactive: only change a prior call when evidence justifies it; if news is thin "
     "or irrelevant, keep your prior call and say so.\n"
-    "4. 'star' MUST be a real, named player likely to feature — never a number or a position.\n"
-    "5. Output STRICT JSON only, no prose outside it."
+    "5. 'star' MUST be a real, named player likely to feature — never a number or a position.\n"
+    "6. Output STRICT JSON only, no prose outside it."
 )
 
 
@@ -92,12 +111,23 @@ def repredict(m, dossier):
     d = _post(DK_URL, DK_KEY, {"model": "deepseek-v4-pro",
         "messages": [{"role": "system", "content": SYS_P}, {"role": "user", "content": usr}],
         "response_format": {"type": "json_object"}, "temperature": 0.3})
-    out = json.loads(d["choices"][0]["message"]["content"])
-    # 概率归一化,保证和≈1
-    s = sum(float(out.get(k, 0) or 0) for k in ("win", "draw", "lose"))
-    if s > 0:
-        for k in ("win", "draw", "lose"):
-            out[k] = round(float(out.get(k, 0) or 0) / s, 2)
+    out = _json_loads(d["choices"][0]["message"]["content"])
+    for k in ("win", "draw", "lose"):                    # 防缺字段/非数
+        out[k] = float(out.get(k, 0) or 0)
+    s = sum(out[k] for k in ("win", "draw", "lose"))
+    if s <= 0:
+        out["win"], out["draw"], out["lose"] = 0.4, 0.3, 0.3   # 全0兜底
+        s = 1.0
+    for k in ("win", "draw", "lose"):                    # 归一到1
+        out[k] /= s
+    for side, other in (("win", "lose"), ("lose", "win")):   # 单边封顶0.82,超出挪给平局/对方
+        if out[side] > 0.82:
+            ex = out[side] - 0.82
+            out[side] = 0.82
+            out["draw"] += ex * 0.7
+            out[other] += ex * 0.3
+    for k in ("win", "draw", "lose"):
+        out[k] = round(out[k], 2)
     return out
 
 
@@ -113,7 +143,50 @@ def is_material(old, new):
     return False
 
 
+HIST_MAX = 8           # 详情页预测时间线最多留最近 N 条
+
+
+def process_match(m, data, now, light):
+    """重算一场,在首次/实质变化时落库 pred_en + 追加 pred_history。返回是否实质变化。"""
+    old = dict(m.get("pred_en", {}))
+    try:
+        dossier = scout.build_dossier(m, data, light=light)
+        up = repredict(m, dossier)
+    except Exception as e:
+        print("  repredict err", m["home"], str(e)[:90])
+        return False
+    first = not (m.get("pred_history"))                  # 首次接地气预测:即便同分也入库
+    if not first and not is_material(old, up):
+        print(f"  no change: {m['home']} vs {m['away']} (still {old.get('score')})")
+        return False
+    p = m.setdefault("pred_en", {})
+    for k in ("score", "star", "analysis", "confidence"):
+        if up.get(k):
+            p[k] = up[k]
+    for k in ("win", "draw", "lose"):
+        if up.get(k) is not None:
+            p[k] = up[k]
+    p["key_factors"] = up.get("key_factors") or []
+    p["updated_utc"] = iso(now)
+    hist = m.setdefault("pred_history", [])
+    hist.append({
+        "ts": iso(now), "date": now.strftime("%Y-%m-%d"),
+        "score": up.get("score"), "win": up.get("win"), "draw": up.get("draw"),
+        "lose": up.get("lose"), "star": up.get("star"),
+        "confidence": up.get("confidence"), "key_factors": up.get("key_factors") or [],
+        "analysis": up.get("analysis", ""),
+        "change_reason": (up.get("change_reason") or
+                          ("Initial evidence-based prediction from official standings, form and "
+                           "team news." if first else "Updated on new evidence.")),
+    })
+    del hist[:-HIST_MAX]                                  # 截断,防时间线无限增长
+    print(f"CHANGED {m['home']} vs {m['away']} → {up.get('score')} "
+          f"({old.get('score')}→{up.get('score')}, conf={up.get('confidence')})")
+    return True
+
+
 def main():
+    backfill = bool(os.environ.get("BACKFILL"))          # BACKFILL=1:无视窗口/节流,给所有未踢比赛刷一遍
     data = json.load(open(GROUPS_PATH, encoding="utf-8"))
     state = json.load(open(STATE_PATH, encoding="utf-8")) if os.path.exists(STATE_PATH) else {}
     now = now_utc()
@@ -124,66 +197,32 @@ def main():
             if (m.get("result") or {}).get("played"):
                 continue
             ko = m.get("kickoff_utc")
-            if not ko:
+            kt = parse_iso(ko) if ko else None
+            if kt and now >= kt:                          # 冻结:已开球绝不更新
                 continue
-            kt = parse_iso(ko)
-            if now >= kt:                                # 冻结:已开球绝不更新
-                continue
-            hrs = (kt - now).total_seconds() / 3600
-            if hrs > WINDOW_H:
-                continue
+            hrs = (kt - now).total_seconds() / 3600 if kt else 1e9
             mid = f"{m['group'].lower()}{m['match_no']}"
-            last = state.get(mid)
-            if last:                                     # 节流
-                mins = (now - parse_iso(last)).total_seconds() / 60
-                if mins < (REFRESH_NEAR_MIN if hrs <= NEAR_H else REFRESH_FAR_MIN):
+            if not backfill:
+                if not ko or hrs > WINDOW_H:              # 常规:只刷窗口内有开球时间的
                     continue
+                last = state.get(mid)
+                if last:
+                    mins = (now - parse_iso(last)).total_seconds() / 60
+                    if mins < (REFRESH_NEAR_MIN if hrs <= NEAR_H else REFRESH_FAR_MIN):
+                        continue
+            elif not (ko or m.get("date")):               # 回填:至少要有日期才是真未来比赛
+                continue
 
             checked += 1
-            state[mid] = iso(now)                        # 记录本次已检查(无论是否变化)
-            try:
-                dossier = scout.build_dossier(m, data)
-                up = repredict(m, dossier)
-            except Exception as e:
-                print("  repredict err", m["home"], str(e)[:90])
-                continue
-
-            old = dict(m.get("pred_en", {}))
-            first = not (m.get("pred_history"))          # 首次接地气预测:即便同分也入库,补真分析+真球员
-            if not first and not is_material(old, up):
-                print(f"  no change: {m['home']} vs {m['away']} (still {old.get('score')})")
-                continue
-
-            p = m.setdefault("pred_en", {})              # 落库当前预测
-            for k in ("score", "star", "analysis", "confidence"):
-                if up.get(k):
-                    p[k] = up[k]
-            for k in ("win", "draw", "lose"):
-                if up.get(k) is not None:
-                    p[k] = up[k]
-            p["key_factors"] = up.get("key_factors") or []
-            p["updated_utc"] = iso(now)
-
-            hist = m.setdefault("pred_history", [])      # 追加一条预测分析(详情页时间线)
-            hist.append({
-                "ts": iso(now), "date": now.strftime("%Y-%m-%d"),
-                "score": up.get("score"), "win": up.get("win"), "draw": up.get("draw"),
-                "lose": up.get("lose"), "star": up.get("star"),
-                "confidence": up.get("confidence"), "key_factors": up.get("key_factors") or [],
-                "analysis": up.get("analysis", ""),
-                "change_reason": (up.get("change_reason") or
-                                  ("Initial evidence-based prediction from official standings, form and "
-                                   "team news." if first else "Updated on new evidence.")),
-            })
-            changed += 1
-            print(f"CHANGED {m['home']} vs {m['away']} → {up.get('score')} "
-                  f"({old.get('score')}→{up.get('score')}, {hrs:.0f}h to KO, conf={up.get('confidence')})")
+            state[mid] = iso(now)
+            if process_match(m, data, now, light=hrs > 48):
+                changed += 1
             time.sleep(1)
 
     os.makedirs(os.path.dirname(STATE_PATH), exist_ok=True)
-    json.dump(state, open(STATE_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    _save(STATE_PATH, state)
     if changed:                                          # 只有实质变化才改 groups.json(避免空部署)
-        json.dump(data, open(GROUPS_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+        _save(GROUPS_PATH, data)
     print(f"✅ checked {checked}, materially changed {changed}")
 
 

@@ -11,7 +11,7 @@
 html{scroll-behavior:smooth}
 body{
   background:var(--bg); color:var(--ink);
-  font-family:'Noto Sans SC',system-ui,sans-serif;
+  font-family:'Sora',system-ui,sans-serif;
   font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;
   background-image:
     radial-gradient(1200px 600px at 80% -10%, rgba(212,255,46,.06), transparent 60%),
@@ -37,7 +37,15 @@ header.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);
 .brand .mark span{display:inline-block;transform:skewX(7deg)}
 .nav nav{display:flex;gap:26px;font-size:14px;color:var(--mute);font-weight:500}
 .nav nav a:hover{color:var(--lime)}
-@media(max-width:640px){.nav nav{display:none}}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;margin-left:auto}
+.hamburger span{display:block;width:24px;height:2px;background:var(--ink);border-radius:2px}
+@media(max-width:640px){
+  .hamburger{display:flex}
+  .nav .wrap{flex-wrap:wrap;height:auto;min-height:64px}
+  .nav nav{display:none;flex-basis:100%;flex-direction:column;gap:0;padding-bottom:8px}
+  .nav-toggle:checked ~ nav{display:flex}
+  .nav nav a{padding:13px 4px;border-top:1px solid var(--line);font-size:15px}
+}
 
 /* ===== Hero ===== */
 .hero{padding:54px 0 30px;border-bottom:1px solid var(--line);position:relative;overflow:hidden}
@@ -139,6 +147,19 @@ section{padding:46px 0}
 .tl-item p{font-size:15px;line-height:1.75;margin:0 0 8px}
 .tl-item .pf{margin:0;padding-left:18px;color:var(--mute);font-size:14px}
 .tl-item .pf li{margin:2px 0}
+
+/* ===== 详情页近况 / 队页深链 ===== */
+.form-row{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0 22px}
+.form-team{flex:1 1 240px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:14px;color:var(--mute)}
+.form-team a{font-size:15px}
+.fp{display:inline-block;width:20px;height:20px;line-height:20px;text-align:center;border-radius:5px;
+  font-size:11px;font-weight:800;margin-left:3px;color:var(--bg)}
+.fp.w{background:var(--lime)} .fp.d{background:var(--gold)} .fp.l{background:var(--coral)}
+.fp-none{font-size:13px;color:var(--faint);margin-left:4px}
+.team-links{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 8px}
+.team-links .tl-btn{flex:1 1 240px;text-align:center;background:var(--panel2);border:1px solid var(--line);
+  border-radius:10px;padding:14px;color:var(--ink);font-weight:700;font-size:15px;transition:border-color .15s}
+.team-links .tl-btn:hover{border-color:var(--lime-dim)}
 
 /* ===== 通用 ===== */
 .disclaimer{font-size:12px;color:var(--faint);background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-top:20px;line-height:1.6}

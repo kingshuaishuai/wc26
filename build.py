@@ -83,7 +83,7 @@ def jsonld(obj):
 
 def crumbs_ld(items):
     return jsonld({"@context":"https://schema.org","@type":"BreadcrumbList",
-        "itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":f"{BASE}/{u}"} for i,(n,u) in enumerate(items)]})
+        "itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":f"{BASE}/{clean(u)}"} for i,(n,u) in enumerate(items)]})
 
 def head(title, desc, rel="", canon="", ld="", img="", meta_extra=""):
     og_img = f"{BASE}/{img}" if img else f"{BASE}/assets/og.jpg"
@@ -105,6 +105,8 @@ def head(title, desc, rel="", canon="", ld="", img="", meta_extra=""):
 </head><body>
 <header class="nav"><div class="wrap">
 <a class="brand" href="{rel}index.html"><span class="mark"><span>XI</span></span> OracleXI</a>
+<input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+<label for="nav-toggle" class="hamburger" aria-label="Menu"><span></span><span></span><span></span></label>
 <nav><a href="{rel}index.html">Home</a><a href="{rel}index.html#groups">Groups</a><a href="{rel}index.html#upcoming">Predictions</a><a href="{rel}blog/index.html">Blog</a><a href="{rel}data.html">Free Data</a></nav>
 </div></header>"""
 
@@ -242,7 +244,7 @@ def pred_fresh(m):
     """未踢比赛若已动态刷新过,显示"最近更新 + 开球锁定"。前端按 data-updated 渲染相对时间。"""
     if (m.get("result") or {}).get("played"):
         return ""
-    u = m.get("pred_updated_utc")
+    u = (m.get("pred_en") or {}).get("updated_utc") or m.get("pred_updated_utc")
     if not u:
         return ""
     return (f'<div class="pred-fresh" data-updated="{u}">{icon("refresh")}'
@@ -571,8 +573,8 @@ def pred_timeline(m):
     for h in reversed(hist):                             # 最新在上
         facts="".join(f"<li>{esc(x)}</li>" for x in (h.get("key_factors") or []))
         facts_html=f"<ul class='pf'>{facts}</ul>" if facts else ""
-        conf=h.get("confidence")
-        conf_html=f"<span class='conf {esc(conf)}'>{esc(conf)} confidence</span>" if conf else ""
+        conf=h.get("confidence") if h.get("confidence") in ("low","medium","high") else None
+        conf_html=f"<span class='conf {conf}'>{conf} confidence</span>" if conf else ""
         reason=h.get("change_reason")
         reason_html=f"<div class='chg'>{esc(reason)}</div>" if reason else ""
         items.append(
@@ -581,6 +583,41 @@ def pred_timeline(m):
             f"{reason_html}<p>{esc(h.get('analysis',''))}</p>{facts_html}</div>")
     return ("<div class='timeline'><div class='lbl'>Prediction Updates &amp; Analysis</div>"
             +"".join(items)+"</div>")
+
+def team_recent(team, n=5):
+    res=[]
+    for L in "ABCDEFGHIJKL":
+        for mm in DATA[L]["matches"]:
+            r=mm.get("result") or {}
+            if not r.get("played"): continue
+            if mm["home"]==team: res.append((mm.get("date") or "", mm["away"], r["hs"], r["as"]))
+            elif mm["away"]==team: res.append((mm.get("date") or "", mm["home"], r["as"], r["hs"]))
+    res.sort(key=lambda x:x[0])
+    return res[-n:]
+
+def form_pills(team):
+    rec=team_recent(team)
+    if not rec:
+        return '<span class="fp-none">Tournament opener</span>'
+    out=[]
+    for date,opp,gf,ga in rec:
+        o="w" if gf>ga else ("d" if gf==ga else "l")
+        out.append(f'<span class="fp {o}" title="vs {esc(opp)} {gf}-{ga}">{o.upper()}</span>')
+    return "".join(out)
+
+def match_extras(m):
+    """详情页加厚:两队近况 + 小组积分榜 + 同组其他比赛卡 + 两队队页深链(治薄内容&内链死路)。"""
+    L=m["group"]; home,away=m["home"],m["away"]
+    related=[mm for mm in DATA[L]["matches"] if mm.get("match_no")!=m.get("match_no")]
+    cards="".join(match_card(mm, rel="../") for mm in related)
+    return f"""<div class="form-row">
+<div class="form-team"><a href="../{turl(home)}" style="color:inherit"><b>{esc(home)}</b></a> · {form_pills(home)}</div>
+<div class="form-team"><a href="../{turl(away)}" style="color:inherit"><b>{esc(away)}</b></a> · {form_pills(away)}</div>
+</div>
+{standings_table(DATA[L])}
+<div class="sec-head"><span class="idx">VS</span><h2 class="disp">More Group {L} Predictions</h2><div class="line"></div></div>
+<div class="matches">{cards}</div>
+<div class="team-links"><a class="tl-btn" href="../{turl(home)}">{esc(home)} squad &amp; fixtures →</a><a class="tl-btn" href="../{turl(away)}">{esc(away)} squad &amp; fixtures →</a></div>"""
 
 def build_match(m):
     p=P(m); w,d,l=probs(m)
@@ -592,7 +629,7 @@ def build_match(m):
 <div class="wrap"><div class="crumb"><a href="../index.html">Home</a> / <a href="../group/{m['group']}.html">Group {m['group']}</a> / {esc(m['home'])} vs {esc(m['away'])}</div></div>
 <section class="detail-hero"><div class="wrap">
 <div class="grp">Group {m['group']} · Match {m.get('match_no','')} · {fmt_date(m['date'])}</div>
-<div class="vs-row"><div class="name">{esc(m['home'])}</div><div><div class="vs">VS</div><div class="pscore">{esc(p.get('score','-'))}</div>{verdict_badge(m, big=True)}</div><div class="name">{esc(m['away'])}</div></div>
+<div class="vs-row"><div class="name"><a href="../{turl(m['home'])}" style="color:inherit">{esc(m['home'])}</a></div><div><div class="vs">VS</div><div class="pscore">{esc(p.get('score','-'))}</div>{verdict_badge(m, big=True)}</div><div class="name"><a href="../{turl(m['away'])}" style="color:inherit">{esc(m['away'])}</a></div></div>
 <div class="meta-row"><span>{icon("pin")} <b>{esc(m['venue'] or 'TBD')}</b></span><span>{icon("star")} Watch: <b>{esc(star_name(p))}</b></span></div>
 {pred_fresh(m)}
 </div></section>
@@ -607,6 +644,7 @@ def build_match(m):
 </div>
 {scorelines_html(m)}
 {pred_timeline(m) or f'<div class="analysis-box"><div class="lbl">AI Match Analysis</div>{esc(p.get("analysis") or "Analysis coming soon.")}</div>'}
+{match_extras(m)}
 <div class="disclaimer">{icon("alert")} Predictions are generated by an AI model from historical and public data, for entertainment and informational purposes only. Not betting advice.</div>
 {ad()}
 </div>

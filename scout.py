@@ -51,6 +51,8 @@ def _norm(s: str) -> str:
 
 def _same_team(a: str, b: str) -> bool:
     na, nb = _norm(a), _norm(b)
+    if not na or not nb:
+        return False
     return na == nb or na in nb or nb in na or na.split()[0] == nb.split()[0]
 
 
@@ -158,15 +160,21 @@ def _fmt(rows: list[dict], limit: int = 600) -> str:
 
 
 # ---------- 组装档案 ----------
-def build_dossier(m: dict, data: dict) -> dict:
+def build_dossier(m: dict, data: dict, light: bool = False) -> dict:
+    """light=True:跳过 DDGS 网搜(远期比赛伤停/阵容尚不可知,且省限额),只用官方积分/战绩。"""
     home, away = m["home"], m["away"]
+    if light:
+        none = "(match is far out — squad news/lineups not yet available)"
+        home_news = away_news = lineups = none
+    else:
+        home_news = _fmt(_search(f"{home} national football team injury suspension news 2026", 4))
+        away_news = _fmt(_search(f"{away} national football team injury suspension news 2026", 4))
+        lineups = _fmt(_search(f"{home} vs {away} World Cup 2026 predicted lineup starting XI", 3), 500)
     return {
         "standings": standings_text(m["group"], data),
         "home_form": team_form(home, data),
         "away_form": team_form(away, data),
-        "home_news": _fmt(_search(f"{home} national football team injury suspension news 2026", 4)),
-        "away_news": _fmt(_search(f"{away} national football team injury suspension news 2026", 4)),
-        "lineups": _fmt(_search(f"{home} vs {away} World Cup 2026 predicted lineup starting XI", 3), 500),
+        "home_news": home_news, "away_news": away_news, "lineups": lineups,
     }
 
 
