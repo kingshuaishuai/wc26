@@ -107,7 +107,7 @@ def head(title, desc, rel="", canon="", ld="", img="", meta_extra=""):
 <a class="brand" href="{rel}index.html"><span class="mark"><span>XI</span></span> OracleXI</a>
 <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
 <label for="nav-toggle" class="hamburger" aria-label="Menu"><span></span><span></span><span></span></label>
-<nav><a href="{rel}index.html">Home</a><a href="{rel}index.html#groups">Groups</a><a href="{rel}index.html#upcoming">Predictions</a><a href="{rel}blog/index.html">Blog</a><a href="{rel}data.html">Free Data</a></nav>
+<nav><a href="{rel}index.html">Home</a><a href="{rel}index.html#groups">Groups</a><a href="{rel}predictions.html">Predictions</a><a href="{rel}blog/index.html">Blog</a><a href="{rel}data.html">Free Data</a></nav>
 </div></header>"""
 
 def foot(rel=""):
@@ -517,9 +517,31 @@ def build_methodology():
 """ + foot()
     open(os.path.join(DIST,"methodology.html"),"w",encoding="utf-8").write(out)
 
+def build_predictions_index():
+    """扁平"全部预测"索引页:一跳直达每一场,降低 match 页爬取深度,助收录。"""
+    secs=[]
+    for L in "ABCDEFGHIJKL":
+        rows="".join(f'<li><a href="match/{mslug(m)}">{esc(m["home"])} v {esc(m["away"])}</a>'
+                     f'<span class="ps">{esc(P(m).get("score","-"))}</span></li>' for m in DATA[L]["matches"])
+        secs.append(f'<div class="pidx-grp"><h3><a href="group/{L}">Group {L}</a></h3><ul class="pidx">{rows}</ul></div>')
+    out=head("All Match Predictions — 2026 World Cup | "+SITE,
+             "Every 2026 FIFA World Cup match with OracleXI's AI score prediction — all fixtures across the 12 groups in one place.",
+             canon="predictions.html")+f"""
+<div class="wrap"><div class="crumb"><a href="index.html">Home</a> / All Predictions</div></div>
+<section><div class="wrap">
+<div class="sec-head"><span class="idx">★</span><h2 class="disp">All Match Predictions</h2><div class="line"></div></div>
+<div class="pidx-wrap">{"".join(secs)}</div>
+</div></section>
+""" + foot()
+    open(os.path.join(DIST,"predictions.html"),"w",encoding="utf-8").write(out)
+
 def build_team(team):
     name = team["en"]; L = TEAM_GROUP[name]
     fixtures = [m for m in DATA[L]["matches"] if name in (m["home"], m["away"])]
+    opponents = []
+    for mm in fixtures:
+        o = mm["away"] if mm["home"] == name else mm["home"]
+        if o not in opponents: opponents.append(o)
     title = f"{name} — 2026 World Cup Fixtures, Predictions & Group {L} Outlook"
     desc = f"{name} at the 2026 FIFA World Cup: Group {L} fixtures, AI score predictions and squad outlook. {(team.get('outlook') or '')[:90]}"
     out = head(title, desc, rel="../", canon=turl(name)) + f"""
@@ -530,10 +552,14 @@ def build_team(team):
 </div></section>
 <div class="wrap">{ad()}
 <div class="analysis-box" style="border-left-color:var(--gold)"><div class="lbl">Team Outlook</div>{esc(team.get('outlook') or 'Outlook coming soon.')}</div>
+<div class="form-row"><div class="form-team"><b>Tournament form</b> · {form_pills(name)}</div>
+<div class="form-team">{esc(team_summary(name))}</div></div>
+{standings_table(DATA[L])}
 </div>
 <section><div class="wrap">
 <div class="sec-head"><span class="idx">VS</span><h2 class="disp">{esc(name)} · Group Fixtures</h2><div class="line"></div></div>
 <div class="matches">{"".join(match_card(m, rel="../") for m in fixtures)}</div>
+<div class="team-links">{"".join(f'<a class="tl-btn" href="../{turl(o)}">{esc(o)} →</a>' for o in opponents)}</div>
 </div></section>
 """ + foot("../")
     open(os.path.join(DIST, "team", f"{tslug(name)}.html"), "w", encoding="utf-8").write(out)
@@ -638,6 +664,16 @@ def team_recent(team, n=5):
     res.sort(key=lambda x:x[0])
     return res[-n:]
 
+def team_summary(name):
+    rec=team_recent(name, 20)
+    if not rec:
+        return "Yet to play their opening match — predictions below are pre-tournament reads."
+    w=d=l=gf=ga=0
+    for _,_,a,b in rec:
+        gf+=a; ga+=b; w+=a>b; d+=a==b; l+=a<b
+    return (f"{name} have played {len(rec)} match{'es' if len(rec)>1 else ''} this tournament: "
+            f"{w}W {d}D {l}L, {gf} scored and {ga} conceded.")
+
 def form_pills(team):
     rec=team_recent(team)
     if not rec:
@@ -720,13 +756,14 @@ def main():
     build_static("about", "About OracleXI", ABOUT_HTML)
     build_static("privacy", "Privacy Policy", PRIVACY_HTML)
     build_methodology()
+    build_predictions_index()
     for L in "ABCDEFGHIJKL": build_group(L)
     for m in ALL: build_match(m)
     ALL_TEAMS=[t for L in "ABCDEFGHIJKL" for t in DATA[L]["teams"]]
     for t in ALL_TEAMS: build_team(t)
     build_blog_index()
     for p in BLOG.get("posts", []): build_blog_post(p)
-    urls=(["index.html","data.html","about.html","privacy.html","methodology.html","blog/index.html"]+[f"group/{L}.html" for L in "ABCDEFGHIJKL"]
+    urls=(["index.html","data.html","about.html","privacy.html","methodology.html","predictions.html","blog/index.html"]+[f"group/{L}.html" for L in "ABCDEFGHIJKL"]
           +[f"blog/{p['slug']}.html" for p in BLOG.get("posts",[])]
           +[turl(t["en"]) for t in ALL_TEAMS]+[murl(m) for m in ALL])
     for root,_,files in os.walk(DIST):               # 构建后统一清洗站内链接的 .html
