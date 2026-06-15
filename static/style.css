@@ -175,6 +175,20 @@ footer a:hover{color:var(--lime)}
   background:var(--panel);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--mute)}
 .acc-strip b{color:var(--lime);font-family:'Anton';font-size:18px;font-weight:400;margin:0 2px}
 .acc-strip .upd{margin-left:auto;font-size:12px;color:var(--faint)}
+.acc-strip{color:var(--mute);transition:border-color .15s}
+.acc-strip:hover{border-color:var(--lime-dim)}
+.acc-strip .vs{font-style:normal;font-size:12px;color:var(--faint)}
+/* 命中率看板(方法论页) */
+.track{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0}
+.track .tnum{flex:1 1 160px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:16px}
+.track .tnum b{display:block;font-family:'Anton';font-size:34px;font-weight:400;color:var(--lime);line-height:1}
+.track .tnum span{font-size:12px;color:var(--mute);display:block;margin-top:8px}
+.track .tnum i{color:var(--faint);font-style:italic}
+.track-tbl{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px}
+.track-tbl th{text-align:left;color:var(--faint);font-size:11px;text-transform:uppercase;letter-spacing:.08em;padding:8px 10px;border-bottom:1px solid var(--line)}
+.track-tbl td{padding:9px 10px;border-bottom:1px solid var(--line)}
+.track-tbl .pred{color:var(--mute)} .track-tbl .act{color:var(--ink);font-weight:700}
+.vpill{font-size:10px;font-weight:800;letter-spacing:.06em;padding:2px 7px;border:1px solid;border-radius:999px}
 /* 比赛结果徽标 */
 .ft{color:var(--ink);font-weight:700}
 .hit{font-weight:700;font-size:11px;padding:1px 6px;border-radius:6px}
