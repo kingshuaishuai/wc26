@@ -47,6 +47,41 @@ def ctr_spaced(d, txt, cx, y, font, fill, gap):
         x += w + gap
 
 
+def make_banner():
+    """X 头图 1500×500:左 XI 标 + 右品牌字与网址,内容居中带避开左下角(头像遮挡区)。"""
+    W, H = 1500, 500
+    img = Image.new("RGB", (W, H), BG)
+    glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    for r, a in ((460, 28), (320, 34), (210, 40)):
+        gd.ellipse([W*0.5-r, H/2-r, W*0.5+r, H/2+r], fill=(212, 255, 46, a))
+    glow = glow.filter(ImageFilter.GaussianBlur(150))
+    img = Image.alpha_composite(img.convert("RGBA"), glow).convert("RGB")
+
+    mk = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    md = ImageDraw.Draw(mk)
+    bw, bh = 290, 188
+    bx, by = 430, (H - bh) / 2
+    md.rounded_rectangle([bx, by, bx + bw, by + bh], radius=30, fill=LIME)
+    xf = F(150)
+    tb = md.textbbox((0, 0), "XI", font=xf)
+    md.text((bx + (bw-(tb[2]-tb[0]))/2 - tb[0], by + (bh-(tb[3]-tb[1]))/2 - tb[1]), "XI", font=xf, fill=INK)
+    mk = mk.transform((W, H), Image.AFFINE, (1, -0.12, 0.12*(by+bh/2), 0, 1, 0), resample=Image.BICUBIC)
+    img = Image.alpha_composite(img.convert("RGBA"), mk).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    tx = bx + bw + 56
+    d.text((tx, 150), "ORACLEXI", font=F(86), fill=WHITE)
+    ctr_left = tx
+    # 字距小标
+    x = ctr_left
+    for ch in "AI WORLD CUP PREDICTIONS":
+        d.text((x, 258), ch, font=F(28), fill=LIME)
+        x += d.textbbox((0, 0), ch, font=F(28))[2] + 3
+    d.text((ctr_left, 300), "oraclexi.com", font=F(40), fill=WHITE)
+    img.save(os.path.join(ROOT, "assets", "x_banner.png"))
+
+
 def main():
     img = Image.new("RGB", (S, S), BG)
     d = ImageDraw.Draw(img)
@@ -104,7 +139,8 @@ def main():
     icp = os.path.join(ROOT, "assets", "avatar_icon.png")
     ico.save(icp)
     ico.resize((400, 400), Image.LANCZOS).save(os.path.join(ROOT, "assets", "avatar_icon_400.png"))
-    print(out + "\n" + icp)
+    make_banner()
+    print(out + "\n" + icp + "\n" + os.path.join(ROOT, "assets", "x_banner.png"))
 
 
 if __name__ == "__main__":
