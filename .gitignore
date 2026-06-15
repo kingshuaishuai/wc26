@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .DS_Store
 .playwright-mcp/
+data/pred_state.json

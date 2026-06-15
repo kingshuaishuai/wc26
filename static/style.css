@@ -55,7 +55,7 @@ header.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);
 .opener{margin-top:30px;background:linear-gradient(135deg,var(--panel2),var(--panel));
   border:1px solid var(--line);border-radius:18px;padding:26px 28px;display:grid;
   grid-template-columns:1fr auto 1fr;align-items:center;gap:18px;box-shadow:var(--shadow);position:relative;overflow:hidden}
-.opener::after{content:"AI 预测";position:absolute;top:14px;right:18px;font-size:11px;font-weight:800;
+.opener::after{content:"AI PICK";position:absolute;top:14px;right:18px;font-size:11px;font-weight:800;
   letter-spacing:.12em;color:var(--bg);background:var(--lime);padding:3px 9px;border-radius:20px}
 .opener .team{text-align:center}
 .opener .team .name{font-size:26px;font-weight:900}
@@ -121,6 +121,24 @@ section{padding:46px 0}
 .analysis-box{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--lime);
   border-radius:12px;padding:22px 24px;margin:8px 0 30px;font-size:16px;line-height:1.8}
 .analysis-box .lbl{font-size:12px;color:var(--lime);font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+
+/* ===== 预测分析时间线 ===== */
+.timeline{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);
+  border-radius:12px;padding:22px 24px;margin:8px 0 30px}
+.timeline>.lbl{font-size:12px;color:var(--gold);font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:16px}
+.tl-item{border-top:1px solid var(--line);padding:16px 0}
+.tl-item:first-of-type{border-top:none;padding-top:0}
+.tl-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.tl-date{font-size:13px;color:var(--mute);font-weight:700}
+.tl-score{font-size:18px;font-weight:800;color:var(--lime)}
+.tl-item .conf{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;
+  padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
+.tl-item .conf.high{color:var(--lime);border-color:var(--lime-dim)}
+.tl-item .conf.low{color:var(--coral);border-color:var(--coral)}
+.tl-item .chg{font-size:13px;color:var(--gold);margin-bottom:8px;font-style:italic}
+.tl-item p{font-size:15px;line-height:1.75;margin:0 0 8px}
+.tl-item .pf{margin:0;padding-left:18px;color:var(--mute);font-size:14px}
+.tl-item .pf li{margin:2px 0}
 
 /* ===== 通用 ===== */
 .disclaimer{font-size:12px;color:var(--faint);background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-top:20px;line-height:1.6}

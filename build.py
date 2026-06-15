@@ -56,11 +56,25 @@ for L in "ABCDEFGHIJKL":
 ALL.sort(key=lambda m:(m["date"] or "9999", m.get("match_no") or 0))
 
 def mslug(m): return f"{m['group'].lower()}{m['match_no']}"
-def murl(m): return f"match/{mslug(m)}.html"
+def murl(m): return f"match/{mslug(m)}"
 def P(m): return m.get("pred_en", {})
 import re as _re
 def tslug(name): return _re.sub(r"[^a-z0-9]+","-",name.lower()).strip("-")
-def turl(name): return f"team/{tslug(name)}.html"
+def turl(name): return f"team/{tslug(name)}"
+def clean(p):
+    # Cloudflare 服务的是去.html的干净URL,canonical/sitemap必须对齐,否则Google吃到308=Page with redirect
+    if p in ("", "index.html"): return ""              # 首页 → 根
+    if p.endswith("/index.html"): return p[:-10]       # blog/index.html → blog/
+    return p[:-5] if p.endswith(".html") else p        # about.html → about
+
+def _clean_links(html):
+    # 构建后统一把站内 a 链接的 .html 去掉,对齐 Cloudflare 的干净URL(外链/锚点/资源不动)
+    def repl(m):
+        path, anchor = m.group(1), m.group(2) or ""
+        if path == "index": path = ""                  # index.html → 目录
+        elif path.endswith("/index"): path = path[:-5] # blog/index → blog/
+        return f'href="{path}{anchor}"'
+    return _re.sub(r'href="(?!https?:|//|mailto:)([^"#]*?)\.html(#[^"]*)?"', repl, html)
 # 队名 -> 所在组
 TEAM_GROUP = {t["en"]: L for L in "ABCDEFGHIJKL" for t in DATA[L]["teams"]}
 
@@ -77,9 +91,9 @@ def head(title, desc, rel="", canon="", ld="", img="", meta_extra=""):
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
-<link rel="canonical" href="{BASE}/{canon}">
+<link rel="canonical" href="{BASE}/{clean(canon)}">
 {meta_extra}<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
-<meta property="og:type" content="website"><meta property="og:url" content="{BASE}/{canon}">
+<meta property="og:type" content="website"><meta property="og:url" content="{BASE}/{clean(canon)}">
 <meta property="og:image" content="{og_img}"><meta name="twitter:image" content="{og_img}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -545,6 +559,29 @@ def event_ld(m):
         ev["location"] = {"@type": "Place", "name": "FIFA World Cup 2026 Stadium"}
     return jsonld(ev)
 
+def star_name(p):
+    s=(p.get("star") or "").strip()
+    return s if len(s)>2 and not s.isdigit() else "—"   # 旧数据 star 存的是数字,挡掉
+
+def pred_timeline(m):
+    hist=m.get("pred_history") or []
+    if not hist:
+        return ""
+    items=[]
+    for h in reversed(hist):                             # 最新在上
+        facts="".join(f"<li>{esc(x)}</li>" for x in (h.get("key_factors") or []))
+        facts_html=f"<ul class='pf'>{facts}</ul>" if facts else ""
+        conf=h.get("confidence")
+        conf_html=f"<span class='conf {esc(conf)}'>{esc(conf)} confidence</span>" if conf else ""
+        reason=h.get("change_reason")
+        reason_html=f"<div class='chg'>{esc(reason)}</div>" if reason else ""
+        items.append(
+            f"<div class='tl-item'><div class='tl-head'><span class='tl-date'>{esc(h.get('date',''))}</span>"
+            f"<span class='tl-score'>{esc(h.get('score','-'))}</span>{conf_html}</div>"
+            f"{reason_html}<p>{esc(h.get('analysis',''))}</p>{facts_html}</div>")
+    return ("<div class='timeline'><div class='lbl'>Prediction Updates &amp; Analysis</div>"
+            +"".join(items)+"</div>")
+
 def build_match(m):
     p=P(m); w,d,l=probs(m)
     title=f"{m['home']} vs {m['away']} Prediction: {p.get('score','-')} | 2026 World Cup Group {m['group']}"
@@ -556,7 +593,7 @@ def build_match(m):
 <section class="detail-hero"><div class="wrap">
 <div class="grp">Group {m['group']} · Match {m.get('match_no','')} · {fmt_date(m['date'])}</div>
 <div class="vs-row"><div class="name">{esc(m['home'])}</div><div><div class="vs">VS</div><div class="pscore">{esc(p.get('score','-'))}</div>{verdict_badge(m, big=True)}</div><div class="name">{esc(m['away'])}</div></div>
-<div class="meta-row"><span>{icon("pin")} <b>{esc(m['venue'] or 'TBD')}</b></span><span>{icon("star")} Watch: <b>{esc(p.get('star') or '—')}</b></span></div>
+<div class="meta-row"><span>{icon("pin")} <b>{esc(m['venue'] or 'TBD')}</b></span><span>{icon("star")} Watch: <b>{esc(star_name(p))}</b></span></div>
 {pred_fresh(m)}
 </div></section>
 <div class="wrap">
@@ -569,7 +606,7 @@ def build_match(m):
 <div class="p lose"><div class="v">{l:.0f}%</div><div class="k">{esc(m['away'])} win</div></div>
 </div>
 {scorelines_html(m)}
-<div class="analysis-box"><div class="lbl">AI Match Analysis</div>{esc(p.get('analysis') or 'Analysis coming soon.')}</div>
+{pred_timeline(m) or f'<div class="analysis-box"><div class="lbl">AI Match Analysis</div>{esc(p.get("analysis") or "Analysis coming soon.")}</div>'}
 <div class="disclaimer">{icon("alert")} Predictions are generated by an AI model from historical and public data, for entertainment and informational purposes only. Not betting advice.</div>
 {ad()}
 </div>
@@ -610,8 +647,14 @@ def main():
     urls=(["index.html","data.html","about.html","privacy.html","blog/index.html"]+[f"group/{L}.html" for L in "ABCDEFGHIJKL"]
           +[f"blog/{p['slug']}.html" for p in BLOG.get("posts",[])]
           +[turl(t["en"]) for t in ALL_TEAMS]+[murl(m) for m in ALL])
+    for root,_,files in os.walk(DIST):               # 构建后统一清洗站内链接的 .html
+        for fn in files:
+            if fn.endswith(".html"):
+                fp=os.path.join(root,fn)
+                html=open(fp,encoding="utf-8").read()       # 必须先读后写,否则open(w)先截断成空
+                open(fp,"w",encoding="utf-8").write(_clean_links(html))
     sm='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    sm+="".join(f"<url><loc>{BASE}/{u}</loc><lastmod>{TODAY}</lastmod></url>\n" for u in urls)+"</urlset>"
+    sm+="".join(f"<url><loc>{BASE}/{clean(u)}</loc><lastmod>{TODAY}</lastmod></url>\n" for u in urls)+"</urlset>"
     open(os.path.join(DIST,"sitemap.xml"),"w").write(sm)
     open(os.path.join(DIST,"robots.txt"),"w").write(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
     if ADSENSE_PUB:

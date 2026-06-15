@@ -1431,10 +1431,36 @@
           "lose": 0.05,
           "score": "3-0",
           "star": "Lamine Yamal",
-          "analysis": "No concrete team news to alter prediction. Spain remain overwhelming favorites with Yamal fit. Expect controlled win."
+          "analysis": "Spain enter as overwhelming favorites against a Cape Verde side making their historic World Cup debut. No prior tournament form exists for either team, but Spain's pedigree and squad quality massively outweigh the opposition. Key players Rodri, Pedri, and Lamine Yamal are available, with Yamal's inclusion confirmed after recovering from injury. Cape Verde, despite heroic qualification, lack the top-level experience and depth to compete with a European powerhouse. The predicted lineup shows Spain fielding a near full-strength XI, suggesting a controlled, dominant performance. Probabilities reflect the clear gulf in class, with a 3-0 scoreline typical of such mismatches. A draw or Cape Verde win would require an extraordinary upset, hence the low probabilities assigned.",
+          "confidence": "high",
+          "key_factors": [
+            "Spain's superior squad depth and quality, featuring world-class players like Rodri and Pedri",
+            "Cape Verde's inexperience as World Cup debutants and smallest nation to qualify",
+            "Lamine Yamal's confirmed fitness after recent injury concerns, available to start"
+          ],
+          "updated_utc": "2026-06-15T06:03:34Z"
         },
         "kickoff_utc": "2026-06-15T16:00:00Z",
-        "pred_updated_utc": "2026-06-15T05:30:33Z"
+        "pred_updated_utc": "2026-06-15T05:30:33Z",
+        "pred_history": [
+          {
+            "ts": "2026-06-15T06:03:34Z",
+            "date": "2026-06-15",
+            "score": "3-0",
+            "win": 0.85,
+            "draw": 0.1,
+            "lose": 0.05,
+            "star": "Lamine Yamal",
+            "confidence": "high",
+            "key_factors": [
+              "Spain's superior squad depth and quality, featuring world-class players like Rodri and Pedri",
+              "Cape Verde's inexperience as World Cup debutants and smallest nation to qualify",
+              "Lamine Yamal's confirmed fitness after recent injury concerns, available to start"
+            ],
+            "analysis": "Spain enter as overwhelming favorites against a Cape Verde side making their historic World Cup debut. No prior tournament form exists for either team, but Spain's pedigree and squad quality massively outweigh the opposition. Key players Rodri, Pedri, and Lamine Yamal are available, with Yamal's inclusion confirmed after recovering from injury. Cape Verde, despite heroic qualification, lack the top-level experience and depth to compete with a European powerhouse. The predicted lineup shows Spain fielding a near full-strength XI, suggesting a controlled, dominant performance. Probabilities reflect the clear gulf in class, with a 3-0 scoreline typical of such mismatches. A draw or Cape Verde win would require an extraordinary upset, hence the low probabilities assigned.",
+            "change_reason": "Initial evidence-based prediction from official standings, form and team news."
+          }
+        ]
       },
       {
         "group": "H",
@@ -1452,10 +1478,34 @@
           "lose": 0.6,
           "score": "0-2",
           "star": "Darwin Núñez",
-          "analysis": "No new impactful team news. Araújo injury news already factored; Uruguay still clear favorites. Expect controlled 2-0 win with Darwin Núñez key."
+          "analysis": "No new team news, injuries, or form data beyond the initial assessment. Uruguay enter as clear favorites based on their traditional status and squad quality, while Saudi Arabia remain underdogs. Even without prior tournament matches, the gap in class suggests a controlled Uruguay win, likely 2-0, with Darwin Núñez leading the line. Draws are possible in opening games (25%), but Uruguay’s superior talent tilts the result firmly in their favor. The 0.15/0.25/0.6 split reflects this mismatch, allowing for Saudi Arabia’s defensive organization to frustrate early but ultimately succumb to Uruguay’s attacking firepower.",
+          "confidence": "medium",
+          "key_factors": [
+            "Uruguay's historical strength and experience",
+            "Saudi Arabia's lack of World Cup pedigree"
+          ],
+          "updated_utc": "2026-06-15T06:03:34Z"
         },
         "kickoff_utc": "2026-06-15T22:00:00Z",
-        "pred_updated_utc": "2026-06-15T05:00:28Z"
+        "pred_updated_utc": "2026-06-15T05:00:28Z",
+        "pred_history": [
+          {
+            "ts": "2026-06-15T06:03:34Z",
+            "date": "2026-06-15",
+            "score": "0-2",
+            "win": 0.15,
+            "draw": 0.25,
+            "lose": 0.6,
+            "star": "Darwin Núñez",
+            "confidence": "medium",
+            "key_factors": [
+              "Uruguay's historical strength and experience",
+              "Saudi Arabia's lack of World Cup pedigree"
+            ],
+            "analysis": "No new team news, injuries, or form data beyond the initial assessment. Uruguay enter as clear favorites based on their traditional status and squad quality, while Saudi Arabia remain underdogs. Even without prior tournament matches, the gap in class suggests a controlled Uruguay win, likely 2-0, with Darwin Núñez leading the line. Draws are possible in opening games (25%), but Uruguay’s superior talent tilts the result firmly in their favor. The 0.15/0.25/0.6 split reflects this mismatch, allowing for Saudi Arabia’s defensive organization to frustrate early but ultimately succumb to Uruguay’s attacking firepower.",
+            "change_reason": "Initial evidence-based prediction from official standings, form and team news."
+          }
+        ]
       },
       {
         "group": "H",
@@ -1811,10 +1861,36 @@
           "lose": 0.05,
           "score": "3-0",
           "star": "Lionel Messi",
-          "analysis": "No new team news for either side; prior prediction stands. Argentina, led by Messi, are too strong for Algeria."
+          "analysis": "Argentina enter as heavy favorites given their status as defending champions and the presence of Lionel Messi. Algeria's preparation has been hampered by a wave of injuries, notably the absence of goalkeeper Luca Zidane, which could destabilize their defense. With no matches played in the group yet, form is a blank slate, but historical quality and squad depth heavily favor Argentina. The opener often sees cautious starts, but Argentina's attacking firepower should break through. A 3-0 scoreline reflects a controlled win, with a win probability of 85% considering the mismatch, though a draw (10%) or shock Algeria win (5%) are not impossible.",
+          "confidence": "medium",
+          "key_factors": [
+            "Argentina are reigning champions with star Lionel Messi leading the attack",
+            "Algeria face a wave of injuries including goalkeeper Luca Zidane ruled out",
+            "No competitive form for either team in this tournament, making prior strength assessments key"
+          ],
+          "updated_utc": "2026-06-15T06:03:34Z"
         },
         "kickoff_utc": "2026-06-17T01:00:00Z",
-        "pred_updated_utc": "2026-06-15T01:00:27Z"
+        "pred_updated_utc": "2026-06-15T01:00:27Z",
+        "pred_history": [
+          {
+            "ts": "2026-06-15T06:03:34Z",
+            "date": "2026-06-15",
+            "score": "3-0",
+            "win": 0.85,
+            "draw": 0.1,
+            "lose": 0.05,
+            "star": "Lionel Messi",
+            "confidence": "medium",
+            "key_factors": [
+              "Argentina are reigning champions with star Lionel Messi leading the attack",
+              "Algeria face a wave of injuries including goalkeeper Luca Zidane ruled out",
+              "No competitive form for either team in this tournament, making prior strength assessments key"
+            ],
+            "analysis": "Argentina enter as heavy favorites given their status as defending champions and the presence of Lionel Messi. Algeria's preparation has been hampered by a wave of injuries, notably the absence of goalkeeper Luca Zidane, which could destabilize their defense. With no matches played in the group yet, form is a blank slate, but historical quality and squad depth heavily favor Argentina. The opener often sees cautious starts, but Argentina's attacking firepower should break through. A 3-0 scoreline reflects a controlled win, with a win probability of 85% considering the mismatch, though a draw (10%) or shock Algeria win (5%) are not impossible.",
+            "change_reason": "Initial evidence-based prediction from official standings, form and team news."
+          }
+        ]
       },
       {
         "group": "J",
@@ -1831,11 +1907,35 @@
           "draw": 0.18,
           "lose": 0.07,
           "score": "2-0",
-          "star": "Austria",
-          "analysis": "Austria faces an injury setback but remains far superior to Jordan. At home, they should control the game and secure a straightforward 2-0 victory. Jordan's attack poses little threat."
+          "star": "Marko Arnautović",
+          "analysis": "This Group J opener at a neutral venue sees Austria as strong favourites against a Jordan side making their World Cup debut. No tournament form exists for either team, but squad quality heavily favours Austria. Injury concerns for Christoph Baumgartner and David Alaba appear manageable with two weeks to recover; no confirmed absences for Austria. Jordan, however, will be without influential striker Yazan Al Naimat, a major blow to their goal threat. Mousa Al Tamari carries Jordan's hopes, but against Austria's structured defence, chances may be scarce. Austria should control possession and create enough to secure a straightforward win. A 2-0 scoreline reflects a comfortable but not dominant performance, with a draw possible if Austria lack sharpness early on.",
+          "confidence": "medium",
+          "key_factors": [
+            "Jordan without key striker Yazan Al Naimat due to injury, blunting their attack",
+            "Austria's superior squad depth and quality, even if Baumgartner and Alaba face late fitness tests"
+          ],
+          "updated_utc": "2026-06-15T06:03:34Z"
         },
         "kickoff_utc": "2026-06-17T04:00:00Z",
-        "pred_updated_utc": "2026-06-15T04:00:29Z"
+        "pred_updated_utc": "2026-06-15T04:00:29Z",
+        "pred_history": [
+          {
+            "ts": "2026-06-15T06:03:34Z",
+            "date": "2026-06-15",
+            "score": "2-0",
+            "win": 0.75,
+            "draw": 0.18,
+            "lose": 0.07,
+            "star": "Marko Arnautović",
+            "confidence": "medium",
+            "key_factors": [
+              "Jordan without key striker Yazan Al Naimat due to injury, blunting their attack",
+              "Austria's superior squad depth and quality, even if Baumgartner and Alaba face late fitness tests"
+            ],
+            "analysis": "This Group J opener at a neutral venue sees Austria as strong favourites against a Jordan side making their World Cup debut. No tournament form exists for either team, but squad quality heavily favours Austria. Injury concerns for Christoph Baumgartner and David Alaba appear manageable with two weeks to recover; no confirmed absences for Austria. Jordan, however, will be without influential striker Yazan Al Naimat, a major blow to their goal threat. Mousa Al Tamari carries Jordan's hopes, but against Austria's structured defence, chances may be scarce. Austria should control possession and create enough to secure a straightforward win. A 2-0 scoreline reflects a comfortable but not dominant performance, with a draw possible if Austria lack sharpness early on.",
+            "change_reason": "Initial evidence-based prediction from official standings, form and team news."
+          }
+        ]
       },
       {
         "group": "J",
